@@ -2,14 +2,16 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 65%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 25%
 
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.png) !important
 
 @keyframes float1
   0%
@@ -17,3 +19,121 @@
 
   100%
     transform: translateY(0px)
+
+.crd--avatarHorizontal-left-bgr1
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #CCF9E6
+    border-radius: 10px
+
+.color-cajon
+  background-color: #CCE9E5 !important
+
+.grad1
+  border-radius: 10px
+  background: rgb(11,72,30)
+  background: linear-gradient(90deg, rgba(11,72,30,1) 0%, rgba(11,72,30,1) 35%, rgba(133,160,29,1) 100%)
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.crd--avatarHorizontal-left-bgr1,
+.crd--avatarHorizontal-left-bgr2,
+.crd--avatarHorizontal-left-bgr3,
+.crd--avatarHorizontal-left-bgr4,
+.crd--avatarHorizontal-left-bgr5
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.crd--avatarHorizontal-left-bgr1::before
+  background-color: #FFE9DB
+
+.crd--avatarHorizontal-left-bgr2::before
+  background-color: #CCE9E5
+
+.crd--avatarHorizontal-left-bgr3::before
+  background-color: #CCF9E6
+
+.crd--avatarHorizontal-left-bgr4::before
+  background-color: #D9F3FF
+
+.crd--avatarHorizontal-left-bgr5::before
+  background-color: #FFE9DB
+
+.crd--avatarHorizontal-right-bgr1
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.number
+  text-align: right
+  position: absolute
+  top: 0px
+  right: 10px
+  color: #707070
+  font-weight: bolder
+  font-size: 1.5em
+  padding: 3px
+
+
+//Card 
+.icon-left, .icon-right
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100px
+  height: 100px
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+.icon-left
+  left: -50px
+
+.icon-right
+  right: -50px
+
+.card-cuerpo
+  padding-left: 60px
+
+.color-tarjeta
+  background: #fbede4
+
+.tabs-b__tab--active
+  background: #FFF4EC
+
+.bgr2
+  background: #FFF4EC
+
+.tabs-b__tab-inactive
+  background: #FFA686

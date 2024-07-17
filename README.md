@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/733402_CF02_PROYECTOS_AGROPECUARIOS/#/](https://ecoredsena-atlantico.github.io/733402_CF02_PROYECTOS_AGROPECUARIOS/#/)
 
 #
 

@@ -14,7 +14,7 @@
         figure
           img(data-aos="fade",src="@/assets/curso/temas/intro/img1.svg", alt="")
       .col-lg-10
-        .cajon.cajon.color-acento-contenido(data-aos="fade-left",style="background: #CCF9E6").p-4.mb-3
+        .cajon.cajon.color-acento-contenido(data-aos="fade-left",style="background: #FFE9DB").p-4.mb-3
           p.mt-0 La Comisión Económica para América Latina (CEPAL) empieza a funcionar en 1948, desde su creación la organización ha hecho aportes importantes desde las teorías y visiones socioeconómicas. Actualmente, como parte de las estrategias de apoyo a los países miembros, la comisión trabaja en torno a políticas públicas pero también a mecanismos para la gestión del desarrollo en el marco de los objetivos del desarrollo sostenible de las naciones unidas (estructurados como la “Agenda 2030 de las Naciones Unidas”). A principios de los años 60 la CEPAL crea el Instituto Latinoamericano y del Caribe de Planificación Económica y Social (ILPES), “con el fin de apoyar a los Gobiernos de la región en el campo de la planificación y gestión pública, mediante la prestación de servicios de capacitación, asesoría e investigación” (CEPAL, 2021). El ILPES en sus distintas publicaciones acerca de la metodología de marco lógico, enuncia que en la gestión de proyectos se puede presentar la ausencia de direccionamiento estratégico enfocado al desarrollo integral de las regiones o de las instituciones, evidente en la falta de claridad en los objetivos y metas mayores, lo que conlleva a varios problemas, como la asignación caprichosa y descoordinada de recursos ante la incapacidad de los evaluadores de argumentar las fallas. 
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -49,7 +49,7 @@
             li(data-aos="fade-right").lista-ul__vineta Definir el área de responsabilidad del equipo del proyecto.
           li
             li(data-aos="fade-right").lista-ul__vineta Establecer indicadores para el seguimiento y la evaluación.
-          .cajon.cajon.color-acento-contenido(data-aos="fade-right",style="background: #CCF9E6").p-4.my-3
+          .cajon.cajon.color-acento-contenido(data-aos="fade-right",style="background: #FFE9DB").p-4.my-3
             p.mt-0 Esta adaptación ofrece modificaciones muy útiles, porque ha tenido un destacable éxito en su aplicación y una gran aceptación en todos los entornos que la han adoptado.  
       .col-lg-4
         figure
@@ -70,7 +70,7 @@
       .col-lg-6(data-aos="fade-left")
         p Finalmente el enfoque metodológico de marco lógico es un medio, por lo que <strong>no podrá per se subsanar fallas en las políticas macroeconómicas o de planes maestros como los gubernamentales</strong>; además, los análisis iniciales deberán estar bien planteados para el logro de los resultados esperados con la aplicación del enfoque y esto estará condicionado por la calidad de la información y de los insumos que se disponga. En este documento se abordan <strong>los pasos iniciales para la aplicación de la metodología</strong> iniciando con las distintas herramientas complementarias que siguen un orden secuencial, hasta la construcción de la <strong> Matriz de Marco Lógico (MML)</strong>, el producto final y que resume el enfoque. 
     .row.my-3
-      .col-lg-10.crd--avatarHorizontal-left-bgr2.py-3.mb-3.m-auto
+      .col-lg-10.crd--avatarHorizontal-left-bgr3.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -79,7 +79,6 @@
             p.mb-0 A continuación se abordarán paso a paso las herramientas estándar orientadas por el enfoque de marco lógico y también algunas adicionales que pueden facilitar el tránsito de una herramienta a otra, o producir insumos para el arranque de la metodología. Si bien es una descripción somera con fines prácticos, siempre se podrá acudir a la bibliografía y las fuentes de información aquí referenciadas cuando se desee profundizar o comprender el método de manera más amplia.
     .row.justify-content-center 
       .col-lg-10
-        .curso-main-container.pb-3
           .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
             .titulo-sexto.color-acento-contenido.mb-3

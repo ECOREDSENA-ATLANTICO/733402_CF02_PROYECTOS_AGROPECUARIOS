@@ -4,7 +4,7 @@ export default {
       'Formulación de proyectos agropecuarios bajo el enfoque metodológico de marco lógico.',
     descripcionCurso:
       'El marco lógico es una metodología versátil y potente que permite un análisis amplio y participativo de problemas y soluciones. Considera el contexto, actores, causas, riesgos y alternativas, utilizando un enfoque sistémico y organizado. Se divide en tres fases: identificación del problema, selección de la mejor solución y construcción de la matriz de marco lógico.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    // imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

@@ -63,7 +63,7 @@
     
     .row.my-4.align-items-center
       .col-lg-10.my-2.m-auto
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFF4EC")
           p.mt-0 Una aclaración importante de Ortegón et al. (2005) es que el EML es un excelente apoyo para el análisis y formulación de un proyecto, pero no sustituye la creatividad a la hora de resolver problemas. Los resultados de su aplicación si bien son sucintos, no implican su solución, aunque dejan ver claramente su origen y sus posibles soluciones.
     
     .row.my-4.align-items-center
@@ -81,7 +81,7 @@
             div.py-4(style="background: #B3E6FF; border-radius:10px")
               p.mb-0 <strong>2.</strong> La planificación o plan operativo.
 
-    TabsB.color-acento-botones.my-4(data-aos="zoom-in")
+    TabsB.color-acento-contenido.my-4(data-aos="zoom-in")(style="background: #FFF4EC")
       .tarjeta.p-4.bgr2(titulo="Etapa de análisis" :icono="require('@/assets/curso/temas/tema1/img5.svg')")
         p En esta fase se realiza <strong>una indagación en la problemática y el contexto</strong> donde se desenvuelven los actores, el estado del arte frente a las actividades productivas, la dinámica de las relaciones sociales y culturales, las actividades o modelos organizacionales colaborativos, el trasfondo político, los antecedentes históricos y las capacidades actuales de la población, así como el acceso a factores productivos o recursos tecnológicos, el manejo de recursos naturales e impacto ambiental y la participación política (interacción con el estado o gobierno y el uso de mecanismos de participación ciudadana), entre otros. 
         div.p-4.my-3(style="background: #FFD5B8; border-radius: 10px")
@@ -104,7 +104,7 @@
                 h2.text-light Anexo. Tabla 1
                 .text-light.mb-0 Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
               .col-lg-3.text-center
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+                a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                   span Descargar
                   i.fas.fa-file-download
   </template>

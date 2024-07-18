@@ -231,7 +231,7 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 - Nuevo Componente ImagenInfográfica
 - Nuevo Componente LineaTiempoD
 - Componente .tarjeta-Avatar-b tiene una variable que controla el ancho de su avatar
-- Los botones ahora tienen el nuevo esquema de colorización (.color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones)
+- Los botones ahora tienen el nuevo esquema de colorización (.color-primario, .color-secundario,.color-terciario, .color-acento-contenido, .color-acento-botones)
 - esquema de colorización tiene color de texto basado en luminancia del color de fondo
 - Nueva distribucion de creditos
 - Nuevo componente de indicador de interacción
@@ -271,6 +271,7 @@ Estos son los cambios hechos en la ECORED-BASE-2021
   ```
   .color-primario
   .color-secundario
+  .color-terciario
   .color-acento-contenido
   .color-acento-botones
   ```

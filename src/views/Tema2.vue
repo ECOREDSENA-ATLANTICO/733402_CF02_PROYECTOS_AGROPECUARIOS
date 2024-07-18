@@ -23,21 +23,22 @@
     .row.my-3.align-items-center 
       .col-lg-8.mb-4(data-aos="zoom-in-right")
         p La revisión de modelos teóricos y visiones del desarrollo rural seguramente proporcionarán las bases para la ubicación adecuada del equipo formulador del proyecto en el tiempo y el lugar de la intervención. Una inmersión más o menos profunda en las perspectivas académicas dará el sustento conceptual que junto al contraste con la realidad de la ruralidad colombiana, conforman un andamiaje que contribuirá a la estructura del proyecto. Aunque pueda verse complejo, existen muchas fuentes de conocimiento además de los densos documentos teóricos sobre el desarrollo rural colombiano o de la Latinoamérica, como los trabajos de <strong>Absalón Machado</strong> o tan simples, pero suficientemente acertados como los aportes de <strong>Ligorio Dussan</strong>, sin lugar a dudas una autoridad conocedora del campo colombiano desde su propia experiencia, mayormente nutrida en su trasegar por la <strong>Federación Nacional de Cafeteros de Colombia</strong>.
-        .row.align-items-center.grad1.p-3
-          .col-lg-2
-            figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-          .col-lg-7
-            h2.text-light ODS - Objetivos Desarrollo Sostenible
-            .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
-          .col-lg-3.text-center
-            a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
-              span Ir a sitio
-              i.fas.fa-link
+        .div.grad1
+          .row.align-items-center.p-3
+            .col-lg-2
+              figure
+                img(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
+            .col-lg-7
+              h2.text-light ODS - Objetivos Desarrollo Sostenible
+              .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
+            .col-lg-3.text-center
+              a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+                span Ir a sitio
+                i.fas.fa-link
       .col-lg-4.mb-4
         figure(data-aos="slide-down")
           img(data-aos="zoom-in-left",src="@/assets/curso/temas/tema2/img2.png", alt="Imagen decorativa")
-    
+      
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 2.2 Análisis de información secundaria
@@ -47,7 +48,7 @@
         figure(data-aos="slide-down")
           img(data-aos="zoom-in-left",src="@/assets/curso/temas/tema2/img16.png", alt="Imagen decorativa")
       .col-lg-8.mb-3(data-aos="zoom-in-left")
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9DB")
           p.mt-0 Teniendo en cuenta las <strong> perspectivas del desarrollo rural con enfoque territorial, diferencial y de género</strong>, que enmarcan lineamientos tanto teóricos como normativos vigentes, el  inicio de un análisis contextual parte de un ejercicio participativo donde se registra la <strong>auto-percepción de la población de sus problemas y realidades</strong>, así como de sus deseos y aspiraciones. 
 
         p.my-3 Sin embargo, el abordaje del contexto debe contener revisiones de fuentes secundarias para adquirir elementos suficientes que permitan interpretar estas realidades de una manera objetiva, dando el soporte necesario para que el proyecto sea bien ponderado y en especial que brinde soluciones eficaces y con efectos duraderos en el tiempo (sostenibilidad). Los tópicos propuestos a continuación corresponden a temas renombrados en diversas fuentes de información acerca de la problemática rural en general:
@@ -69,7 +70,7 @@
           .col(style="z-index:1")
             .number 02
             p.m-0 Paradigmas del desarrollo en Latinoamérica.
-      .col-lg-4.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-4.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -105,7 +106,7 @@
             p.m-0 Políticas de desarrollo rural en Colombia.
 
     .row.mb-3.align-items-center 
-      .col-lg-4.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-4.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -139,7 +140,7 @@
           .col(style="z-index:1")
             .number 10
             p.m-0 Nueva ruralidad.
-      .col-lg-4.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-4.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -173,7 +174,7 @@
           .col(style="z-index:1")
             .number 14
             p.m-0 Sistema Nacional de Innovación Agropecuaria SNIA.
-      .col-lg-4.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-4.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -204,12 +205,12 @@
     .row.align-items-center.grad1.p-3
       .col-lg-2
         figure
-          img(data-aos="zoom-out-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img(data-aos="zoom-out-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
         .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
       .col-lg-3.text-center
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+        a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
           span Ir a sitio
           i.fas.fa-link
 
@@ -224,28 +225,28 @@
       p.text-center De acuerdo con lo propuesto por <strong>Ortegón et.al (2005)</strong>, el análisis debe proceder a:
 
     TabsA.color-secundario.my-3
-      .tarjeta.p-4.color-tarjeta(titulo="1. Visibilizar a los involucrados")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="1. Visibilizar a los involucrados")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
             p Identificar a todos los actores que pudiesen tener una relación directa o indirecta con el proyecto a alguna de sus implicaciones.
           .col-lg-5
             figure
               img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img33.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(titulo="2. Categorizar a los involucrados")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="2. Categorizar a los involucrados")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
             p Indagar sobre su entorno, roles, intereses, grado de influencia o capacidad de integración al proyecto, etc. Aquí puede ser necesario el contacto directo.
           .col-lg-5
             figure
               img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(titulo="3. Valorar sus intereses")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="3. Valorar sus intereses")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
             p Identificar sus percepciones, su actitud y/o posición frente al proyecto, los conflictos existentes y posibles y los recursos políticos, legales, humanos y financieros que puedan aportar a la solución de los problemas. En conclusión, identificar oportunidades y amenazas.
           .col-lg-5
             figure
               img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(titulo="4. Diseñar estrategias de participación")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="4. Diseñar estrategias de participación")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
             p Analizar e interpretar la información para concluir acerca de la participación en el proyecto o de su modificación dado el caso.
@@ -253,17 +254,18 @@
             figure
               img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img36.svg', alt='Imagen decorativa',width="150px",height="150px")
     
-    .row.align-items-center.grad1.p-3.my-4
-      .col-lg-2
-        figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
-        .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
-      .col-lg-3.text-center
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+    .div.grad1
+      .row.align-items-center.p-3
+        .col-lg-2
+          figure
+            img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+        .col-lg-7
+          h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
+          .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
+        .col-lg-3.text-center
+          a.boton(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
 
     .row.align-items-center.my-5
       .col-lg-8.mb-2(data-aos="zoom-in-right")
@@ -271,12 +273,12 @@
         .row.align-items-center.grad1.p-3
           .col-lg-2
             figure
-              img(data-aos="zoom-in-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+              img(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h2.text-light Análisis de Involucrados
             .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
           .col-lg-3.text-center
-            a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+            a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
 
@@ -293,7 +295,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
       .col-lg-8.mb-2
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCE9E5")
           p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (brainstorming) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
         
         p.mt-3 La acertada formulación del proyecto y el mismo éxito de la intervención dependen en gran medida de la adecuada identificación del problema, es por esto que se deben dedicar <strong>esfuerzos proporcionales en la etapa de diagnóstico.</strong> El principal referente de este documento, Ortegón et.al (2005), aclara que la planificación nace de <strong>la percepción que se tiene de la problemática</strong> y que se puede dar en concordancia con los siguientes aspectos:
@@ -373,7 +375,7 @@
     .row.align-items-center 
       .col-lg-8.my-2
         p(data-aos="zoom-in-right") La identificación de problemas por parte de la misma comunidad afectada no solo es importante para la adecuada formulación de un plan de intervención exitoso, <strong>la participación de la población en el proceso de desarrollo es importante para la sostenibilidad de los procesos de mejora en las actividades productivas</strong>, ya que muchas veces el fracaso de los proyectos se atribuye a la falta de sentido de pertenencia de las comunidades con estos, porque algunas veces se hacen intervenciones sin contar siquiera con su opinión al respecto.
-        .cajon.color-acento-contenido.p-4(style="background: #CCF9E6")
+        .cajon.color-primario.p-4(style="background: #D9F3FF")
           p.mt-0 El paradigma del desarrollo desde abajo viene a contrarrestar las políticas de intervención desde los dirigentes nacionales y grandes actores internacionales <strong>(BM, FMI, tesoro nacional de USA, etc.)</strong> que a partir de los años 80 vienen fomentando la aplicación de políticas derivadas de la receta neoliberal (menor injerencia del estado y mayor orientación del mercado en las dinámicas socioeconómicas) producto del llamado “consenso de Washington”, con un <strong>rotundo fracaso en términos de impacto ambiental y aumento de la brecha social a escala continental.</strong>  
       .col-lg-4.my-2
         figure
@@ -463,7 +465,7 @@
         h2.text-light Anexo. Tabla 3
         .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
       .col-lg-3.text-center
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
+        a.boton(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
@@ -474,7 +476,7 @@
     .row.my-3.align-items-center
       .col-lg-8
         p(data-aos="zoom-in-right") El objetivo del proceso de diagnóstico es <strong>identificar y definir muy bien una serie de problemas de diversa índole</strong>, donde una vez colectados, se tienen dos situaciones posibles: que se identifique fácilmente el problema central o que no se tenga claro. En el primer caso, podemos pasar al siguiente punto, el análisis causal (causa-efecto), donde el EML nos introduce a la técnica de árboles, la más adecuada, aunque existan otras formas de análisis causa-efecto.
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9DB")
           p.mt-0 En el segundo caso, donde no se tiene definido el problema central, es necesario como siguiente paso <strong>analizar la relación entre los problemas de forma bidireccional</strong>; es decir, escudriñar en la correlación entre los distintos problemas (aquí variables) a fin de establecer el grado de influencia y/o dependencia entre ellos, el método, desarrollado por el alemán <strong>Frederic Vester (1925-2003)</strong>, se fundamenta en la matemática (teoría de matrices) estableciendo un valor numérico dentro de un rango determinado que normalmente es [0-3] proporcional al grado de influencia a discreción del analista (0 para una influencia nula o indirecta y 3 para una influencia marcada o directa).
 
       .col-lg-4
@@ -482,7 +484,7 @@
           img(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img54.png', alt='')
 
     .row.my-5(data-aos="zoom-in-right")
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr3.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -566,8 +568,8 @@
 
     h5.my-5.text-center De acuerdo con Silva y Sandoval (2012) la construcción de la matriz de Vester para la priorización de problemas se detalla en los siguientes pasos:
 
-    LineaTiempoD.color-acento-contenido.my-4
-      .row(numero="1" titulo="Paso 1")
+    LineaTiempoD.color-primario.my-4
+      .row(numero="1" titulo="Paso 1" )
         p Redactar, ordenar y numerar los problemas detectados en el diagnóstico. (La numeración ayudará a identificarlos fácilmente).
       .row(numero="2" titulo="Paso 2")
         .col-lg-12.mb-4.mb-md-0
@@ -626,7 +628,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img61.png", alt="")
       .col-lg-8
-        .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-secundario.p-4(data-aos="slide-down",style="background: #E4FBF2")
           p.mt-0 El problema central ya definido anteriormente es el <strong>punto de partida del análisis a efectuar con la herramienta de árboles</strong>, aunque existan otras herramientas de análisis causa-efecto como el método del <strong>“diagrama de flechas” (ADM)</strong> el <strong>“método de la ruta crítica” (CPM)</strong> el <strong>“método del diagrama de precedencias” (PDM) “la técnica de revisión y evaluación de programas” (PERT)</strong> que son métodos complejos usados sobre todo en análisis en el contexto de la industria; además, hay otros más amigables como pueden ser el <strong>“diagrama de Pareto”</strong> o el <strong>“diagrama de Ishikawa” (espina de pescado)</strong>; de todos estos el <strong>“método de árboles”</strong> es el que resulta, en efecto, más conveniente para su aplicación en el EML. 
       
     .row.my-4
@@ -647,11 +649,11 @@
         p El principio de causalidad es usado por casi toda disciplina científica y nos brinda unos elementos claves para el análisis de los problemas:
         ol.lista-ol--cuadro.lista-ol--separador
           li 
-            .lista-ol--cuadro__vineta(style="background: #ADCE32; color: black")
+            .lista-ol--cuadro__vineta(style="background: #02DD84; color: black")
               span 1
             | Los problemas son en suma acciones o productos de estas; es decir, <strong>hechos.</strong>
           li 
-            .lista-ol--cuadro__vineta(style="background: #ADCE32; color: black")
+            .lista-ol--cuadro__vineta(style="background: #02DD84; color: black")
               span 2
             | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
         .titulo-sexto.color-acento-contenido.mb-2
@@ -700,7 +702,7 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).
         
     .row.my-3.align-items-center 
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -711,7 +713,7 @@
     hr(style="background:#FF9751")
     .row.align-items-center.my-3
       .col-lg-10.m-auto
-        .bloque-texto-f.color-secundario.pt-4.px-5
+        .bloque-texto-b.color-acento-botones.py-5
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
@@ -720,6 +722,7 @@
           p.bloque-texto-f__texto También las dificultades organizativas y de intermediación comercial con las que operan regularmente 85 personas identificadas como recuperadores informales dedicados al oficio del reciclaje. <br><br>
           p.bloque-texto-f__texto La situación tiende a agravarse en la medida que crece anualmente la generación de residuos en aproximadamente un 3% anual sin que el plástico, el papel, el vidrio, los metales y los residuos orgánicos se aprovechen y se reincorporen al ciclo productivo. Esto implica una mayor explotación de los recursos naturales para la obtención de estas materias primas y está llevando progresivamente al agotamiento de la vida útil del relleno sanitario donde se disponen los residuos con consecuencias negativas para el medio ambiente y la salud pública. Los afluentes se ven contaminados por la escorrentía de los lixiviados de los materiales orgánicos, la atmósfera por la emisión de gases de efecto invernadero (GEI) y las personas de la zona por la presencia de vectores de transmisión de enfermedades.<br><br>
           p.bloque-texto-f__texto Adicionalmente, el aumento en la demanda del servicio de disposición final de residuos también ha venido representando el incremento del 15% en la tarifa de aseo que los usuarios del sistema tienen que pagar periódicamente según estimaciones realizadas por la unidad de servicios públicos domiciliarios. También la pérdida de ingresos que de otra forma podrán generarse gracias a la posibilidad de venta de materiales recuperados según las cifras de comercialización que han sido estimadas mediante el estudio de mercado que se presenta más adelante. <strong>(DNP, 2016, p.18)</strong>
+
 
     .row.align-items-center.my-3
       .col-lg-10.m-auto

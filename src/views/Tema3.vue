@@ -59,7 +59,7 @@
 
     .row.my-3.align-items-center 
       .col-lg-7
-        div.p-3(style="background: #CCE9E5")
+        div.p-3(style="background: #D9F3FF")
           .row.my-3.align-items-center 
             .col-lg-2
               figure
@@ -278,7 +278,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/img74.png", alt="")
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #FFD5B8")
           p.mt-0 En este punto ya se tienen todos los insumos para el inicio de la construcción de la matriz de marco lógico (MML). Según la FAO en 2017, el marco lógico es una matriz de doble entrada que posee dos momentos: la relación de causa-efecto, que ayuda a organizar la información de manera lógica y secuencial en sentido vertical y la estructura cuatro por cuatro que completa el esquema agregándole el sentido horizontal.
     
     .row.align-items-center.p-3.my-5
@@ -413,14 +413,14 @@
 
     .row.align-items-center.p-3.my-5
       .col-lg-12
-        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #FFD5B8")
           p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong> Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipo de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
     
     .row.align-items-center.p-3.my-5
       .col-lg-10.m-auto
         h4.text-center Los indicadores se pueden clasificar en tres grupos: 
 
-        LineaTiempoD.color-acento-contenido.my-4
+        LineaTiempoD.color-primario.my-4
           .row(numero="1" titulo="Indicadores de fin y propósito")
             p Son los que miden el cambio atribuible al proyecto y los que permiten tomar decisiones sobre la necesidad de componentes adicionales. También se denominan indicadores de objetivos. Los indicadores de fin o propósito se construyen sobre la base de datos existentes. Un ejemplo de indicador de fin y de propósito sería reducir a menos de 1.000 los coliformes totales por cada 100 ml de agua en una playa específica y para un determinado año. 
           .row(numero="2" titulo="Indicadores de componentes")
@@ -589,7 +589,7 @@
           img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
       .col.lg-8
         p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-acento-contenido.p-4(data-aos="slide-down")
           h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
     
     p Así mismo, para completar la columna de supuestos de la <strong>MML</strong>, se recomienda seguir los siguientes pasos: <strong>identificar todos los supuestos posibles</strong> para cada riesgo identificado en el análisis respectivo, realizando luego una <strong>selección de los que se consideren verdaderos riesgos a enfrentar</strong> y finalmente de acuerdo a los resultados del análisis de riesgos, <strong>establecer las acciones de prevención, mitigación o control para cada factor seleccionado. </strong>
@@ -625,7 +625,7 @@
     p.my-4 El conjunto objetivo–indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico. Esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
     .row.align-items-center.my-5
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -633,7 +633,7 @@
           .col(style="z-index:1")
             p.m-0 Los medios de verificación identificados son los necesarios y suficientes para obtener los datos requeridos para el cálculo de los indicadores.
         
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure

@@ -430,7 +430,7 @@ export default {
 
         {
           nombre: 'Roberto Augusto Bernal Duque',
-          cargo: 'Experta Temático',
+          cargo: 'Experta temático',
           centro:
             'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
@@ -446,23 +446,23 @@ export default {
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
-          cargo: 'Diseñadora Instruccional',
+          cargo: 'Diseñadora instruccional',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Fabian Cuartas Donado',
-          cargo: 'Evaluador Instruccional',
+          cargo: 'Evaluador instruccional',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
@@ -485,13 +485,13 @@ export default {
         },
         {
           nombre: 'Rafael Perez Meriño',
-          cargo: 'Desarrollo Fullstack ',
+          cargo: 'Desarrollo fullstack ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Eulices Orduz Amézquita',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Actividad didáctica',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

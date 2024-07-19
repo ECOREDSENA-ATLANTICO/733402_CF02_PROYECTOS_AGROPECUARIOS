@@ -278,7 +278,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/img74.png", alt="")
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #FFD5B8")
+        .cajon.color-terciario.p-4.p-4(data-aos="slide-down",style="background: #D9F3FF")
           p.mt-0 En este punto ya se tienen todos los insumos para el inicio de la construcción de la matriz de marco lógico (MML). Según la FAO en 2017, el marco lógico es una matriz de doble entrada que posee dos momentos: la relación de causa-efecto, que ayuda a organizar la información de manera lógica y secuencial en sentido vertical y la estructura cuatro por cuatro que completa el esquema agregándole el sentido horizontal.
     
     .row.align-items-center.p-3.my-5
@@ -325,7 +325,7 @@
       .col-lg-10.m-auto
         hr(style="background: #FFA686;height: 3px; border: none;")
 
-        .bloque-texto-b.color-acento-botones.py-4
+        .bloque-texto-b.py-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p En la definición de los niveles de objetivos en la MML se debe tener especial cuidado al pasar de la especificación de los componentes al propósito del proyecto. La definición del propósito del proyecto se debe hacer en términos hipotéticos, es algo que debe ocurrir, es un resultado esperado. De acuerdo al enfoque de Marco lógico el propósito es la hipótesis central del proyecto. De este modo, el propósito debe entenderse como un resultado no controlable por el ejecutor. Es, en definitiva, lo que debería ocurrir como resultado directo de utilizar los Componentes
@@ -413,7 +413,7 @@
 
     .row.align-items-center.p-3.my-5
       .col-lg-12
-        .cajon.color-acento-contenido.p-4.p-4(data-aos="slide-down",style="background: #FFD5B8")
+        .cajon.color-terciario.p-4.p-4(data-aos="slide-down",style="background: #D9F3FF")
           p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong> Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipo de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
     
     .row.align-items-center.p-3.my-5
@@ -625,7 +625,7 @@
     p.my-4 El conjunto objetivo–indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico. Esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
     .row.align-items-center.my-5
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -633,7 +633,7 @@
           .col(style="z-index:1")
             p.m-0 Los medios de verificación identificados son los necesarios y suficientes para obtener los datos requeridos para el cálculo de los indicadores.
         
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -659,7 +659,7 @@
         h2.text-light Tabla 13. Matriz de marco lógico completa con la explicación de cada apartado.
         .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
       .col-lg-3.text-center
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
+        a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
 
@@ -674,7 +674,7 @@
       .col-lg-8
         p Una vez <strong>comprobados y validados los resultados</strong> de la aplicación de la metodología del <strong>EML</strong> en el documento final, el siguiente paso para poder dar inicio a la ejecución, consiste en tomar todas las actividades y realizar una <strong>planeación exhaustiva</strong> asignando recursos, materiales, responsables, tiempos de ejecución y demás información necesaria que de manera anticipada sea útil para la correcta ejecución del proyecto; además, e<strong>l presupuesto deberá estar detallado</strong>+
          en otro documento que contendrá toda la información del manejo y seguimiento a la ejecución del mismo.
-        .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-secundario.p-4(data-aos="slide-down",style="background: #CCF9E6")
           p.mt-0 Estos procedimientos se pueden abordar desde documentos y bibliografía específica de los temas de ejecución, administración y dirección de proyectos y por otro lado del control de costos y finanzas aplicado a proyectos.  
 </template>
 

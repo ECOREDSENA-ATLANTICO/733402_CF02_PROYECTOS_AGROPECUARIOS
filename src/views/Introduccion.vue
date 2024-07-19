@@ -57,7 +57,7 @@
 
     hr(style="background:#FFA686")
 
-    .bloque-texto-b.color-acento-botones1.py-5.pt-4.px-5.my-5
+    .bloque-texto-b.py-5.pt-4.px-5.my-5
       .bloque-texto-f__comillas
         i.fas.fa-quote-left
         i.fas.fa-quote-right

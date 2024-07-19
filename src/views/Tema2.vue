@@ -375,7 +375,7 @@
     .row.align-items-center 
       .col-lg-8.my-2
         p(data-aos="zoom-in-right") La identificación de problemas por parte de la misma comunidad afectada no solo es importante para la adecuada formulación de un plan de intervención exitoso, <strong>la participación de la población en el proceso de desarrollo es importante para la sostenibilidad de los procesos de mejora en las actividades productivas</strong>, ya que muchas veces el fracaso de los proyectos se atribuye a la falta de sentido de pertenencia de las comunidades con estos, porque algunas veces se hacen intervenciones sin contar siquiera con su opinión al respecto.
-        .cajon.color-primario.p-4(style="background: #D9F3FF")
+        .cajon.color-terciario.p-4(style="background: #D9F3FF")
           p.mt-0 El paradigma del desarrollo desde abajo viene a contrarrestar las políticas de intervención desde los dirigentes nacionales y grandes actores internacionales <strong>(BM, FMI, tesoro nacional de USA, etc.)</strong> que a partir de los años 80 vienen fomentando la aplicación de políticas derivadas de la receta neoliberal (menor injerencia del estado y mayor orientación del mercado en las dinámicas socioeconómicas) producto del llamado “consenso de Washington”, con un <strong>rotundo fracaso en términos de impacto ambiental y aumento de la brecha social a escala continental.</strong>  
       .col-lg-4.my-2
         figure
@@ -384,9 +384,10 @@
     p(data-aos="zoom-in-right").my-4 El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
     .row.justify-content-center
     hr(style="background:#FFA686")
+
     .row.align-items-center.mb-4
       .col-lg-10.m-auto
-        .bloque-texto-b.color-acento-botones.py-4
+        .bloque-texto-b.py-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p El DRP, es una actividad participativa que permite la identificación de los principales problemas técnicos productivos, sociales y de organización para lograr la convivencia con los productores. Con el fin de conocer más de cerca los diferentes aspectos de la comunidad, generando la información básica para la elaboración de los planes de acción comunitaria
@@ -405,7 +406,7 @@
     
     p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--beige")
       .row.align-items-center(titulo="1. Delimitar la población objetivo")
         .col-lg-8.mb-4
           p Definir el alcance y el objetivo del diagnóstico que puede ser a tres niveles, población más o menos dispersa, organizaciones rurales o empresas agropecuarias y agroindustriales propiamente dichas.
@@ -498,7 +499,7 @@
     hr(style="background:#FFA686")
     .row.align-items-center.my-3
       .col-lg-10.m-auto
-        .bloque-texto-b.color-acento-botones.py-4
+        .bloque-texto-b.py-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p.mb-0 Un error que se presenta frecuentemente en la definición del problema central, surge cuando este se describe como la falta o ausencia de una solución frente a una necesidad experimentada por la población. Este hecho sucede frecuentemente con intervenciones que conllevan la construcción de diferentes tipos de infraestructura pública o la adquisición de equipos. El definir la situación problemática de esta forma, conlleva dos debilidades en la formulación del proyecto: se limita y condiciona la solución a esa sola alternativa y se ignoran las condiciones que afectan realmente a la población en cuanto a su bienestar y el mejoramiento de las condiciones de vida.
@@ -713,7 +714,7 @@
     hr(style="background:#FF9751")
     .row.align-items-center.my-3
       .col-lg-10.m-auto
-        .bloque-texto-b.color-acento-botones.py-5
+        .bloque-texto-b.py-5
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
@@ -726,7 +727,7 @@
 
     .row.align-items-center.my-3
       .col-lg-10.m-auto
-        .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCF9E6")
+        .cajon.color-terciario.p-4(data-aos="slide-down",style="background: #D9F3FF")
           p.mt-0  Como se puede observar, las magnitudes que hacen cuenta de factores problemáticos resultan muy útiles para dimensionar el problema y sus efectos, y más adelante serán variables susceptibles de convertirse en indicadores de gestión, tema que se abordará un poco más adelante. 
 
     .row.mt-5.mb-4.align-items-center
@@ -747,7 +748,7 @@
     
     .row.align-items-center.my-3
       .col-lg-12.m-auto
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9E1")
+        .cajon.color-terciario.p-4(data-aos="slide-down",style="background: #D9F3FF")
           p.mt-0 Hasta aquí hablamos de la parte inferior del árbol. Los efectos directos en la parte superior del árbol corresponden con <strong>los fines últimos a los que contribuirá el proyecto.</strong> Una recomendación muy importante es que los objetivos deben ser alcanzables, no se debe plantear por ejemplo, acabar con el hambre en la región o llevar a la población hacia altos niveles de desarrollo pues estos planteamientos deben ser muy objetivos, sensatos y mesurados. En caso de ejecutarse el proyecto, serán <strong>compromisos adquiridos</strong> a los cuales debe respaldar una garantía de cumplimiento.
     
     .row.mt-5.mb-4.align-items-center

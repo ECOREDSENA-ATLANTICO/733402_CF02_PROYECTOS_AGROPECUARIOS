@@ -210,7 +210,7 @@
         h2.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
         .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
       .col-lg-3.text-center
-        a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+        a.boton(href="https://www.fao.org/publications/es/" target="_blank" type="application/pdf")
           span Ir a sitio
           i.fas.fa-link
 

@@ -27,11 +27,11 @@
           .row.align-items-center.p-3
             .col-lg-2
               figure
-                img(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
+                img.my-3(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
               h2.text-light ODS - Objetivos Desarrollo Sostenible
               .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
-            .col-lg-3.text-center
+            .col-lg-3.text-center.my-3
               a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                 span Ir a sitio
                 i.fas.fa-link
@@ -205,11 +205,11 @@
     .row.align-items-center.grad1.p-3
       .col-lg-2
         figure
-          img(data-aos="zoom-out-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(data-aos="zoom-out-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
         .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton(href="https://www.fao.org/publications/es/" target="_blank" type="application/pdf")
           span Ir a sitio
           i.fas.fa-link
@@ -225,44 +225,44 @@
       p.text-center De acuerdo con lo propuesto por <strong>Ortegón et.al (2005)</strong>, el análisis debe proceder a:
 
     TabsA.color-secundario.my-3
-      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="1. Visibilizar a los involucrados")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="1. Visibilizar a los <br> involucrados")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
-            p Identificar a todos los actores que pudiesen tener una relación directa o indirecta con el proyecto a alguna de sus implicaciones.
+            p.my-5 Identificar a todos los actores que pudiesen tener una relación directa o indirecta con el proyecto a alguna de sus implicaciones.
           .col-lg-5
             figure
-              img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img33.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="2. Categorizar a los involucrados")
+              img.my-5(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img33.svg', alt='Imagen decorativa',width="150px",height="150px")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="2. Categorizar a los <br> involucrados")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
-            p Indagar sobre su entorno, roles, intereses, grado de influencia o capacidad de integración al proyecto, etc. Aquí puede ser necesario el contacto directo.
+            p.my-5 Indagar sobre su entorno, roles, intereses, grado de influencia o capacidad de integración al proyecto, etc. Aquí puede ser necesario el contacto directo.
           .col-lg-5
             figure
-              img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="3. Valorar sus intereses")
+              img.my-5(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img34.svg', alt='Imagen decorativa',width="150px",height="150px")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="3. Valorar sus <br> intereses")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
-            p Identificar sus percepciones, su actitud y/o posición frente al proyecto, los conflictos existentes y posibles y los recursos políticos, legales, humanos y financieros que puedan aportar a la solución de los problemas. En conclusión, identificar oportunidades y amenazas.
+            p.my-5 Identificar sus percepciones, su actitud y/o posición frente al proyecto, los conflictos existentes y posibles y los recursos políticos, legales, humanos y financieros que puedan aportar a la solución de los problemas. En conclusión, identificar oportunidades y amenazas.
           .col-lg-5
             figure
-              img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa',width="150px",height="150px")
-      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="4. Diseñar estrategias de participación")
+              img.my-5(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img35.svg', alt='Imagen decorativa',width="150px",height="150px")
+      .tarjeta.p-4.color-tarjeta(style="background: #CCF9E6")(titulo="4. Diseñar estrategias de <br> participación")
         .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7.mb-4
-            p Analizar e interpretar la información para concluir acerca de la participación en el proyecto o de su modificación dado el caso.
+            p.my-5 Analizar e interpretar la información para concluir acerca de la participación en el proyecto o de su modificación dado el caso.
           .col-lg-5
             figure
-              img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img36.svg', alt='Imagen decorativa',width="150px",height="150px")
+              img.my-5(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img36.svg', alt='Imagen decorativa',width="150px",height="150px")
     
     .div.grad1
       .row.align-items-center.p-3
         .col-lg-2
           figure
-            img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+            img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
         .col-lg-7
           h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
           .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
-        .col-lg-3.text-center
+        .col-lg-3.text-center.my-3
           a.boton(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
@@ -273,11 +273,11 @@
         .row.align-items-center.grad1.p-3
           .col-lg-2
             figure
-              img(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
+              img.my-3(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h2.text-light Análisis de Involucrados
             .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
-          .col-lg-3.text-center
+          .col-lg-3.text-center.my-3
             a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
@@ -461,11 +461,11 @@
     .row.align-items-center.grad1.p-3
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light Anexo. Tabla 3
         .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -627,7 +627,7 @@
     .row.my-5.align-items-center
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema2/img61.png", alt="")
+          img.my-3(src="@/assets/curso/temas/tema2/img61.png", alt="")
       .col-lg-8
         .cajon.color-secundario.p-4(data-aos="slide-down",style="background: #E4FBF2")
           p.mt-0 El problema central ya definido anteriormente es el <strong>punto de partida del análisis a efectuar con la herramienta de árboles</strong>, aunque existan otras herramientas de análisis causa-efecto como el método del <strong>“diagrama de flechas” (ADM)</strong> el <strong>“método de la ruta crítica” (CPM)</strong> el <strong>“método del diagrama de precedencias” (PDM) “la técnica de revisión y evaluación de programas” (PERT)</strong> que son métodos complejos usados sobre todo en análisis en el contexto de la industria; además, hay otros más amigables como pueden ser el <strong>“diagrama de Pareto”</strong> o el <strong>“diagrama de Ishikawa” (espina de pescado)</strong>; de todos estos el <strong>“método de árboles”</strong> es el que resulta, en efecto, más conveniente para su aplicación en el EML. 

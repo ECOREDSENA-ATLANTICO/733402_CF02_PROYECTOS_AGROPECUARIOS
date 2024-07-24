@@ -99,11 +99,11 @@
             .row.align-items-center.grad1.p-3
               .col-lg-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+                  img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
               .col-lg-7
                 h2.text-light Anexo. Tabla 1
                 .text-light.mb-0 Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
-              .col-lg-3.text-center
+              .col-lg-3.text-center.my-3
                 a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                   span Descargar
                   i.fas.fa-file-download

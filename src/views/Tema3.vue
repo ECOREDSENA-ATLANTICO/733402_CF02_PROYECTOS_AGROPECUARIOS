@@ -74,7 +74,7 @@
 
     .row.my-3
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #CCF9E6')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #CCF9E6')
           .row.justify-content-center.mb-4.align-items-center
             .col-lg-2.col-md-12
               figure
@@ -82,7 +82,7 @@
             .col-lg-8
               p.text-bold.m-0 El primer paso
               | El planteamiento de las acciones generadoras para <strong>las condiciones que denominamos actividades</strong> (tercer nivel) <strong>de los productos o resultados</strong> (segundo nivel) <strong>y de los medios</strong> (primer nivel, correspondientes a los objetivos específicos y más adelante a los componentes del proyecto).
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFE9DB')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFE9DB')
           .row.justify-content-center.mb-4.align-items-center
             .col-lg-10.col-md-12
               p.text-bold.m-0 El segundo paso
@@ -127,11 +127,11 @@
           .col(style="z-index:1")
             p Que se generarían dos alternativas posibles: 
             .row.my-3
-              .col-lg-5.px-3
+              .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Alternativa 1
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos.
-              .col-lg-5.px-3
+              .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Alternativa 2
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción de planta incineradora de residuos orgánicos para generación de energía.
@@ -144,11 +144,12 @@
           .col(style="z-index:1")
             p.m-0 Que asumiendo un resultado negativo de un estudio de prefactibilidad para la planta incineradora y después de configurar las posibles iteraciones (combinaciones posibles) de las actividades viables, se llega a los dos objetivos ya corregidos:
             .row.my-3
-              .col-lg-5.px-3
+              .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 1
                   span Campañas, incentivos e implementación de rutas selectivas.
-              .col-lg-5.px-3
+                  
+              .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 2
                   span Construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos con altas tasas de biodegradación.
@@ -276,7 +277,7 @@
     .row.align-items-center.p-3.my-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema3/img74.png", alt="")
+          img.my-3(src="@/assets/curso/temas/tema3/img74.png", alt="")
       .col-lg-8
         .cajon.color-terciario.p-4.p-4(data-aos="slide-down",style="background: #D9F3FF")
           p.mt-0 En este punto ya se tienen todos los insumos para el inicio de la construcción de la matriz de marco lógico (MML). Según la FAO en 2017, el marco lógico es una matriz de doble entrada que posee dos momentos: la relación de causa-efecto, que ayuda a organizar la información de manera lógica y secuencial en sentido vertical y la estructura cuatro por cuatro que completa el esquema agregándole el sentido horizontal.
@@ -385,16 +386,16 @@
       span Resumen narrativo del proyecto
     .row.my-3
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #CCF9E6')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #CCF9E6')
           p.text-bold.m-0 Fin - Objetivo general
           | Aporte del proyecto en la solución, problema o satisfacción de una necesidad en el mediano o largo plazo.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFE9DB')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFE9DB')
           p.text-bold.m-0 Propósito - Objetivo específico
           | Resultado único esperado al concluir el proyecto.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #CCF9E6')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #CCF9E6')
           p.text-bold.m-0 Propósito - Objetivo específico
           | Productos y servicios que genera el proyecto y que se expresan como una realidad mejorada.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFE9DB')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFE9DB')
           p.text-bold.m-0 Actividades
           | Grupo de tareas principales requeridas para la producción de cada resultado o componente.
     
@@ -407,7 +408,7 @@
     .row.mt-5.mb-4.align-items-center
       .col-lg-4
         figure 
-          img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
+          img.my-3(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
       .col.lg-8
         p Los indicadores conforman la segunda columna de la MML. Son variables cualitativas o cuantitativas que concretan lo definido en el resumen narrativo del proyecto en cada uno de los niveles y dan cuenta de las metas a las que hay que llegar para culminar con éxito, por lo que se convierten en la brújula con la cual se orientan las actividades de gestión, el seguimiento y la evaluación. También dan medida del desempeño y alertan sobre situaciones atípicas. Si los indicadores se encuentran bien formulados, aseguran una buena gestión del proyecto y aportan los elementos necesarios para la toma correcta de decisiones gerenciales que seguramente serán necesarias en el transcurso de la ejecución. Un resultado puede ser medido por varios indicadores, pero el principio de eficiencia nos orienta hacia la construcción del mínimo necesario para la conclusión del logro de los objetivos (Ortegón et.al 2005).
 
@@ -552,27 +553,27 @@
       h2(data-aos="fade-left") 3.4 Análisis de riesgos y establecimiento de los supuestos del proyecto
     p Los análisis de riesgos, al igual que algunos análisis hechos en esta guía anteriormente, permiten a través de análisis cuantitativos, <strong>medir aspectos cualitativos al asignar valores discrecionales en un rango determinado</strong>; un ejemplo de una escala usada frecuentemente es <strong>1=Muy bajo; 2=bajo; 3=moderado; 4=alto; 5=muy alto</strong> En el caso de los riesgos se hace referencia a la evaluación de situaciones que potencialmente pueden desviar o debilitar los resultados esperados, con el objetivo de prevenir o mitigar sus efectos. Un ejemplo sencillo de análisis de riesgos puede ser el de una matriz que enfrente las amenazas posibles (factores externos que pueden afectar el desarrollo del proyecto en cualquiera de sus fases) con la probabilidad estimada de la ocurrencia de un evento y la severidad (gravedad de las consecuencias) de su ocurrencia. Estas amenazas pueden ser las contempladas en un <strong>análisis FODA.</strong>
 
-    .tabla-b.color-acento-contenido.mb-5
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 12.
       span Ejemplos de análisis de riesgos
-    table
-      thead
-        tr(style='background-color: #FF8C69')
-          th Tipo (Físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.)
-          th Riesgo (Descripción)
-          th Probabilidad de ocurrencia (Rango de 1 a 5, donde: 1=muy baja; 2=baja; 3=media; 4=alta; 5=muy alta)
-          th Gravedad del impacto (Rango de 1 a 5, donde: 1=despreciable; 2=considerable; 3=importante; 4=grave; 5=catatrófica)
-          th Valor del Riesgo (Probabilidad x gravedad)
-          th Nivel de Riesgo (Ubicar en la matriz de riesgos)
-      tbody
-        tr.text-center
-          td Climático
-          td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
-          td 3
-          td 4
-          td 20
-          td Crítico
+    .tabla-b.color-acento-contenido.mb-5
+      table
+        thead
+          tr(style='background-color: #FF8C69')
+            th Tipo (Físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.)
+            th Riesgo (Descripción)
+            th Probabilidad de ocurrencia (Rango de 1 a 5, donde: 1=muy baja; 2=baja; 3=media; 4=alta; 5=muy alta)
+            th Gravedad del impacto (Rango de 1 a 5, donde: 1=despreciable; 2=considerable; 3=importante; 4=grave; 5=catatrófica)
+            th Valor del Riesgo (Probabilidad x gravedad)
+            th Nivel de Riesgo (Ubicar en la matriz de riesgos)
+        tbody
+          tr.text-center
+            td Climático
+            td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
+            td 3
+            td 4
+            td 20
+            td Crítico
     .row.mt-5.mb-4.align-items-center
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
@@ -654,11 +655,11 @@
     .row.align-items-center.grad1.my-5.p-3
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light Tabla 13. Matriz de marco lógico completa con la explicación de cada apartado.
         .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -670,7 +671,7 @@
     .row.align-items-center.p-3.my-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema3/img24.png", alt="")
+          img.my-3(src="@/assets/curso/temas/tema3/img24.png", alt="")
       .col-lg-8
         p Una vez <strong>comprobados y validados los resultados</strong> de la aplicación de la metodología del <strong>EML</strong> en el documento final, el siguiente paso para poder dar inicio a la ejecución, consiste en tomar todas las actividades y realizar una <strong>planeación exhaustiva</strong> asignando recursos, materiales, responsables, tiempos de ejecución y demás información necesaria que de manera anticipada sea útil para la correcta ejecución del proyecto; además, e<strong>l presupuesto deberá estar detallado</strong>+
          en otro documento que contendrá toda la información del manejo y seguimiento a la ejecución del mismo.

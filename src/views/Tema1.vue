@@ -24,7 +24,7 @@
               .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 2.
+                  h5 Figura 2. 
                   span Marco lógico y ciclo de vida del proyecto.  
                 
                 figure

@@ -77,7 +77,7 @@
               img(src="@/assets/curso/temas/intro/img4.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
             p.mb-0 A continuación se abordarán paso a paso las herramientas estándar orientadas por el enfoque de marco lógico y también algunas adicionales que pueden facilitar el tránsito de una herramienta a otra, o producir insumos para el arranque de la metodología. Si bien es una descripción somera con fines prácticos, siempre se podrá acudir a la bibliografía y las fuentes de información aquí referenciadas cuando se desee profundizar o comprender el método de manera más amplia.
-    .row.justify-content-center 
+    .row.align-items-center.justify-content-center
       .col-lg-10
           .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 

@@ -24,12 +24,12 @@
               .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 1.
-                  span Cultivo de quinua (Lenguazaque - Cundinamarca, 2019)  
+                  h5 Figura 2.
+                  span Marco lógico y ciclo de vida del proyecto.  
                 
                 figure
                   img(data-aos="flip-down",src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
-                  figcaption.my-3.text-regular <strong>Nota.</strong> Marco lógico y ciclo de vida del proyecto. Bernal (2021).
+                  figcaption.my-3.text-regular Bernal (2021).
 
     div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
       .row.my-4.align-items-center

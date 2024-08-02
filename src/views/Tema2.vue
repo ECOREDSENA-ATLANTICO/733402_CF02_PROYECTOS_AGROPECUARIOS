@@ -509,7 +509,7 @@
     .row.justify-content-center.mt-5 
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2.
+          h5 Figura 3.
           span Recomendaciones para la correcta definición de un problema.
 
     .row.justify-content-center
@@ -578,9 +578,52 @@
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 4.
             span Ejemplo de estructura de la matriz de influencia-dependencia (Véster).
-          figure
-            img(src="@/assets/curso/temas/tema2/img59.svg", alt="Muestra las Recomendaciones para la correcta definición de un problema, teniendo en cuenta los cinco pasos para la priorización de un problema.")
-
+          .tabla-b.color-acento-contenido
+            table(style="background-color: white")
+              thead
+                tr(style='background-color: #FF8C69')
+                  th 
+                  th Problema 1
+                  th Problema 2
+                  th Problema 3
+                  th Problema 4
+                  th Problema n
+              tbody
+                tr
+                  td Problema 1
+                  td 0
+                  td
+                  td
+                  td
+                  td
+                tr
+                  td Problema 2
+                  td
+                  td 0
+                  td
+                  td
+                  td
+                tr
+                  td Problema 3
+                  td
+                  td
+                  td 0
+                  td
+                  td
+                tr
+                  td Problema 4
+                  td
+                  td
+                  td
+                  td 0
+                  td
+                tr
+                  td Problema n
+                  td
+                  td
+                  td
+                  td
+                  td 0
             figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
       .row(numero="3" titulo="Paso 3")
         .col-lg-12.mb-4.mb-md-0
@@ -588,34 +631,385 @@
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5.
             span Escala de valores.
-          figure
-            img(src="@/assets/curso/temas/tema2/img5.svg", alt="")
-            figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          table.text-center(style="background-color: white")
+            thead
+              tr(style='background-color: #FF8C69')
+                th(style="width: 20%") Valor
+                th Descripción
+            tbody
+              tr
+                td 0
+                td No existe relación directa entre el primer y segundo problema
+              tr
+                td 1
+                td Existe una influencia débil entre el primer y segundo problema
+              tr
+                td 2
+                td Existe una influencia mediana entre el primer y segundo problema
+              tr
+                td 3
+                td Existe una influencia fuerte entre el primer y segundo problema
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
       .row(numero="4" titulo="Paso 4")
         .col-lg-12.mb-4.mb-md-0
           p Una vez llena la matriz se agrega <strong>una columna y una fila</strong> para registrar las sumatorias de valores de las filas y las columnas, los valores de la columna representan las magnitudes de las influencias y los de la fila representan los de las dependencias. A continuación un ejemplo: 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 6.
             span Llenado de la matriz de influencia- dependencia (Véster).
-          figure
-            img(src="@/assets/curso/temas/tema2/img8.svg", alt="")
-            figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          .tabla-b.color-acento-contenido
+            table(style="background-color: white")
+              thead
+                tr(style='background-color: #FF8C69')
+                  th
+                  th Descripción
+                  th 1
+                  th 2
+                  th 3
+                  th 4
+                  th 5
+                  th 6
+                  th 7
+                  th 8
+                  th 9
+                  th 10
+                  th 11
+                  th 12
+                  th 13
+                  th 14
+                  th 15
+                  th Influencia
+              tbody
+                tr
+                  td 1
+                  td Baja cooperación inter-empresarial
+                  td 0
+                  td 1
+                  td 1
+                  td 3
+                  td 0
+                  td 2
+                  td 2
+                  td 3
+                  td 1
+                  td 3
+                  td 1
+                  td 2
+                  td 1
+                  td 0
+                  td 0
+                  td 20
+                tr
+                  td 2
+                  td Baja responsabilidad social empresarial
+                  td 2
+                  td 0
+                  td 1
+                  td 0
+                  td 0
+                  td 2
+                  td 1
+                  td 0
+                  td 3
+                  td 2
+                  td 0
+                  td 1
+                  td 1
+                  td 0
+                  td 0
+                  td 13
+                tr
+                  td 3
+                  td Bajo nivel de capacitación
+                  td 3
+                  td 3
+                  td 0
+                  td 3
+                  td 2
+                  td 2
+                  td 0
+                  td 2
+                  td 0
+                  td 1
+                  td 2
+                  td 3
+                  td 0
+                  td 0
+                  td 1
+                  td 22
+                tr
+                  td 4
+                  td Baja rentabilidad de los productores
+                  td 1
+                  td 1
+                  td 0
+                  td 0
+                  td 0
+                  td 1
+                  td 0
+                  td 1
+                  td 0
+                  td 0
+                  td 0
+                  td 3
+                  td 1
+                  td 0
+                  td 2
+                  td 10
+                tr
+                  td 5
+                  td Baja calidad de la capacitación
+                  td 1
+                  td 1
+                  td 3
+                  td 3
+                  td 0
+                  td 0
+                  td 0
+                  td 3
+                  td 0
+                  td 1
+                  td 2
+                  td 3
+                  td 0
+                  td 0
+                  td 2
+                  td 19
+                tr
+                  td 6
+                  td Intereses de corto plazo
+                  td 3
+                  td 3
+                  td 2
+                  td 1
+                  td 0
+                  td 0
+                  td 2
+                  td 0
+                  td 3
+                  td 2
+                  td 0
+                  td 1
+                  td 2
+                  td 0
+                  td 0
+                  td 19
+                tr
+                  td 7
+                  td Desconocimiento mutuo
+                  td 3
+                  td 1
+                  td 0
+                  td 1
+                  td 0
+                  td 2
+                  td 0
+                  td 2
+                  td 3
+                  td 2
+                  td 0
+                  td 0
+                  td 3
+                  td 0
+                  td 0
+                  td 17
+                tr
+                  td 8
+                  td posibilidad de atender solo pedidos pequeños
+                  td 0
+                  td 0
+                  td 0
+                  td 3
+                  td 2
+                  td 1
+                  td 0
+                  td 0
+                  td 0
+                  td 0
+                  td 1
+                  td 3
+                  td 0
+                  td 0
+                  td 1
+                  td 11
+                tr
+                  td 9 
+                  td Bajo sentido de pertenecia al territorio
+                  td 2
+                  td 2
+                  td 0
+                  td 0
+                  td 0
+                  td 1
+                  td 2
+                  td 0
+                  td 0
+                  td 2
+                  td 0
+                  td 0
+                  td 2
+                  td 0
+                  td 0
+                  td 11
+                tr
+                  td 10
+                  td Desarticulación publico-privada
+                  td 1
+                  td 1
+                  td 0
+                  td 2
+                  td 0
+                  td 1
+                  td 2
+                  td 0
+                  td 1
+                  td 0
+                  td 1
+                  td 0
+                  td 2
+                  td 0
+                  td 1
+                  td 12
+                tr
+                  td 11
+                  td Altos costos de capacitación
+                  td 1
+                  td 1
+                  td 3
+                  td 3
+                  td 3
+                  td 1
+                  td 0
+                  td 1
+                  td 1
+                  td 1
+                  td 0
+                  td 3
+                  td 0
+                  td 0
+                  td 0
+                  td 18
+                tr
+                  td 12
+                  td Capacidad productiva ociosa
+                  td 0
+                  td 0
+                  td 0
+                  td 3
+                  td 0
+                  td 0
+                  td 0
+                  td 1
+                  td 0
+                  td 0
+                  td 0
+                  td 0
+                  td 0
+                  td 0
+                  td 1
+                  td 5
+                tr
+                  td 13
+                  td desconfianza entre productores
+                  td 3
+                  td 1
+                  td 0
+                  td 2
+                  td 0
+                  td 0
+                  td 3
+                  td 2
+                  td 2
+                  td 3
+                  td 1
+                  td 1
+                  td 0
+                  td 0
+                  td 0
+                  td 18
+                tr
+                  td 14
+                  td Lejanía de los centros de consumo
+                  td 1
+                  td 1
+                  td 1
+                  td 1
+                  td 2
+                  td 0
+                  td 0
+                  td 1
+                  td 1
+                  td 0
+                  td 3
+                  td 0
+                  td 0
+                  td 0
+                  td 3
+                  td 14
+                tr
+                  td 15
+                  td Altos costos del transporte
+                  td 0
+                  td 0
+                  td 2
+                  td 3
+                  td 0
+                  td 0
+                  td 1
+                  td 2
+                  td 1
+                  td 0
+                  td 2
+                  td 0
+                  td 0
+                  td 0
+                  td 0
+                  td 13
+                tr
+                  td
+                  td Dependencia
+                  td 21
+                  td 16
+                  td 13
+                  td 28
+                  td 9
+                  td 13
+                  td 13
+                  td 18
+                  td 16
+                  td 17
+                  td 13
+                  td 20
+                  td 12
+                  td 2
+                  td 11
+                  td 
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
       .row(numero="5" titulo="Paso 5")
         .col-lg-12.mb-4.mb-md-0
           p Al tener ya las sumatorias se procede a <strong>graficar</strong> estos valores. Se usa un <strong>plano cartesiano</strong> donde la intersección de los ejes corresponde al valor promedio de las dependencias e influencias. Cada cuadrante representa un tipo de problema; el primer cuadrante de la figura corresponde a los problemas pasivos, el segundo a los críticos, el tercero a los exógenos o estructurales (posteriormente se pueden usar como supuestos en la <strong>MML</strong>) y el cuarto representa las causas. 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
             span Esquema de definición de cuadrantes en relación a la influencia y la dependencia.
-          figure
-            img(src="@/assets/curso/temas/tema2/img60.svg", alt="")
-            figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          .tabla-b.color-acento-contenido
+            table(style="background-color: white")
+              thead
+                tr 
+                  td(style="background-color: #FF8C69; vertical-align: middle;" rowspan="3") <strong>Dependencia</strong>
+                  td <strong>Cuadrante 1</strong> - Problemas pasivos o de efectos del problema central
+                  td <strong>Cuadrante 2</strong> - Problemas críticos del problema central
+                tr
+                  td <strong>Cuadrante 3</strong> - Problemas indiferentes
+                  td <strong>Cuadrante 4</strong> - Problemas activos o las causas del problema central                     
+                tr
+                  td(colspan="2" style="text-align: center;") Influencia
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
 
     .row.my-5.align-items-center.p-3(style="background: #FFE9DB")
       .col-lg-4
         p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
       .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 3.
+                  h5 Figura 4.
                   span Ejemplo de la forma gráfica de la matriz ID.
             figure
               img(src="@/assets/curso/temas/tema2/img10.svg", alt="Muestra el componente formativo un ejemplo de la forma gráfica de la matriz ID. Tomado de Silva y Sandoval. Teniendo en cuenta su dependencia e influencia.")
@@ -658,7 +1052,7 @@
               span 2
             | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 4.
+          h5 Figura 5.
           span Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).  
         figure
           img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
@@ -674,7 +1068,7 @@
     .row.align-items-center.my-4
       .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 5.
+          h5 Figura 6.
           span Ejemplo de efectos directos e indirectos. Tomado de la guía de proyectos del DNP (2016).
         figure
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Muestra el componente formativo un ejemplo de efectos directos e indirectos, teniendo en cuenta: Efectos directos Aumento de impactos ambientales (contaminación fuentes y GEI). Mayor valor de la tarifa de aseo para los usuarios. Efectos Indirectos Alto uso de recursos para obtención de materias primas. Aumento del volumen de toneladas dispuestas en relleno. Pérdida de ingresos por ventas potenciales.")
@@ -685,7 +1079,7 @@
     .row.align-items-center.my-4
       .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 6.
+          h5 Figura 7.
           span Ejemplo de causas directas e indirectas
         figure
           img(src="@/assets/curso/temas/tema2/img12.svg", alt="Muestra el componente formativo un ejemplo de causas directas e indirectas, de acuerdo a : Causas directas Deficientes prácticas de separación de materiales. Ineficientes espacios para la valorización de residuos sólidos. Causas Indirectas Inadecuada tradición del manejo de residuos en la fuente. Inapropiado sistema de recolección para el transporte selectivo. Reducida aplicación de tecnología en el proceso de reciclaje. Informalidad y dispersión de los recuperadores.")
@@ -696,7 +1090,7 @@
     .row.align-items-center.my-4
       .col-lg-12.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 7.
+          h5 Figura 8.
           span Ejemplo de árbol de problemas. Tomado de la guía de proyectos del DNP (2016).
         figure
           img(src="@/assets/curso/temas/tema2/img13.png", alt="Muestra el componente formativo un ejemplo de árbol de problemas, según sus efectos, problemas y causas.")
@@ -754,7 +1148,7 @@
     .row.mt-5.mb-4.align-items-center
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 8.
+          h5 Figura 9.
           span Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).
         figure.my-3
           img(src="@/assets/curso/temas/tema2/img14.svg", alt="Muestra el componente formatico un ejemplo de árbol de objetivos. ")

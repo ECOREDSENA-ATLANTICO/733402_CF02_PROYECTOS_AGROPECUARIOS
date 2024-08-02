@@ -97,7 +97,7 @@
     .row.my-3
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 9.
+          h5 Figura 10.
           span Ejemplo de propuesta de acción. 
         figure
           img(src="@/assets/curso/temas/tema3/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  practicas de separacion de materiales. Implemetar espacios eficientes para la valoracion de residuos solidos.")
@@ -382,7 +382,7 @@
     p.p-4 La primera columna de la MML es <strong>la síntesis del proyecto</strong>, empezando por las actividades, los productos que se entregarán y los resultados a corto, mediano y largo plazo <strong>(Ortegón et.al, 2005)</strong> De ahí su importancia y la forma de realizar su lectura, que es de abajo hacia arriba. Las actividades provenientes del nivel tres no se encuentran normalmente incluidas en la MML, pero resulta muy útil considerarlas para <strong>alimentar la planeación operativa</strong> y los indicadores correspondientes serán objeto de este análisis posterior. El resumen narrativo corresponde a la primera columna de la matriz.
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 10.
+      h5 Tabla 11.
       span Resumen narrativo del proyecto
     .row.my-3
       .tarjeta--container.row.mb-5
@@ -501,7 +501,7 @@
             | El presupuesto es <strong>suficiente</strong> para llevar a cabo las actividades identificadas.
         p Los criterios se pueden construir a partir de la <strong>selección y suma de varios de los anteriores</strong>, según se considere pertinente para la evaluación objetiva de los objetivos del proyecto.
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Tabla 11.
+      h5 Tabla 12.
       span Herramienta de selección de indicadores.
     .tabla-b.color-acento-contenido.mb-5
       table
@@ -518,7 +518,7 @@
             td Fin
             td
             td
-            td
+            td A B C D E F G
             td
             td
           tr
@@ -554,7 +554,7 @@
     p Los análisis de riesgos, al igual que algunos análisis hechos en esta guía anteriormente, permiten a través de análisis cuantitativos, <strong>medir aspectos cualitativos al asignar valores discrecionales en un rango determinado</strong>; un ejemplo de una escala usada frecuentemente es <strong>1=Muy bajo; 2=bajo; 3=moderado; 4=alto; 5=muy alto</strong> En el caso de los riesgos se hace referencia a la evaluación de situaciones que potencialmente pueden desviar o debilitar los resultados esperados, con el objetivo de prevenir o mitigar sus efectos. Un ejemplo sencillo de análisis de riesgos puede ser el de una matriz que enfrente las amenazas posibles (factores externos que pueden afectar el desarrollo del proyecto en cualquiera de sus fases) con la probabilidad estimada de la ocurrencia de un evento y la severidad (gravedad de las consecuencias) de su ocurrencia. Estas amenazas pueden ser las contempladas en un <strong>análisis FODA.</strong>
 
     .titulo-sexto.color-acento-contenido.mb-3
-      h5 Tabla 12.
+      h5 Tabla 13.
       span Ejemplos de análisis de riesgos
     .tabla-b.color-acento-contenido.mb-5
       table
@@ -577,7 +577,7 @@
     .row.mt-5.mb-4.align-items-center
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 11.
+          h5 Tabla 14.
           span Modelo de matriz de evaluación de riesgos.
         figure 
           img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
@@ -646,7 +646,7 @@
     .row.p-3
       .col-lg-7.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 12.
+          h5 Figura 11.
           span Lógica Forma de lectura y relación de las partes de la MML
         figure
           img(src="@/assets/curso/temas/tema3/img23.svg", alt="")
@@ -657,7 +657,7 @@
         figure
           img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
-        h2.text-light Tabla 13. Matriz de marco lógico completa con la explicación de cada apartado.
+        h2.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado.
         .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
       .col-lg-3.text-center.my-3
         a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")

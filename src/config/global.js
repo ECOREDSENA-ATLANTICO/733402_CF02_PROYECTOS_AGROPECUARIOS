@@ -4,7 +4,7 @@ export default {
       'Formulación de proyectos agropecuarios bajo el enfoque metodológico de marco lógico.',
     descripcionCurso:
       'El marco lógico es una metodología versátil y potente que permite un análisis amplio y participativo de problemas y soluciones. Considera el contexto, actores, causas, riesgos y alternativas, utilizando un enfoque sistémico y organizado. Se divide en tres fases: identificación del problema, selección de la mejor solución y construcción de la matriz de marco lógico.',
-    // imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -460,8 +460,9 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Tatiana Villamil',
-          cargo: 'Responsable del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo:
+            'Responsable del ecosistema de Recursos Educativos Digitales (RED) ',
           centro: 'Dirección General',
         },
         {
@@ -484,7 +485,7 @@ export default {
 
         {
           nombre: 'Roberto Augusto Bernal Duque',
-          cargo: 'Experta temático',
+          cargo: 'Experto temático',
           centro:
             'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
         },
@@ -527,19 +528,19 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Producción audiovisual',
+          cargo: 'Animador y productor audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: ' Eulises Orduz Amezquita ',
-          cargo: 'Diseño web',
+          cargo: 'Diseñador web',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Rafael Perez Meriño',
-          cargo: 'Desarrollo fullstack ',
+          cargo: 'Desarrollo <em>fullstack</em> ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -551,7 +552,7 @@ export default {
         },
         {
           nombre: 'Nelson Ivan Vera Briceño',
-          cargo: 'Producción audiovisual',
+          cargo: 'Animador y productor audiovisual ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -562,25 +563,25 @@ export default {
       autores: [
         {
           nombre: 'Jairo Luis Valencia Ebratt',
-          cargo: 'Validación de recursos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Juan Carlos Cardona Acosta',
-          cargo: 'Validación de recursos digitales',
+          cargo: 'Validador y vinculador de recursos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

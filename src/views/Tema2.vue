@@ -29,13 +29,13 @@
               figure
                 img.my-3(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
-              h2.text-light ODS - Objetivos Desarrollo Sostenible
+              h4.text-light ODS - Objetivos Desarrollo Sostenible
               .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
             .col-lg-3.text-center.my-3
               a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                 span Ir a sitio
                 i.fas.fa-link
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4.col-md-8.mx-auto
         figure(data-aos="slide-down")
           img(data-aos="zoom-in-left",src="@/assets/curso/temas/tema2/img2.png", alt="Imagen decorativa")
       
@@ -44,7 +44,7 @@
       h2(data-aos="fade-left") 2.2 Análisis de información secundaria
 
     .row.my-3.align-items-center 
-      .col-lg-4.mb-3
+      .col-lg-4.mb-3.col-md-8.mx-auto
         figure(data-aos="slide-down")
           img(data-aos="zoom-in-left",src="@/assets/curso/temas/tema2/img16.png", alt="Imagen decorativa")
       .col-lg-8.mb-3(data-aos="zoom-in-left")
@@ -202,12 +202,12 @@
             p.m-0 Plan de desarrollo departamental y municipal.
 
     
-    .row.align-items-center.grad1.p-3
+    .row.align-items-center.grad1.p-3.m-2
       .col-lg-2
         figure
           img.my-3(data-aos="zoom-out-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
-        h2.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
+        h4.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
         .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
       .col-lg-3.text-center.my-3
         a.boton(href="https://www.fao.org/publications/es/" target="_blank" type="application/pdf")
@@ -253,20 +253,22 @@
           .col-lg-5
             figure
               img.my-5(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img36.svg', alt='Imagen decorativa',width="150px",height="150px")
-    
-    .div.grad1
-      .row.align-items-center.p-3
-        .col-lg-2
-          figure
-            img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-        .col-lg-7
-          h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
-          .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
-        .col-lg-3.text-center.my-3
-          a.boton(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
+    .row.justify-content-center
+      .col-10
+        .div.grad1
+          .row.align-items-center.p-3
+            .col-lg-2
+              figure
+                img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+            .col-lg-7
+              h4.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
+              .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
+            .col-lg-3.text-center.my-3
+              a.boton(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
 
+    
     .row.align-items-center.my-5
       .col-lg-8.mb-2(data-aos="zoom-in-right")
         p La herramienta del ejemplo anterior es susceptible de mejora aplicando, por ejemplo, la variable de expectativa fuerza, ampliando el espectro de la herramienta hasta especificar las estrategias (otra columna) que se emplearán para la mejora de la participación o la mitigación de efectos adversos y como se mencionó, incluso para la resolución de conflictos entre las partes involucradas o al interior de estas. Existen otras formas de evaluar la participación de los involucrados y que se pueden emplear en conjunto o en sustitución del análisis expectativa fuerza: <strong>poder-interés, influencia-impacto, poder-influencia, etc.</strong>
@@ -275,14 +277,14 @@
             figure
               img.my-3(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
-            h2.text-light Análisis de Involucrados
+            h4.text-light Análisis de Involucrados
             .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
           .col-lg-3.text-center.my-3
             a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-2.col-md-8.mx-auto
         figure
           img(src='@/assets/curso/temas/tema2/img37.png', alt='Imagen decorativa')
 
@@ -291,82 +293,78 @@
       h2(data-aos="fade-left") 2.4 Diagnóstico de la situación problémica
     
     .row.align-items-center.my-4
-      .col-lg-4.mb-2
+      .col-lg-4.mb-2.col-md-8.mx-auto
         figure
           img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
-      .col-lg-8.mb-2
+      .col-lg-8.mb-2.my-3
         .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCE9E5")
           p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (brainstorming) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
         
         p.mt-3 La acertada formulación del proyecto y el mismo éxito de la intervención dependen en gran medida de la adecuada identificación del problema, es por esto que se deben dedicar <strong>esfuerzos proporcionales en la etapa de diagnóstico.</strong> El principal referente de este documento, Ortegón et.al (2005), aclara que la planificación nace de <strong>la percepción que se tiene de la problemática</strong> y que se puede dar en concordancia con los siguientes aspectos:
-    
-    
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img39.svg',  alt='Muestra los Aspectos para identificar problemáticas, según: La aplicación de una política de desarrollo.  Ej. Agenda 2030  o el Plan Nacional. Recuperación de infraestructura. Necesidades o carencias en la población afectada. Bajos niveles de desarrollo. Condiciones de vida deficitarias. Efectos de la globalización de la economía y de tratados comerciales internacionales. ' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center La aplicación de una política de desarrollo.  Ej. Agenda 2030 o el Plan Nacional
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img40.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center Recuperación de infraestructura
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img41.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center Necesidades o carencias en la población afectada
+    .row.justify-content-center
+      .col-10
+        .tarjeta--container.row.mb-5
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img39.svg',  alt='Muestra los Aspectos para identificar problemáticas, según: La aplicación de una política de desarrollo.  Ej. Agenda 2030  o el Plan Nacional. Recuperación de infraestructura. Necesidades o carencias en la población afectada. Bajos niveles de desarrollo. Condiciones de vida deficitarias. Efectos de la globalización de la economía y de tratados comerciales internacionales. ' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center La aplicación de una política de desarrollo.  Ej. Agenda 2030 o el Plan Nacional
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img40.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center Recuperación de infraestructura
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img41.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center Necesidades o carencias en la población afectada
 
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img42.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center Bajos niveles de desarrollo
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img43.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center Condiciones de vida deficitarias
-      .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
-        .row.justify-content-center.mb-4
-          .col-lg-10.m-auto
-            figure
-              img(src='@/assets/curso/temas/tema2/img44.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
-          
-        p.text-center Efectos de la globalización de la economía y de tratados comerciales internacionales
+        .tarjeta--container.row.mb-5
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img42.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center Bajos niveles de desarrollo
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #CCF9E6')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img43.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center Condiciones de vida deficitarias
+          .col-md.tarjeta.color-acento-botones.p-5(data-aos='fade-down', style='background: #FFE9DB')
+            .row.justify-content-center.mb-4
+              .col-lg-10.m-auto
+                figure
+                  img(src='@/assets/curso/temas/tema2/img44.svg',  alt='' style='max-width:170px; max-height:170px; margin: auto')
+              
+            p.text-center Efectos de la globalización de la economía y de tratados comerciales internacionales
     
     p.my-4.text-bold.text-center Además, en la actualidad podemos identificar circunstancias problemáticas en torno a:
 
     row.my-4(data-aos="zoom-in-up")
-      div.p-4.BGM02(style="background: #EFF3F6")
-        ul.lista-ul.px-5
-          li 
-            i.lista-ul__vineta 
-            | <strong>Impactos ambientales adversos </strong> de las actividades productivas en todos los sectores de la economía.
-          li 
-            i.lista-ul__vineta 
-            | <strong>Efectos directos o indirectos </strong> del conflicto armado o del dominio territorial de grupos armados.
-          li 
-            i.lista-ul__vineta 
-            | <strong>Efectos regresivos</strong> de políticas de desarrollo o coyunturales.
-          li 
-            i.lista-ul__vineta 
-            | <strong>Consecuencias socioeconómicas</strong> derivadas de la pandemia por el virus Sars-COV-2.
-          li 
-            i.lista-ul__vineta 
-            | <strong>Aspectos inherentes a los efectos acumulados por décadas</strong> en cuanto a la concentración de la riqueza y la tierra, la pauperización del campesinado, el envejecimiento de la población rural, la migración masiva hacia las urbes, el deterioro del tejido social en la ruralidad, el despojo de la tierra, la capacidad productiva, los derechos y hasta los valores de la cultura rural, el desvanecimiento del relevo y empalme generacional, el rezago educativo para la población rural, el escaso acceso a los factores productivos y la tecnología para la productividad, la ausencia del estado y los programas sociales de los gobiernos en especial en la periferia, la inseguridad alimentaria y el hambre y malnutrición derivados de ésta, la inequidad de género, el deterioro del suelo aprovechable, los efectos del cambio climático sobre los ecosistemas por causas antrópicas, la huella de carbono generada por actividades como la ganadería extensiva, la contaminación de fuentes de agua, la ampliación de la frontera agrícola hacia zonas de reserva protegidas, el debilitamiento de la ciudadanía participativa, la lentitud en la migración hacia fuentes de energía renovables, la escasa infraestructura productiva para las actividades agropecuarias, entre otros.
+      div.p-5.BGM02.fondo-degradado-2
+        ul(style="list-style-position: outside; padding-left: 1.2em; text-indent: -0.6em;")
+            li.my-1(data-aos="fade-right", style="list-style-type: disc; color: #02DD84; font-size: 1.2em;")
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") <strong>Impactos ambientales adversos </strong> de las actividades productivas en todos los sectores de la economía.
+            li.my-1(data-aos="fade-right", style="list-style-type: disc; color: #02DD84; font-size: 1.2em;")
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") <strong>Efectos directos o indirectos </strong> del conflicto armado o del dominio territorial de grupos armados.
+            li.my-1(data-aos="fade-right", style="list-style-type: disc; color: #02DD84; font-size: 1.2em;")
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") <strong>Efectos regresivos</strong> de políticas de desarrollo o coyunturales.
+            li.my-1(data-aos="fade-right", style="list-style-type: disc; color: #02DD84; font-size: 1.2em;")
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") <strong>Consecuencias socioeconómicas</strong> derivadas de la pandemia por el virus Sars-COV-2.
+            li.my-1(data-aos="fade-right", style="list-style-type: disc; color: #02DD84; font-size: 1.2em;")
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") <strong>Aspectos inherentes a los efectos acumulados por décadas</strong> en cuanto a la concentración de la riqueza y la tierra, la pauperización del campesinado, el envejecimiento de la población rural, la migración masiva hacia las urbes, el deterioro del tejido social en la ruralidad, el despojo de la tierra, la capacidad productiva, los derechos y hasta los valores de la cultura rural, el desvanecimiento del relevo y empalme generacional, el rezago educativo para la población rural, el escaso acceso a los factores productivos y la tecnología para la productividad, la ausencia del estado y los programas sociales de los gobiernos en especial en la periferia, la inseguridad alimentaria y el hambre y malnutrición derivados de ésta, la inequidad de género, el deterioro del suelo aprovechable, los efectos del cambio climático sobre los ecosistemas por causas antrópicas, la huella de carbono generada por actividades como la ganadería extensiva, la contaminación de fuentes de agua, la ampliación de la frontera agrícola hacia zonas de reserva protegidas, el debilitamiento de la ciudadanía participativa, la lentitud en la migración hacia fuentes de energía renovables, la escasa infraestructura productiva para las actividades agropecuarias, entre otros.
+
 
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -376,17 +374,17 @@
       .col-lg-8.my-2
         p(data-aos="zoom-in-right") La identificación de problemas por parte de la misma comunidad afectada no solo es importante para la adecuada formulación de un plan de intervención exitoso, <strong>la participación de la población en el proceso de desarrollo es importante para la sostenibilidad de los procesos de mejora en las actividades productivas</strong>, ya que muchas veces el fracaso de los proyectos se atribuye a la falta de sentido de pertenencia de las comunidades con estos, porque algunas veces se hacen intervenciones sin contar siquiera con su opinión al respecto.
         .cajon.color-terciario.p-4(style="background: #D9F3FF")
-          p.mt-0 El paradigma del desarrollo desde abajo viene a contrarrestar las políticas de intervención desde los dirigentes nacionales y grandes actores internacionales <strong>(BM, FMI, tesoro nacional de USA, etc.)</strong> que a partir de los años 80 vienen fomentando la aplicación de políticas derivadas de la receta neoliberal (menor injerencia del estado y mayor orientación del mercado en las dinámicas socioeconómicas) producto del llamado “consenso de Washington”, con un <strong>rotundo fracaso en términos de impacto ambiental y aumento de la brecha social a escala continental.</strong>  
-      .col-lg-4.my-2
+          p.my-4 El paradigma del desarrollo desde abajo viene a contrarrestar las políticas de intervención desde los dirigentes nacionales y grandes actores internacionales <strong>(BM, FMI, tesoro nacional de USA, etc.)</strong> que a partir de los años 80 vienen fomentando la aplicación de políticas derivadas de la receta neoliberal (menor injerencia del estado y mayor orientación del mercado en las dinámicas socioeconómicas) producto del llamado “consenso de Washington”, con un <strong>rotundo fracaso en términos de impacto ambiental y aumento de la brecha social a escala continental.</strong>  
+      .col-lg-4.my-2.col-md-8.mx-auto.my-3
         figure
           img(data-aos="zoom-in-left",src='@/assets/curso/temas/tema2/img45.png',  alt='')
 
     p(data-aos="zoom-in-right").my-4 El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
     .row.justify-content-center
-    hr(style="background:#FFA686")
+      hr.mt-3.justify-content-center(style="background:#FF9751; width: 80%; height: 2px")
 
     .row.align-items-center.mb-4
-      .col-lg-10.m-auto
+      .col-lg-10.mx-auto.mb-auto
         .bloque-texto-b.py-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
@@ -396,7 +394,7 @@
             
 
     .row.my-3
-      .col-lg-10.crd.crd--avatarHorizontal-left-bgr3.py-3.mb-3.m-auto(data-aos="zoom-in-right")
+      .col-lg-9.crd.crd--avatarHorizontal-left-borde-tarjeta.py-3.mb-3.m-auto(data-aos="zoom-in-right")
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -449,38 +447,41 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema2/img53.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    .row.mb-5
+      .col-12 
+        .fondo-degradado-2.p-4
+          p.my-4.text-center.text-bold La información de primera mano es muy valiosa y requiere de un recurso metodológico que puede ser el DRP.
 
-    p.my-4.text-center.text-bold La información de primera mano es muy valiosa y requiere de un recurso metodológico que puede ser el DRP.
+          .row.align-items-center.my-3
+            .col-lg-6
+              p(data-aos="zoom-in-right") Existen otras metodologías, por ejemplo la propuesta hecha por Orlando Fals Borda en 1977, denominada <strong>“Investigación-Acción-Participación” (IAP)</strong>, que centraliza la persona y no el objeto de la investigación. Otras metodologías pueden enfocarse a grupos pequeños como los familiares, es el caso de la Planificación Predial Participativa (PPP) o a organizaciones y empresas rurales como el <strong>“Índice de Capacidades Organizacionales de la Unión Europea” (ICO)</strong> y la <strong>“Medición del Emprendimiento Rural” (MER)</strong> de la FAO que incorporan todas las distintas áreas que componen una organización formal.
+            .col-lg-6
+              p(data-aos="zoom-in-right") La gestión de la información, en todo caso, debe ser organizada y metódica, siguiendo la ruta datos-información-conocimiento; es decir, como un proceso de investigación básico y para ello existen diversas herramientas (de las que habla el punto cinco del ciclo de siete pasos del DRP), que pueden aplicarse en la amplitud de las actividades rurales. Algunas son muy versátiles como las entrevistas y las lluvias de ideas, otras más específicas como los mapas de recursos, las caracterizaciones de las actividades productivas mediante mapeos y los calendarios de producción, otras más enfocadas a aspectos de género o de comunicación, sociales u otros. 
 
-    .row.align-items-center.my-3
-      .col-lg-6
-        p(data-aos="zoom-in-right") Existen otras metodologías, por ejemplo la propuesta hecha por Orlando Fals Borda en 1977, denominada <strong>“Investigación-Acción-Participación” (IAP)</strong>, que centraliza la persona y no el objeto de la investigación. Otras metodologías pueden enfocarse a grupos pequeños como los familiares, es el caso de la Planificación Predial Participativa (PPP) o a organizaciones y empresas rurales como el <strong>“Índice de Capacidades Organizacionales de la Unión Europea” (ICO)</strong> y la <strong>“Medición del Emprendimiento Rural” (MER)</strong> de la FAO que incorporan todas las distintas áreas que componen una organización formal.
-      .col-lg-6
-        p(data-aos="zoom-in-right") La gestión de la información, en todo caso, debe ser organizada y metódica, siguiendo la ruta datos-información-conocimiento; es decir, como un proceso de investigación básico y para ello existen diversas herramientas (de las que habla el punto cinco del ciclo de siete pasos del DRP), que pueden aplicarse en la amplitud de las actividades rurales. Algunas son muy versátiles como las entrevistas y las lluvias de ideas, otras más específicas como los mapas de recursos, las caracterizaciones de las actividades productivas mediante mapeos y los calendarios de producción, otras más enfocadas a aspectos de género o de comunicación, sociales u otros. 
+          .row.align-items-center.grad1-2.p-3.m-auto
+            .col-lg-2
+              figure
+                img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+            .col-lg-7
+              h4.text-light Anexo. Tabla 3
+              .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
+            .col-lg-3.text-center.my-3
+              a.boton(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
 
-    .row.align-items-center.grad1.p-3
-      .col-lg-2
-        figure
-          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light Anexo. Tabla 3
-        .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
-      .col-lg-3.text-center.my-3
-        a.boton(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
 
     Separador
     #t_2_6.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 2.6 Priorización de problemas a través de la herramienta “Matriz de Vester”
     
     .row.my-3.align-items-center
-      .col-lg-8
+      .col-lg-7
         p(data-aos="zoom-in-right") El objetivo del proceso de diagnóstico es <strong>identificar y definir muy bien una serie de problemas de diversa índole</strong>, donde una vez colectados, se tienen dos situaciones posibles: que se identifique fácilmente el problema central o que no se tenga claro. En el primer caso, podemos pasar al siguiente punto, el análisis causal (causa-efecto), donde el EML nos introduce a la técnica de árboles, la más adecuada, aunque existan otras formas de análisis causa-efecto.
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9DB")
           p.mt-0 En el segundo caso, donde no se tiene definido el problema central, es necesario como siguiente paso <strong>analizar la relación entre los problemas de forma bidireccional</strong>; es decir, escudriñar en la correlación entre los distintos problemas (aquí variables) a fin de establecer el grado de influencia y/o dependencia entre ellos, el método, desarrollado por el alemán <strong>Frederic Vester (1925-2003)</strong>, se fundamenta en la matemática (teoría de matrices) estableciendo un valor numérico dentro de un rango determinado que normalmente es [0-3] proporcional al grado de influencia a discreción del analista (0 para una influencia nula o indirecta y 3 para una influencia marcada o directa).
 
-      .col-lg-4
+      .col-lg-5.mt-4.col-md-8.mx-auto
         figure
           img(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img54.png', alt='')
 
@@ -490,15 +491,15 @@
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema2/img55.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
+          .col.my-3(style="z-index:1")
             p.m-0 Así, a la relación entre los problemas, que son cualitativos, se le atribuye <strong>una magnitud y del ordenamiento matricial</strong> de estos valores se puede identificar la variable (problema) con mayor influencia en relación a las demás. En resumen, la matriz de Vester, también llamada matriz de <strong>influencia-dependencia (ID)</strong> nos permite <strong>identificar el problema central y tres grupos más o menos diferenciados</strong> (causas, consecuencias y supuestos). Una consideración importante es que la herramienta es eficaz cuando se consideran al menos 13 problemas (mínimo grado en el que adquiere significancia el tratamiento de los datos).
     
     p.text-center Antes de proseguir con la descripción del método paso por paso vale la pena enfatizar en las siguientes aclaraciones a la hora de <strong>redactar los problemas:</strong>
     
     .row.justify-content-center
-    hr(style="background:#FFA686")
-    .row.align-items-center.my-3
-      .col-lg-10.m-auto
+      hr.mt-3.justify-content-center(style="background:#FF9751; width: 80%; height: 2px")
+    .row.align-items-center.mb-3
+      .col-lg-10.mx-auto.mb-auto
         .bloque-texto-b.py-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
@@ -515,28 +516,26 @@
     .row.justify-content-center
       .col-lg-5.mb-3
         p.text-center <strong>Forma incorrecta</strong> de definir un problema
-        .card(data-aos="fade-right",style="background: #FF9751 ; border-radius:20px")
+        .card(data-aos="fade-right",style="background: #FF9751 ; border-radius:20px ; height: 146px")
           .card-cuerpo.py-4
             .icon-left 
               figure
                 img(src="@/assets/curso/temas/tema2/img57.svg", alt="Muestra los Aspectos para identificar problemáticas, según: La aplicación de una política de desarrollo.  Ej. Agenda 2030  o el Plan Nacional. Recuperación de infraestructura. Necesidades o carencias en la población afectada. Bajos niveles de desarrollo. Condiciones de vida deficitarias. Efectos de la globalización de la economía y de tratados comerciales internacionales. ")
-            ul.lista-ul.m-0
-              li
-                i.lista-ul__vineta 
-                | Falta de un colegio.
-              li 
-                i.lista-ul__vineta 
-                | Falta de un centro de salud.
-        .my-3
+            ul.lista-ul.ms-4
+              li(data-aos="fade-right", style="list-style-type: disc; color: #7F442F; font-size: 1.2em;")
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Falta de un colegio.
+              li(data-aos="fade-right", style="list-style-type: disc; color: #7F442F; font-size: 1.2em;")
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Falta de un centro de salud.
+        .my-3.ms-4
           ul.lista-ul
-            li
-              i.lista-ul__vineta 
-              span.text-bold(style="color: #FF9751") Error 1:
-              | restringe la alternativa de solución.
-            li
-              i.lista-ul__vineta 
-              span.text-bold(style="color: #FF9751") Error 2: 
-              | no contempla ninguna condición de desarrollo de la población.
+            li(data-aos="fade-right", style="list-style-type: disc; color:  #FF9751; font-size: 1.2em;")
+              i
+              strong(style="color: #FF9751") Error 1:
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") restringe la alternativa de solución.
+            li(data-aos="fade-right", style="list-style-type: disc; color:  #FF9751; font-size: 1.2em;")
+              i
+              strong(style="color: #FF9751") Error 2: 
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") no contempla ninguna condición de desarrollo de la población.
       .col-lg-5.mb-3
         p.text-center <strong>Forma correcta</strong> de definir un problema
         .card(data-aos="fade-left",style="background: #02DD84 ; border-radius:20px")
@@ -544,24 +543,22 @@
             .icon-right 
               figure
                 img(src="@/assets/curso/temas/tema2/img58.svg", alt="")
-            ul.lista-ul.m-0
-              li 
-                i.lista-ul__vineta 
-                | Bajo acceso al sistema de educación en los niveles de básica y media.
-              li 
-                i.lista-ul__vineta 
-                | Alta tasa de morbilidad infantil.
+            ul.lista-ul.ms-4
+              li(data-aos="fade-right", style="list-style-type: disc; color: #0B481E; font-size: 1.2em;") 
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Bajo acceso al sistema de educación en los niveles de básica y media.
+              li(data-aos="fade-right", style="list-style-type: disc; color: #0B481E; font-size: 1.2em;") 
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Alta tasa de morbilidad infantil.
         
-        .my-3
+        .my-3.ms-4
           ul.lista-ul
-              li
-                i.lista-ul__vineta 
-                span.text-bold(style="color: #02DD84") Acierto: 
-                | para cualquiera de los casos existen diversas alternativas de solución.
-              li
-                i.lista-ul__vineta
-                span.text-bold(style="color: #02DD84") Acierto:
-                | las dos condiciones negativas reflejan la necesidad de la población.
+              li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
+                i
+                strong(style="color: #019A5B") Acierto: 
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") para cualquiera de los casos existen diversas alternativas de solución.
+              li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
+                i
+                strong(style="color: #019A5B") Acierto:
+                span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") las dos condiciones negativas reflejan la necesidad de la población.
 
     .row.align-items-center 
       .col-lg-8.m-auto.p-4(style="background: #B3E6FF")
@@ -581,7 +578,7 @@
           .tabla-b.color-acento-contenido
             table(style="background-color: white")
               thead
-                tr(style='background-color: #FF8C69')
+                tr.text-light(style='background-color: #006555')
                   th 
                   th Problema 1
                   th Problema 2
@@ -631,22 +628,22 @@
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5.
             span Escala de valores.
-          table.text-center(style="background-color: white")
+          table.text-center
             thead
-              tr(style='background-color: #FF8C69')
+              tr.text-light(style='background-color: #006555')
                 th(style="width: 20%") Valor
                 th Descripción
             tbody
-              tr
+              tr(style="background-color: white")
                 td 0
                 td No existe relación directa entre el primer y segundo problema
-              tr
+              tr(style="background-color: #E9E9E9")
                 td 1
                 td Existe una influencia débil entre el primer y segundo problema
-              tr
+              tr(style="background-color: white")
                 td 2
                 td Existe una influencia mediana entre el primer y segundo problema
-              tr
+              tr(style="background-color: #E9E9E9")
                 td 3
                 td Existe una influencia fuerte entre el primer y segundo problema
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
@@ -659,7 +656,7 @@
           .tabla-b.color-acento-contenido
             table(style="background-color: white")
               thead
-                tr(style='background-color: #FF8C69')
+                tr.text-light(style='background-color: #006555')
                   th
                   th Descripción
                   th 1
@@ -994,7 +991,7 @@
             table(style="background-color: white")
               thead
                 tr 
-                  td(style="background-color: #FF8C69; vertical-align: middle;" rowspan="3") <strong>Dependencia</strong>
+                  td.text-light(style="background-color:  #006555; vertical-align: middle;" rowspan="3") <strong>Dependencia</strong>
                   td <strong>Cuadrante 1</strong> - Problemas pasivos o de efectos del problema central
                   td <strong>Cuadrante 2</strong> - Problemas críticos del problema central
                 tr
@@ -1004,10 +1001,9 @@
                   td(colspan="2" style="text-align: center;") Influencia
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
 
-    .row.my-5.align-items-center.p-3(style="background: #FFE9DB")
-      .col-lg-4
-        p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
-      .col-lg-8
+    p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
+    .row.mb-5.align-items-center.p-3(style="background: #FFE9DB")
+      .col-lg-10.m-auto
             .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 4.
                   span Ejemplo de la forma gráfica de la matriz ID.
@@ -1019,7 +1015,7 @@
       h2(data-aos="fade-left") 2.7 Análisis causa-efecto a través de la "metodología de árboles"
 
     .row.my-5.align-items-center
-      .col-lg-4
+      .col-lg-4.col-md-8.mx-auto
         figure
           img.my-3(src="@/assets/curso/temas/tema2/img61.png", alt="")
       .col-lg-8
@@ -1040,7 +1036,8 @@
 
     .row.align-items-center.my-4
       .col-lg-8
-        p La técnica de la que hace uso esta herramienta se basa en un modelo de relaciones causales que <strong>semeja en su forma a un árbol.</strong>
+        span La técnica de la que hace uso esta herramienta se basa en un modelo de relaciones causales que 
+        strong(style="color: #0B481E") semeja en su forma a un árbol.
         p El principio de causalidad es usado por casi toda disciplina científica y nos brinda unos elementos claves para el análisis de los problemas:
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -1051,12 +1048,14 @@
             .lista-ol--cuadro__vineta(style="background: #02DD84; color: black")
               span 2
             | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5 Figura 5.
-          span Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).  
-        figure
-          img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
-      .col-lg-4
+        .row.justify-content-center
+          .col-lg-9
+            .titulo-sexto.color-acento-contenido.mb-2
+              h5 Figura 5.
+              span Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).  
+            figure
+              img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
+      .col-lg-4.col-md-8.mx-auto
         figure
           img(src="@/assets/curso/temas/tema2/img7.png", alt="")
 
@@ -1088,7 +1087,7 @@
       p Una vez identificados todos los efectos y causas del problema central <strong>se integra toda la información en un solo cuadro</strong> que representa el resumen de la situación problémica. Aunque este análisis define el camino a seguir en adelante, los hechos descritos aún mantienen el carácter de <strong>hipótesis</strong> hasta tanto no se corroboran en los estudios del proyecto y se someten a evaluación del equipo de trabajo y la población objetivo de manera participativa <strong>(Ortegón et.al, 2005).</strong>
 
     .row.align-items-center.my-4
-      .col-lg-12.mb-3.m-auto
+      .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 8.
           span Ejemplo de árbol de problemas. Tomado de la guía de proyectos del DNP (2016).
@@ -1132,11 +1131,13 @@
 
     .row.mt-5.mb-4.align-items-center
       .col-lg-8
-        p Bajo la misma lógica causal y al igual que en el ejercicio de árbol de problemas, <strong>en el árbol de objetivos se procede en primer lugar a redactar cada acción o hecho desde su redacción negativa a su versión opuesta positiva</strong>, expresando las mismas condiciones pero de la manera deseada o esperada.
-        p Esta "transmutación" de los problemas se realiza bajo el mismo esquema de árbol, <strong>conservando el sentido y lógica causal del relacionamiento de los problemas.</strong>
+        span Bajo la misma lógica causal y al igual que en el ejercicio de árbol de problemas, 
+        strong(style="color: #0B481E") en el árbol de objetivos se procede en primer lugar a redactar cada acción o hecho desde su redacción negativa a su versión opuesta positiva
+        span , expresando las mismas condiciones pero de la manera deseada o esperada.
+        p.mt-3 Esta "transmutación" de los problemas se realiza bajo el mismo esquema de árbol, <strong>conservando el sentido y lógica causal del relacionamiento de los problemas.</strong>
         p Así, <strong>el problema central se convierte en el objetivo central o “propósito” del árbol de objetivos</strong> y más adelante será el objetivo general o <strong>“fin”</strong> del proyecto; abajo las causas directas se tornarán en <strong>“medios”</strong> para lograr el propósito en el árbol de objetivos y que se pueden entender como “objetivos específicos” del proyecto; más abajo las causas indirectas se convertirán en <strong>“productos y resultados”</strong> del árbol de objetivos y darán lugar a los <strong>“componentes”</strong> del proyecto y en caso de haber establecido ya causas de tercer nivel, estaremos hablando en este paso de las actividades en que se desagregan los distintos componentes del proyecto.
 
-      .col-lg-4
+      .col-lg-4.col-md-8.mx-auto
         figure
           img(src="@/assets/curso/temas/tema2/img63.png", alt="")
     
@@ -1146,7 +1147,7 @@
           p.mt-0 Hasta aquí hablamos de la parte inferior del árbol. Los efectos directos en la parte superior del árbol corresponden con <strong>los fines últimos a los que contribuirá el proyecto.</strong> Una recomendación muy importante es que los objetivos deben ser alcanzables, no se debe plantear por ejemplo, acabar con el hambre en la región o llevar a la población hacia altos niveles de desarrollo pues estos planteamientos deben ser muy objetivos, sensatos y mesurados. En caso de ejecutarse el proyecto, serán <strong>compromisos adquiridos</strong> a los cuales debe respaldar una garantía de cumplimiento.
     
     .row.mt-5.mb-4.align-items-center
-      .col-lg-10.m-auto
+      .col-lg-8.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 9.
           span Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).

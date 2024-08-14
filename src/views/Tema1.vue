@@ -16,51 +16,51 @@
         p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados stakeholders.
 
     .row.my-4.align-items-center
-        p.text-bold <strong>El EML se puede usar en todas las etapas del proyecto, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong> 
+      .col-lg-12
+        strong(style="color: #0B481E") El EML se puede usar en todas las etapas del proyecto
+        span <strong>, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong>
         p Este documento se enfocará en la primera parte del ciclo del proyecto, correspondiente al diseño, que abarca dos etapas, el análisis y la planificación.
 
         .row.justify-content-center
-          .col-lg-8
-              .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
+          .col-lg-12
+            .fondo-degradado.p-4
+              .col-lg-8.m-auto.col-md-11.mx-auto
                 .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 2. 
-                  span Marco lógico y ciclo de vida del proyecto.  
-                
+                  h5 Figura 2.
+                  span Marco lógico y ciclo de vida del proyecto.
                 figure
-                  img(data-aos="flip-down",src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
+                  img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen', style="max-width: 80%; height: auto;")
                   figcaption.my-3.text-regular Bernal (2021).
-
-    div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
-      .row.my-4.align-items-center
-        .col-lg-8.my-2
-          p Además de dar respuesta a otras metodologías que presentan problemas comunes mencionados ya en la introducción, <strong>el método posee otras ventajas:</strong>
-          ol.px-4.lista-ol
-            li 
-              span.text-bold 1. 
-              | Proporcionar una terminología uniforme que facilite la comunicación.
-            li 
-              span.text-bold 2. 
-              | Estandarizar la forma de presentar metas, objetivos y supuestos lo que implica un acuerdo preciso.
-            li 
-              span.text-bold 3. 
-              | Suministrar referentes comunes de análisis para el uso de todos los involucrados.
-            li 
-              span.text-bold 4. 
-              | Aportar a la eficiencia para el uso de recursos por focalizarse en puntos técnicos críticos (cuellos de botella).
-            li 
-              span.text-bold 5. 
-              | Facilitar la organización lógica de los planes de acción.
-            li 
-              span.text-bold 6. 
-              | Permitir el seguimiento y la evaluación a lo largo del proyecto.
-            li 
-              span.text-bold 7. 
-              | Permitir la visualización global del proyecto desde una sola herramienta.
-        .col-lg-4.my-2
-          figure(data-aos="slide-down")
-            img(src="@/assets/curso/temas/tema1/img3.png", alt="Imagen decorativa")
-    
+      div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
+        .row.my-4.align-items-center
+          .col-lg-8.my-2
+            p Además de dar respuesta a otras metodologías que presentan problemas comunes mencionados ya en la introducción, <strong>el método posee otras ventajas:</strong>
+            ol.px-4.lista-ol(style="list-style-position: outside; padding-left: 1.8em; text-indent: -1.4em;")
+              li
+                span(style="color: #019A5B").text-bold 1. 
+                | Proporcionar una terminología uniforme que facilite la comunicación.
+              li 
+                span(style="color: #019A5B").text-bold 2. 
+                | Estandarizar la forma de presentar metas, objetivos y supuestos lo que implica un acuerdo preciso.
+              li 
+                span(style="color: #019A5B").text-bold 3. 
+                | Suministrar referentes comunes de análisis para el uso de todos los involucrados.
+              li 
+                span(style="color: #019A5B").text-bold 4. 
+                | Aportar a la eficiencia para el uso de recursos por focalizarse en puntos técnicos críticos (cuellos de botella).
+              li 
+                span(style="color: #019A5B").text-bold 5. 
+                | Facilitar la organización lógica de los planes de acción.
+              li 
+                span(style="color: #019A5B").text-bold 6. 
+                | Permitir el seguimiento y la evaluación a lo largo del proyecto.
+              li 
+                span(style="color: #019A5B").text-bold 7. 
+                | Permitir la visualización global del proyecto desde una sola herramienta.
+          .col-lg-4.my-2.col-md-8.mx-auto
+            figure(data-aos="slide-down")
+              img(src="@/assets/curso/temas/tema1/img3.png", alt="Imagen decorativa")
+      
     .row.my-4.align-items-center
       .col-lg-10.my-2.m-auto
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFF4EC")
@@ -73,11 +73,11 @@
 
     .row.my-4.align-items-center
       .col-lg-12.my-2.m-auto
-        .row.my-2.text-center 
-          .col-lg-6.my-2(data-aos="fade-up-left")
+        .row.my-2.text-center.justify-content-center 
+          .col-lg-5.my-2(data-aos="fade-up-left")
             div.py-4(style="background: #B3E6FF; border-radius:10px")
               p.mb-0 <strong>1.</strong> El análisis causal o identificación de problemas y soluciones.
-          .col-lg-6.my-2(data-aos="fade-up-right")
+          .col-lg-5.my-2(data-aos="fade-up-right")
             div.py-4(style="background: #B3E6FF; border-radius:10px")
               p.mb-0 <strong>2.</strong> La planificación o plan operativo.
 
@@ -101,12 +101,13 @@
                 figure
                   img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
               .col-lg-7
-                h2.text-light Anexo. Tabla 1
+                h4.text-light Anexo. Tabla 1
                 .text-light.mb-0 Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
               .col-lg-3.text-center.my-3
                 a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                   span Descargar
                   i.fas.fa-file-download
+
   </template>
 
 <script>

@@ -53,22 +53,21 @@
                 p.m-0 Construcción de la matriz del marco lógico.
       .col-lg-4
         p.p-4(style="background: #DEE4F0; border-radius: 10px;") Además, es muy recomendable, así como en la etapa de análisis, incluir de ser necesario <strong>métodos que faciliten el tránsito entre herramientas</strong>, como puede ser el <strong>análisis de riesgos, la redacción de la estructura analítica</strong> (que se obvia aquí por fines prácticos), <strong>las herramientas de validación de indicadores, medios de verificación y supuestos del proyecto.</strong>
-      separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    separador
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.1 Análisis de alternativas
-
     .row.my-3.align-items-center 
       .col-lg-7
         div.p-3(style="background: #D9F3FF")
           .row.my-3.align-items-center 
-            .col-lg-2
+            .col-lg-2.col-md-3.mx-auto
               figure
                 img(src="@/assets/curso/temas/tema3/img6.svg", alt="")
             .col-lg-10
               p Las alternativas de solución del problema central pueden ser contempladas desde el nivel de incidencia de los distintos medios (objetivos específicos y más adelante componentes del proyecto) pues todos no tendrán el mismo impacto y dependiendo de este análisis se determinará si todos son necesarios o si algunos serán suficientes para generar el resultado deseado.
         p.m-3 Esto significa que existen varias alternativas de solución que en la gráfica del árbol de objetivos pueden verse como <strong>los caminos que desde las raíces nos llevan a las copas del árbol</strong>; por tanto, <strong>a mayor complejidad del árbol, mayor número de alternativas.</strong> Aquí intervienen las condiciones preestablecidas para la realización del proyecto (tiempos, recursos, alcance, etc.) los resultados del análisis del entorno y de información secundaria (incluso el marco legal pertinente) de la información del diagnóstico, análisis de involucrados y de problemas, y de toda la información recolectada anteriormente. 
 
-      .col-lg-5
+      .col-lg-5.col-md-8.mx-auto
         figure
           img(src="@/assets/curso/temas/tema3/img64.png", alt="")
 
@@ -79,7 +78,7 @@
             .col-lg-2.col-md-12
               figure
                 img(src="@/assets/curso/temas/tema2/img65.svg", alt="", width="150px", height="150px")
-            .col-lg-8
+            .col-lg-8.my-3
               p.text-bold.m-0 El primer paso
               | El planteamiento de las acciones generadoras para <strong>las condiciones que denominamos actividades</strong> (tercer nivel) <strong>de los productos o resultados</strong> (segundo nivel) <strong>y de los medios</strong> (primer nivel, correspondientes a los objetivos específicos y más adelante a los componentes del proyecto).
         .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFE9DB')
@@ -87,7 +86,7 @@
             .col-lg-10.col-md-12
               p.text-bold.m-0 El segundo paso
               | La estructuración de las alternativas. Una alternativa resulta de la <strong>conjunción de varias actividades</strong> El número de alternativas resultantes depende de <strong>qué tan compatibles son los medios</strong> (objetivos específicos) <strong>productos y actividades entre sí.</strong>
-            .col-lg-2
+            .col-lg-2.my-3
               figure
                 img(src="@/assets/curso/temas/tema2/img65.svg", alt="", width="150px", height="150px")
     .row.my-3
@@ -95,70 +94,71 @@
         p Puede suceder que las actividades sean perfectamente compatibles, a esto se les denomina <strong>complementarias o conjuntivas</strong>; pero también puede ser que algunas no lo sean, en este caso formarían otra alternativa y a estas actividades se les denomina excluyentes o disyuntivas. Siguiendo con el ejemplo de referencia, las alternativas se encuentran expresadas como acciones de intervención agrupadas de acuerdo a la compatibilidad entre ellas y por cada uno de los objetivos. Las letras <strong>C</strong> y <strong>E</strong> a la derecha, significan complementarias y excluyentes:
     
     .row.my-3
-      .col-lg-10.m-auto
+      .col-lg-10.m-auto.fondo-degradado-3
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 10.
           span Ejemplo de propuesta de acción. 
         figure
           img(src="@/assets/curso/temas/tema3/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  practicas de separacion de materiales. Implemetar espacios eficientes para la valoracion de residuos solidos.")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).
+
+        p.text-center.mt-4 Tomado de la guía de proyectos del DNP (2016).
     p Como tercer paso los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad se llega a las siguientes conclusiones:
 
-    .row.my-3.align-items-center 
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3
+    .row.my-3.align-items-center
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3(data-aos="fade-right")
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema3/img67.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
+              img(src="@/assets/curso/temas/tema2/img67.svg", alt="", width= "100px", height="100px")
+          .col.ms-4(style="z-index:1")
             p.m-0 Las actividades 1 y 2 se pueden fusionar.
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr3.py-3.mb-3
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3(data-aos="fade-right")
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema3/img68.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
+              img(src="@/assets/curso/temas/tema2/img68.svg", alt="", width= "100px", height="100px")
+          .col.ms-4(style="z-index:1")
             p.m-0  Las actividades 3 y 5 no son viables financiera y legalmente, en ese orden.
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3
-        .row.align-items-center
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3(data-aos="fade-right")
+        .row.align-items-start
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema3/img69.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
-            p Que se generarían dos alternativas posibles: 
+              img(src="@/assets/curso/temas/tema2/img69.svg", alt="", width= "100px", height="100px")
+          .col.ms-4(style="z-index:1")
+            p.m-0  Que se generarían dos alternativas posibles: 
             .row.my-3
-              .col-lg-5.px-3.my-3
-                .p-4(style="background: white; border-radius: 10px")
+              .col-lg-5.px-3
+                .p-4.my-3(style="background: white; border-radius: 10px;")
                   p.m-0.text-bold Alternativa 1
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos.
-              .col-lg-5.px-3.my-3
-                .p-4(style="background: white; border-radius: 10px")
+              .col-lg-5.px-3
+                .p-4.my-3(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Alternativa 2
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción de planta incineradora de residuos orgánicos para generación de energía.
 
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr4.py-3.mb-3
-        .row.align-items-center
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr4.py-3.mb-3(data-aos="fade-right")
+        .row.align-items-start
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema3/img70.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
+              img(src="@/assets/curso/temas/tema2/img70.svg", alt="", width= "100px", height="100px")
+          .col.ms-4(style="z-index:1")
             p.m-0 Que asumiendo un resultado negativo de un estudio de prefactibilidad para la planta incineradora y después de configurar las posibles iteraciones (combinaciones posibles) de las actividades viables, se llega a los dos objetivos ya corregidos:
             .row.my-3
               .col-lg-5.px-3.my-3
-                .p-4(style="background: white; border-radius: 10px")
+                .p-4.h-100(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 1
                   span Campañas, incentivos e implementación de rutas selectivas.
-                  
               .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 2
                   span Construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos con altas tasas de biodegradación.
-      .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3
-        .row.align-items-center
-          .col-auto(style="z-index:1")
+      .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3(data-aos="fade-right")
+        .row.align-items-start
+          .col-auto(style="z-index:1;")
             figure
-              img(src="@/assets/curso/temas/tema3/img71.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
+              img(src="@/assets/curso/temas/tema2/img71.svg", alt="", width= "100px", height="100px")
+          .col.ms-4(style="z-index:1")
             p.m-0 Que por todo lo anterior, la alternativa (objetivo general) queda así:
             .row.my-3
               .col-lg-10.px-3
@@ -188,11 +188,11 @@
       table
         thead
           tr(style="background: #FFA686")
-            th(rowspan="2") Criterios <br> (que debe definir el equipo formulador)
-            th(rowspan="2") Peso específico asignado al criterio (1-5)
-            th(colspan="2") Alternativa 1 <br> Incrementada la productividad y altos estándares de calidad.
-            th(colspan="2") Alternativa 2 <br> Ampliado el acceso al mercado.
-            th(colspan="2") Alternativa 3 <br> Sistemas productivos menos vulnerables al cambio y variabilidad climáticas.
+              th(rowspan="2") Criterios <br> (que debe definir el equipo formulador)
+              th(rowspan="2") Peso específico asignado al criterio (1-5)
+              th(colspan="2") Alternativa 1 <br> Incrementada la productividad y altos estándares de calidad.
+              th(colspan="2") Alternativa 2 <br> Ampliado el acceso al mercado.
+              th(colspan="2") Alternativa 3 <br> Sistemas productivos menos vulnerables al cambio y variabilidad climáticas.
           tr(style="background: #FFCCB9")
             th Calificación 1-5
             th Puntaje obtenido
@@ -201,81 +201,81 @@
             th Calificación 1-5
             th Puntaje obtenido
         tbody
-          tr
-            td Menor tiempo
-            td 3
-            td 3
-            td 9
-            td 1
-            td 3
-            td 2
-            td 6
-          tr
-            td Menor costo
-            td 2
-            td 3
-            td 6
-            td 3
-            td 6
-            td 1
-            td 2
-          tr
-            td Concentración sobre beneficios
-            td 5
-            td 5
-            td 25
-            td 4
-            td 20
-            td 3
-            td 15
-          tr
-            td Impacto de género
-            td 4
-            td 1
-            td 4
-            td 5
-            td 20
-            td 5
-            td 20
-          tr
-            td Impacto ambiental
-            td 4
-            td 5
-            td 20
-            td 5
-            td 20
-            td 1
-            td 4
-          tr
-            td Riesgos socioeconómicos
-            td 3
-            td 2
-            td 6
-            td 5
-            td 15
-            td 3
-            td 9
-          tr
-            td Viabilidad
-            td 5
-            td 3
-            td 15
-            td 4
-            td 20
-            td 3
-            td 15
-          tr(style="background: #FFCCB9")
-            td(colspan='2') Total
-            td(colspan='2') 85
-            td(colspan='2') 92
-            td(colspan='2') 7
+            tr
+              td Menor tiempo
+              td 3
+              td 3
+              td 9
+              td 1
+              td 3
+              td 2
+              td 6
+            tr
+              td Menor costo
+              td 2
+              td 3
+              td 6
+              td 3
+              td 6
+              td 1
+              td 2
+            tr
+              td Concentración sobre beneficios
+              td 5
+              td 5
+              td 25
+              td 4
+              td 20
+              td 3
+              td 15
+            tr
+              td Impacto de género
+              td 4
+              td 1
+              td 4
+              td 5
+              td 20
+              td 5
+              td 20
+            tr
+              td Impacto ambiental
+              td 4
+              td 5
+              td 20
+              td 5
+              td 20
+              td 1
+              td 4
+            tr
+              td Riesgos socioeconómicos
+              td 3
+              td 2
+              td 6
+              td 5
+              td 15
+              td 3
+              td 9
+            tr
+              td Viabilidad
+              td 5
+              td 3
+              td 15
+              td 4
+              td 20
+              td 3
+              td 15
+            tr(style="background: #FFCCB9")
+              td(colspan='2') Total
+              td(colspan='2') 85
+              td(colspan='2') 92
+              td(colspan='2') 7
     figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.2 Matriz de marco lógico
     
     .row.align-items-center.p-3.my-5
-      .col-lg-4
+      .col-lg-4.col-md-8.mx-auto
         figure
           img.my-3(src="@/assets/curso/temas/tema3/img74.png", alt="")
       .col-lg-8
@@ -320,7 +320,7 @@
             .col-lg-2
               figure 
                 img(src="@/assets/curso/temas/tema3/img76.svg", alt="", width="150px", height="150px")
-            .col-lg-10
+            .col-lg-10.mt-3
               p Cabe recordar que para pasar del árbol de problemas al árbol de objetivos se cambió de <strong>un estado negativo del problema a una situación positiva como propósito</strong> para luego plantearse como el fin del proyecto o la acción que conduce a esa situación deseada del árbol de objetivos. De acuerdo con Ortegón et.al (2005):
     .row.align-items-center
       .col-lg-10.m-auto
@@ -332,46 +332,49 @@
             p En la definición de los niveles de objetivos en la MML se debe tener especial cuidado al pasar de la especificación de los componentes al propósito del proyecto. La definición del propósito del proyecto se debe hacer en términos hipotéticos, es algo que debe ocurrir, es un resultado esperado. De acuerdo al enfoque de Marco lógico el propósito es la hipótesis central del proyecto. De este modo, el propósito debe entenderse como un resultado no controlable por el ejecutor. Es, en definitiva, lo que debería ocurrir como resultado directo de utilizar los Componentes
             h3   (p.81)
             i.fas.fa-quote-right
-    h5.my-5.text-center Para estructurar la MML, según la guía de formulación de proyectos de inversión del sector agropecuario de la FAO en 2017, se pueden seguir los siguientes pasos:
-    .row.align-items-center.my-3 
-      .col-lg-6
-        p <strong>Primer momento:</strong> “la relación causa-efecto entre las diferentes partes de la primer columna (ver esquema de la MML) corresponde a los cuatro niveles (o filas) de la estructura, de abajo hacia arriba: 1) actividades (o insumos), 2) componentes (o resultados), 3) propósito y 4) meta o fin, estando estos dos últimos definidos por la jerarquía de objetivos del proyecto, o sea, objetivo central y objetivos secundarios” (p.16).
-      .col-lg-6
-        p <strong>Segundo momento:</strong> “el formato cuatro por cuatro, que permite a los equipos de proyecto resaltar gráficamente los objetivos, los resultados y las actividades que se espera generar dentro del ciclo de vida del proyecto. Las 16 celdas que conforman la matriz del marco lógico se encuentran dinámicamente relacionadas por una lógica vertical y horizontal o de causa-efecto; por lo tanto, los cambios que se efectúen en una celda normalmente ocasionarán cambios en el resto de las celdas” (p.17). 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Tabla 10.
-      span Relación entre el árbol de problemas, árbol de objetivos y la MML
-    
-    .tabla-b.color-acento-contenido.mb-5
-      table
-        thead
-          tr(style="background: #FFA686")
-            th Objetivos
-            th Indicadores
-            th Medios de verificación
-            th Supuestos
-        tbody
-          tr
-            td Fin (objetivo general)
-            td
-            td
-            td
-          tr  
-            td Propósito (objetivo específico)
-            td
-            td
-            td
-          tr  
-            td Componentes (resultados)
-            td
-            td
-            td
-          tr  
-            td Actividades (acciones)
-            td
-            td
-            td
-      figcaption.my-3.text-regular <strong>Nota.</strong>Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
+    .fondo-degradado-2.p-3.m-5
+      h5.my-5.text-center Para estructurar la MML, según la guía de formulación de proyectos de inversión del sector agropecuario de la FAO en 2017, se pueden seguir los siguientes pasos:
+      .row.align-items-center.my-3 
+        .col-lg-6
+          p <strong>Primer momento:</strong> “la relación causa-efecto entre las diferentes partes de la primer columna (ver esquema de la MML) corresponde a los cuatro niveles (o filas) de la estructura, de abajo hacia arriba: 1) actividades (o insumos), 2) componentes (o resultados), 3) propósito y 4) meta o fin, estando estos dos últimos definidos por la jerarquía de objetivos del proyecto, o sea, objetivo central y objetivos secundarios” (p.16).
+        .col-lg-6
+          p <strong>Segundo momento:</strong> “el formato cuatro por cuatro, que permite a los equipos de proyecto resaltar gráficamente los objetivos, los resultados y las actividades que se espera generar dentro del ciclo de vida del proyecto. Las 16 celdas que conforman la matriz del marco lógico se encuentran dinámicamente relacionadas por una lógica vertical y horizontal o de causa-efecto; por lo tanto, los cambios que se efectúen en una celda normalmente ocasionarán cambios en el resto de las celdas” (p.17). 
+
+    .row
+      .col-lg-10.m-auto
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 10.
+          span Relación entre el árbol de problemas, árbol de objetivos y la MML
+        .tabla-b.color-acento-contenido.mb-5
+          table
+            thead
+              tr(style="background: #FFA686")
+                th Objetivos
+                th Indicadores
+                th Medios de verificación
+                th Supuestos
+            tbody
+              tr
+                td Fin (objetivo general)
+                td
+                td
+                td
+              tr  
+                td Propósito (objetivo específico)
+                td
+                td
+                td
+              tr  
+                td Componentes (resultados)
+                td
+                td
+                td
+              tr  
+                td Actividades (acciones)
+                td
+                td
+                td
+          figcaption.my-3.text-regular <strong>Nota.</strong>Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     
     .row.mt-5.mb-4.align-items-center
       .col-auto
@@ -406,10 +409,10 @@
       h2(data-aos="fade-left") 3.3 Indicadores y medios de verificación
 
     .row.mt-5.mb-4.align-items-center
-      .col-lg-4
+      .col-lg-4.col-md-8.mx-auto
         figure 
           img.my-3(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
-      .col.lg-8
+      .col.lg-8.col-md-12
         p Los indicadores conforman la segunda columna de la MML. Son variables cualitativas o cuantitativas que concretan lo definido en el resumen narrativo del proyecto en cada uno de los niveles y dan cuenta de las metas a las que hay que llegar para culminar con éxito, por lo que se convierten en la brújula con la cual se orientan las actividades de gestión, el seguimiento y la evaluación. También dan medida del desempeño y alertan sobre situaciones atípicas. Si los indicadores se encuentran bien formulados, aseguran una buena gestión del proyecto y aportan los elementos necesarios para la toma correcta de decisiones gerenciales que seguramente serán necesarias en el transcurso de la ejecución. Un resultado puede ser medido por varios indicadores, pero el principio de eficiencia nos orienta hacia la construcción del mínimo necesario para la conclusión del logro de los objetivos (Ortegón et.al 2005).
 
     .row.align-items-center.p-3.my-5
@@ -437,68 +440,63 @@
     .row.p-3.my-5
       .col-lg-12.m-auto
         .row.justify-content-center
-          .col-sm-12.col-md-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-2(data-aos='flip-left', style="min-height:230px")
+          .col.mb-5
+            .tarjeta.p-3.h-100(data-aos='flip-left', style="min-height:160px;min-width: 200px; background: #CCF9E6")
               .col-lg-7.m-auto(style='position:relative;top:-50px')
                 figure
                   img(src='@/assets/curso/temas/tema3/img11.svg', width='75px',height='75px', alt='Imagen decorativa')
               .row.justify-content-center.mb-3
                   p El sentido del indicador es claro.
-          .col-sm-12.col-md-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-2(data-aos='flip-left', style="min-height:230px")
+          .col.mb-5
+            .tarjeta.p-3.h-100(data-aos='flip-left', style="min-height:160px;min-width: 200px; background: #CCF9E6")
               .col-lg-7.m-auto(style='position:relative;top:-50px')
                 figure
                   img(src='@/assets/curso/temas/tema3/img12.svg', width='75px',height='75px', alt='Imagen decorativa')
               .row.justify-content-center.mb-3
-                  p.text-small Existe información disponible o se puede recolectar fácilmente.
-          .col-sm-12.col-md-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-2(data-aos='flip-left', style="min-height:230px")
+                  p Existe información disponible o se puede recolectar fácilmente.
+          .col.mb-5
+            .tarjeta.p-3.h-100(data-aos='flip-left', style="min-height:160px;min-width: 200px; background: #CCF9E6")
               .col-lg-7.m-auto(style='position:relative;top:-50px')
                 figure
                   img(src='@/assets/curso/temas/tema3/img13.svg', width='75px',height='75px', alt='Imagen decorativa')
               .row.justify-content-center.mb-3
-                  p.text-small El indicador es tangible y observable.
-          .col-sm-12.col-md-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-2(data-aos='flip-left', style="min-height:230px")
+                  p El indicador es tangible y observable.
+          .col.mb-5
+            .tarjeta.p-3.h-100(data-aos='flip-left', style="min-height:160px;min-width: 200px; background: #CCF9E6")
               .col-lg-7.m-auto(style='position:relative;top:-50px')
                 figure
                   img(src='@/assets/curso/temas/tema3/img14.svg', width='75px',height='75px', alt='Imagen decorativa')
               .row.justify-content-center.mb-3
-                  p.text-small La recolección de datos está al alcance de la dirección del proyecto y su análisis no requiere de expertos.
-          .col-sm-12.col-md-2.mb-4.mb-lg-0
-            .tarjeta--boton.color-primario.p-2(data-aos='flip-left', style="min-height:230px")
+                  p La recolección de datos está al alcance de la dirección del proyecto y su análisis no requiere de expertos.
+          .col.mb-5
+            .tarjeta.p-3.h-100(data-aos='flip-left', style="min-height:160px;min-width: 200px; background: #CCF9E6")
               .col-lg-7.m-auto(style='position:relative;top:-50px')
                 figure
                   img(src='@/assets/curso/temas/tema3/img15.svg', width='75px',height='75px', alt='Imagen decorativa')
               .row.justify-content-center.mb-3
-                  p.text-small El indicador es suficientemente representativo para el conjunto de resultados esperados.
-    p Un criterio adicional a contemplar es que los indicadores sean <strong>independientes</strong>, es decir, que no exista una relación de causa efecto entre el indicador y el objetivo que se evalúa. Los indicadores seleccionados se clasifican en <strong>la tercera columna del cuadro</strong>, asignando un valor 1 a cada uno de los criterios que se cumplan. 
+                  p El indicador es suficientemente representativo para el conjunto de resultados esperados.
+    p(data-aos="fade-right") Un criterio adicional a contemplar es que los indicadores sean <strong>independientes</strong>, es decir, que no exista una relación de causa efecto entre el indicador y el objetivo que se evalúa. Los indicadores seleccionados se clasifican en <strong>la tercera columna del cuadro</strong>, asignando un valor 1 a cada uno de los criterios que se cumplan. 
 
     p Así, un indicador que reúna todos los requisitos mencionados anteriormente alcanzaría <strong>cinco puntos</strong> en esta escala de clasificación. Finalmente, en la última columna se seleccionan los indicadores que han obtenido <strong>mayor puntuación</strong>, que serán los que se incluirán en la matriz del marco lógico.
 
     h4.text-center Otra propuesta de Ortegón et.al (2005) para los criterios de selección de indicadores “correctamente especificados” es hecha a partir de los siguientes criterios:
 
-    .row.mt-5.mb-4.align-items-center
-      .col-lg-4
+    .row.mt-5.mb-4.align-items-center.my-4
+      .col-lg-4.col-md-8.mx-auto
         figure 
-          img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
-      .col.lg-8
-        ul.lista-ul.p-4(style="background: #FFF6F3; border-radius: 15px")
-          li 
-            i.lista-ul__vineta 
-            | Los indicadores de propósito no son un resumen de los componentes, sino <strong>una medida del resultado de tener los componentes en operación.</strong>
-          li 
-            i.lista-ul__vineta 
-            | Los indicadores de propósito <strong>miden lo que es importante.</strong>
-          li 
-            i.lista-ul__vineta 
-            | Todos los indicadores están especificados en términos de <strong>cantidad, calidad y tiempo.</strong>
-          li 
-            i.lista-ul__vineta 
-            | Los indicadores para cada nivel de objetivo son diferentes a los indicadores de otros niveles.
-          li 
-            i.lista-ul__vineta 
-            | El presupuesto es <strong>suficiente</strong> para llevar a cabo las actividades identificadas.
+          img.my-3(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
+      .col.lg-8.my-3
+        ul.lista-ul.p-4(style="background: #FFE9DB; border-radius: 15px")
+          li.ms-5(data-aos="fade-right", style="list-style-type: disc; color: #FF9751; font-size: 1.2em; margin: 15px") 
+            span(style="color: #12263F; font-size: 0.88em; margin: 0.1em") Los indicadores de propósito no son un resumen de los componentes, sino <strong>una medida del resultado de tener los componentes en operación.</strong>
+          li.ms-5(data-aos="fade-right", style="list-style-type: disc; color: #FF9751; font-size: 1.2em; margin: 15px") 
+            span(style="color: #12263F; font-size: 0.88em; margin: 0.1em") Los indicadores de propósito <strong>miden lo que es importante.</strong>
+          li.ms-5(data-aos="fade-right", style="list-style-type: disc; color: #FF9751; font-size: 1.2em; margin: 15px") 
+            span(style="color: #12263F; font-size: 0.88em; margin: 0.1em") Todos los indicadores están especificados en términos de <strong>cantidad, calidad y tiempo.</strong>
+          li.ms-5(data-aos="fade-right", style="list-style-type: disc; color: #FF9751; font-size: 1.2em; margin: 15px") 
+            span(style="color: #12263F; font-size: 0.88em; margin: 0.1em") Los indicadores para cada nivel de objetivo son diferentes a los indicadores de otros niveles.
+          li.ms-5(data-aos="fade-right", style="list-style-type: disc; color: #FF9751; font-size: 1.2em; margin: 15px") 
+            span(style="color: #12263F; font-size: 0.88em; margin: 0.1em") El presupuesto es <strong>suficiente</strong> para llevar a cabo las actividades identificadas.
         p Los criterios se pueden construir a partir de la <strong>selección y suma de varios de los anteriores</strong>, según se considere pertinente para la evaluación objetiva de los objetivos del proyecto.
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 12.
@@ -559,7 +557,7 @@
     .tabla-b.color-acento-contenido.mb-5
       table
         thead
-          tr(style='background-color: #FF8C69')
+          tr(style='background-color: #FF9751')
             th Tipo (Físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.)
             th Riesgo (Descripción)
             th Probabilidad de ocurrencia (Rango de 1 a 5, donde: 1=muy baja; 2=baja; 3=media; 4=alta; 5=muy alta)
@@ -568,12 +566,12 @@
             th Nivel de Riesgo (Ubicar en la matriz de riesgos)
         tbody
           tr.text-center
-            td Climático
-            td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
-            td 3
-            td 4
-            td 20
-            td Crítico
+            td(style='background-color: #EAEAEA') Climático
+            td(style='background-color: #E4E4E4') Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
+            td(style='background-color: #EAEAEA') 3
+            td(style='background-color: #E4E4E4') 4
+            td(style='background-color: #EAEAEA') 20
+            td(style='background-color: #E4E4E4') Crítico
     .row.mt-5.mb-4.align-items-center
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
@@ -585,17 +583,17 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Adaptación de Bernal (2021)
 
     .row.mt-5.mb-4.align-items-center
-      .col-lg-4
+      .col-lg-44.col-md-8.mx-auto
         figure 
-          img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
-      .col.lg-8
+          img.my-3(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
+      .col.lg-8.my-3.col-md-12.mx-auto
         p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
         .cajon.color-acento-contenido.p-4(data-aos="slide-down")
           h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
     
     p Así mismo, para completar la columna de supuestos de la <strong>MML</strong>, se recomienda seguir los siguientes pasos: <strong>identificar todos los supuestos posibles</strong> para cada riesgo identificado en el análisis respectivo, realizando luego una <strong>selección de los que se consideren verdaderos riesgos a enfrentar</strong> y finalmente de acuerdo a los resultados del análisis de riesgos, <strong>establecer las acciones de prevención, mitigación o control para cada factor seleccionado. </strong>
 
-    .p-4(style="background: #FFFAEB")
+    .fondo-degradado-3
       .row.align-items-center
         .col-lg-8
           .row.mt-5.mb-4.align-items-center
@@ -620,13 +618,13 @@
             li 
               span.text-bold 5. 
               | Si se logra el propósito y se conforman los supuestos a este nivel, se habrá contribuido de manera significativa a alcanzar el fin.
-        .col-lg-4
+        .col-lg-44.col-md-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema3/img20.png',alt="")
     p.my-4 El conjunto objetivo–indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico. Esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
     .row.align-items-center.my-5
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -634,13 +632,13 @@
           .col(style="z-index:1")
             p.m-0 Los medios de verificación identificados son los necesarios y suficientes para obtener los datos requeridos para el cálculo de los indicadores.
         
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema3/img22.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
-            p.m-0 Los medios de verificación identificados son los necesarios y suficientes para obtener los datos requeridos para el cálculo de los indicadores.
+            p.m-0 Los indicadores definidos permiten hacer un buen seguimiento del proyecto y evaluar adecuadamente el logro de los objetivos.
 
     p.my-4 La gráfica que sigue nos enseña <strong>la forma de lectura global de la MML</strong>, la relación entre las distintas partes que componen la matriz y cómo en una sola herramienta se logra visualizar de manera general todo un proyecto, sin duda uno de los aspectos positivos de la metodología. 
     .row.p-3
@@ -652,24 +650,25 @@
           img(src="@/assets/curso/temas/tema3/img23.svg", alt="")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de cartilla resumen marco lógico para formulación de proyectos (SENA, 2020).
     
-    .row.align-items-center.grad1.my-5.p-3
-      .col-lg-2
-        figure
-          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado.
-        .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
-      .col-lg-3.text-center.my-3
-        a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+    .col-lg-10.m-auto
+      .row.align-items-center.grad1.my-5.p-3
+        .col-lg-2
+          figure
+            img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+        .col-lg-7
+          h4.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado.
+          .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
+        .col-lg-3.text-center.my-3
+          a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
 
     Separador
     #t_3_5.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.5 Plan operativo y presupuesto general
     
     .row.align-items-center.p-3.my-5
-      .col-lg-4
+      .col-lg-44.col-md-8.mx-auto
         figure
           img.my-3(src="@/assets/curso/temas/tema3/img24.png", alt="")
       .col-lg-8

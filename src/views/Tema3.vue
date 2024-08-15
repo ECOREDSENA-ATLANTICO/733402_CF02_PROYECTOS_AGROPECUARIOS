@@ -110,21 +110,21 @@
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema2/img67.svg", alt="", width= "100px", height="100px")
+              img(src="@/assets/curso/temas/tema2/img67.svg", alt="", width= "90px", height="90px")
           .col.ms-4(style="z-index:1")
             p.m-0 Las actividades 1 y 2 se pueden fusionar.
       .col-lg-12.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3(data-aos="fade-right")
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema2/img68.svg", alt="", width= "100px", height="100px")
+              img(src="@/assets/curso/temas/tema2/img68.svg", alt="", width= "90px", height="90px")
           .col.ms-4(style="z-index:1")
             p.m-0  Las actividades 3 y 5 no son viables financiera y legalmente, en ese orden.
       .col-lg-12.crd.crd--avatarHorizontal-left-bgr5.py-3.mb-3(data-aos="fade-right")
         .row.align-items-start
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema2/img69.svg", alt="", width= "100px", height="100px")
+              img(src="@/assets/curso/temas/tema2/img69.svg", alt="", width= "90px", height="90px")
           .col.ms-4(style="z-index:1")
             p.m-0  Que se generarían dos alternativas posibles: 
             .row.my-3
@@ -141,7 +141,7 @@
         .row.align-items-start
           .col-auto(style="z-index:1")
             figure
-              img(src="@/assets/curso/temas/tema2/img70.svg", alt="", width= "100px", height="100px")
+              img(src="@/assets/curso/temas/tema2/img70.svg", alt="", width= "90px", height="90px")
           .col.ms-4(style="z-index:1")
             p.m-0 Que asumiendo un resultado negativo de un estudio de prefactibilidad para la planta incineradora y después de configurar las posibles iteraciones (combinaciones posibles) de las actividades viables, se llega a los dos objetivos ya corregidos:
             .row.my-3
@@ -157,7 +157,7 @@
         .row.align-items-start
           .col-auto(style="z-index:1;")
             figure
-              img(src="@/assets/curso/temas/tema2/img71.svg", alt="", width= "100px", height="100px")
+              img(src="@/assets/curso/temas/tema2/img71.svg", alt="", width= "90px", height="90px")
           .col.ms-4(style="z-index:1")
             p.m-0 Que por todo lo anterior, la alternativa (objetivo general) queda así:
             .row.my-3
@@ -166,7 +166,7 @@
                   p.m-0.text-bold Alternativa
                   span Implementación del proceso de aprovechamiento de residuos sólidos domiciliarios mediante separación de materiales y construcción de una estación de vaporización.
     
-    .row.align-items-center.grad1.p-3.my-5
+    .row.align-items-center.p-4.my-5(style="background: #006558; border-radius: 20px")
       .col-lg-6
         .text-light.mb-0 Como aclaración, aunque la situación ideal parece que conlleva la atención a todas y cada una de las causas identificadas, esto no es estrictamente necesario (DNP, 2016). También es importante tener en cuenta la forma correcta de redactar objetivos siguiendo la regla general:
       .col-lg-6
@@ -187,13 +187,13 @@
     .tabla-b.color-acento-contenido.mb-5
       table
         thead
-          tr(style="background: #FFA686")
+          tr(style="background: #FF9751")
               th(rowspan="2") Criterios <br> (que debe definir el equipo formulador)
               th(rowspan="2") Peso específico asignado al criterio (1-5)
               th(colspan="2") Alternativa 1 <br> Incrementada la productividad y altos estándares de calidad.
               th(colspan="2") Alternativa 2 <br> Ampliado el acceso al mercado.
               th(colspan="2") Alternativa 3 <br> Sistemas productivos menos vulnerables al cambio y variabilidad climáticas.
-          tr(style="background: #FFCCB9")
+          tr(style="background: #FFE9DB")
             th Calificación 1-5
             th Puntaje obtenido
             th Calificación 1-5
@@ -264,11 +264,15 @@
               td 20
               td 3
               td 15
-            tr(style="background: #FFCCB9")
-              td(colspan='2') Total
-              td(colspan='2') 85
-              td(colspan='2') 92
-              td(colspan='2') 7
+            tr(style="background: #FFD5B8")
+              td <strong>Total</strong>
+              td
+              td
+              td <strong>85</strong>
+              td
+              td <strong>92</strong>
+              td
+              td <strong>71</strong>
     figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -287,7 +291,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 9.
           span Relación entre el árbol de problemas, árbol de objetivos y la MML
-        .tabla-b.color-acento-contenido.mb-5
+        .tabla-b.color-acento-contenido.mb-5.text-center
           table
             thead
               tr(style="background: #FFA686")
@@ -298,7 +302,7 @@
               tr
                 td Problema central
                 td Propósito
-                td Objetivo general o "fin" del proyecto
+                td Objetivo general o "<strong>fin</strong>" del proyecto
               tr
                 td Causas nivel 1
                 td Medios
@@ -315,7 +319,7 @@
         figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     .row.p-3.my-5
       .col-lg-10.m-auto
-        .p-3(style="background: #CCF9E6; border-radius: 20px")
+        .p-3.tarjeta-sombra
           .row.my-3.align-items-center
             .col-lg-2
               figure 
@@ -332,7 +336,7 @@
             p En la definición de los niveles de objetivos en la MML se debe tener especial cuidado al pasar de la especificación de los componentes al propósito del proyecto. La definición del propósito del proyecto se debe hacer en términos hipotéticos, es algo que debe ocurrir, es un resultado esperado. De acuerdo al enfoque de Marco lógico el propósito es la hipótesis central del proyecto. De este modo, el propósito debe entenderse como un resultado no controlable por el ejecutor. Es, en definitiva, lo que debería ocurrir como resultado directo de utilizar los Componentes
             h3   (p.81)
             i.fas.fa-quote-right
-    .fondo-degradado-2.p-3.m-5
+    .fondo-degradado-2.p-3.my-4
       h5.my-5.text-center Para estructurar la MML, según la guía de formulación de proyectos de inversión del sector agropecuario de la FAO en 2017, se pueden seguir los siguientes pasos:
       .row.align-items-center.my-3 
         .col-lg-6
@@ -348,7 +352,7 @@
         .tabla-b.color-acento-contenido.mb-5
           table
             thead
-              tr(style="background: #FFA686")
+              tr(style="background: #FF9751")
                 th Objetivos
                 th Indicadores
                 th Medios de verificación
@@ -408,12 +412,13 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.3 Indicadores y medios de verificación
 
-    .row.mt-5.mb-4.align-items-center
-      .col-lg-4.col-md-8.mx-auto
-        figure 
-          img.my-3(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
-      .col.lg-8.col-md-12
-        p Los indicadores conforman la segunda columna de la MML. Son variables cualitativas o cuantitativas que concretan lo definido en el resumen narrativo del proyecto en cada uno de los niveles y dan cuenta de las metas a las que hay que llegar para culminar con éxito, por lo que se convierten en la brújula con la cual se orientan las actividades de gestión, el seguimiento y la evaluación. También dan medida del desempeño y alertan sobre situaciones atípicas. Si los indicadores se encuentran bien formulados, aseguran una buena gestión del proyecto y aportan los elementos necesarios para la toma correcta de decisiones gerenciales que seguramente serán necesarias en el transcurso de la ejecución. Un resultado puede ser medido por varios indicadores, pero el principio de eficiencia nos orienta hacia la construcción del mínimo necesario para la conclusión del logro de los objetivos (Ortegón et.al 2005).
+      .row.align-items-center.p-3.my-5
+        .col-md-8.col-lg-4.mx-auto
+          figure 
+            img.my-3(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa', style="max-width: 100%; height: auto;")
+        .col-md-12.col-lg-8.mt-4.mt-lg-0
+          p
+            | Los indicadores conforman la segunda columna de la MML. Son variables cualitativas o cuantitativas que concretan lo definido en el resumen narrativo del proyecto en cada uno de los niveles y dan cuenta de las metas a las que hay que llegar para culminar con éxito, por lo que se convierten en la brújula con la cual se orientan las actividades de gestión, el seguimiento y la evaluación. También dan medida del desempeño y alertan sobre situaciones atípicas. Si los indicadores se encuentran bien formulados, aseguran una buena gestión del proyecto y aportan los elementos necesarios para la toma correcta de decisiones gerenciales que seguramente serán necesarias en el transcurso de la ejecución. Un resultado puede ser medido por varios indicadores, pero el principio de eficiencia nos orienta hacia la construcción del mínimo necesario para la conclusión del logro de los objetivos (Ortegón et.al 2005).
 
     .row.align-items-center.p-3.my-5
       .col-lg-12
@@ -583,17 +588,17 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Adaptación de Bernal (2021)
 
     .row.mt-5.mb-4.align-items-center
-      .col-lg-44.col-md-8.mx-auto
+      .col-md-8.col-lg-4.mx-auto
         figure 
           img.my-3(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
-      .col.lg-8.my-3.col-md-12.mx-auto
+      .col-lg-8
         p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
-        .cajon.color-acento-contenido.p-4(data-aos="slide-down")
-          h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
-    
+          .cajon.color-acento-contenido.p-4(data-aos="slide-down")
+            h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
+  
     p Así mismo, para completar la columna de supuestos de la <strong>MML</strong>, se recomienda seguir los siguientes pasos: <strong>identificar todos los supuestos posibles</strong> para cada riesgo identificado en el análisis respectivo, realizando luego una <strong>selección de los que se consideren verdaderos riesgos a enfrentar</strong> y finalmente de acuerdo a los resultados del análisis de riesgos, <strong>establecer las acciones de prevención, mitigación o control para cada factor seleccionado. </strong>
 
-    .fondo-degradado-3
+    .fondo-degradado-4
       .row.align-items-center
         .col-lg-8
           .row.mt-5.mb-4.align-items-center
@@ -618,13 +623,13 @@
             li 
               span.text-bold 5. 
               | Si se logra el propósito y se conforman los supuestos a este nivel, se habrá contribuido de manera significativa a alcanzar el fin.
-        .col-lg-44.col-md-8.mx-auto
+        .col-lg-4.col-md-8.mx-auto
           figure
             img(src='@/assets/curso/temas/tema3/img20.png',alt="")
     p.my-4 El conjunto objetivo–indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico. Esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
-    .row.align-items-center.my-5
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3.m-auto
+    .row.align-items-center.my-5.justify-content-center
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -632,7 +637,7 @@
           .col(style="z-index:1")
             p.m-0 Los medios de verificación identificados son los necesarios y suficientes para obtener los datos requeridos para el cálculo de los indicadores.
         
-      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3.m-auto
+      .col-lg-5.crd.crd--avatarHorizontal-left-bgr6.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
@@ -657,9 +662,9 @@
             img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
         .col-lg-7
           h4.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado.
-          .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
+          .text-light.mb-0(style="font-size: 13px") Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
         .col-lg-3.text-center.my-3
-          a.boton(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
+          a.boton(:href="obtenerLink('/downloads/anexo_tabla15.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
 
@@ -668,7 +673,7 @@
       h2(data-aos="fade-left") 3.5 Plan operativo y presupuesto general
     
     .row.align-items-center.p-3.my-5
-      .col-lg-44.col-md-8.mx-auto
+      .col-md-8.col-lg-4.mx-auto
         figure
           img.my-3(src="@/assets/curso/temas/tema3/img24.png", alt="")
       .col-lg-8

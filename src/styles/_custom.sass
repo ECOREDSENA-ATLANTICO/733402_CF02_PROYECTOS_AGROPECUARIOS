@@ -13,7 +13,7 @@
 @media (max-width: 1024px) 
   .banner-principal .tarjeta
       background-image: url(../assets/curso/portada/fondo-banner.png) !important
-@media (max-width: 425px) 
+@media (max-width: 430px) 
   .banner-principal .tarjeta
       background-image: url(../assets/curso/portada/fondo-banner-responsive.png) !important
 
@@ -48,11 +48,9 @@
 
 .grad1
   background-image: url(../assets/curso/temas/tema1/img8.png) !important
-  background-repeat: no-repeat
-  background-size: cover !important
-  background-position: center
-  width: 100%
-  height: 100%
+  border-radius: 40px 0 40px 0 !important
+  background-size: cover
+  background-repeat: no repeat
 
 .grad1-2
   background-image: url(../assets/curso/temas/tema1/img8.png) !important
@@ -113,8 +111,13 @@
   background-color: #CCF9E6
   background-color: #CCF9E6
   border-radius: 10px
-  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 16%)
-  border: 2px solid white
+  box-shadow: 4px 4px 6px -2px rgba(128, 128, 128, 16%)
+
+.tarjeta-sombra
+  background-color: #CCF9E6
+  background-color: #CCF9E6
+  border-radius: 10px
+  box-shadow: 4px 4px 6px -2px rgba(128, 128, 128, 16%)
 
 
 .crd--avatarHorizontal-right-bgr1
@@ -310,9 +313,11 @@
 
 .banner-principal__img img 
     max-width: 500px !important
+    width: 70%
     display: inline
     position: relative
     bottom: -6px
+    left: 80px
 
 
 .banner-principal__img img
@@ -344,7 +349,7 @@
   min-height: 100%
   padding: 3em
 
-.fondo-degradado-3
+.fondo-degradado-4
   background-image: url(../assets/curso/temas/tema3/img78.png) !important
   background-repeat: no-repeat
   background-size: 100% 100%
@@ -352,6 +357,7 @@
   height: auto
   min-height: 100%
   padding: 3em
+
 
 .banner-principal__img img 
     max-width: 500px !important
@@ -382,3 +388,9 @@
 
 .tarjeta--gris
   background: #E4F3F1
+
+.tabs-a__tab:last-child 
+  background: #E4FBF2
+
+.tabs-a__tab__text 
+  color: #000000

@@ -46,7 +46,7 @@
           |  plantea una variante metodológica denominada 
           strong ZOPP (planificación de proyectos orientada a objetivos)
           |  con la finalidad de: 
-          ul(style="list-style-position: outside; padding-left: 1.2em; text-indent: -0.6em;")
+          ul.my-3(style="list-style-position: outside; padding-left: 3em; text-indent: -0.6em;")
             li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
               span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo
             li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
@@ -60,32 +60,35 @@
             | Esta adaptación ofrece modificaciones muy útiles, porque ha tenido un destacable éxito en su aplicación y una gran aceptación en todos los entornos que la han adoptado.  
       .col-lg-4.col-md-8.mx-auto
         figure
-          img(data-aos="fade-left",src="@/assets/curso/temas/intro/img3.png", alt="")
+          img.my-3(data-aos="fade-left",src="@/assets/curso/temas/intro/img3.png", alt="")
+    .row.justify-content-center
+      hr(style="background:#FF9751; height: 2px; width: 79%")
 
-    hr(style="background:#FF9751; height: 2px")
-
-    .bloque-texto-b.py-5.pt-4.px-5.my-5
-      .bloque-texto-f__comillas
-        i.fas.fa-quote-left
-        i.fas.fa-quote-right
-      h4.text-regular.bloque-texto-f__texto Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el Asian Development Bank– ADB o el Banco Mundial; agencias cooperantes tales como la Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ (Empresa alemana de cooperación internacional para el desarrollo sostenible), la Australian Agency for International Development - AusAid (Agencia australiana para el desarrollo internacional) o la Canadian International Development Agency – CIDA (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong> de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
-      .bloque-texto-f__autor.mb-3
-        h5(style="text-align:right").mb-4 (Aldunate, E., 2004).
+    .row.justify-content-center 
+      .col-lg-10
+        .bloque-texto-b.py-5.pt-4.px-5.mb-5.mt-2
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          h4.text-regular.bloque-texto-f__texto Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el Asian Development Bank– ADB o el Banco Mundial; agencias cooperantes tales como la Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ (Empresa alemana de cooperación internacional para el desarrollo sostenible), la Australian Agency for International Development - AusAid (Agencia australiana para el desarrollo internacional) o la Canadian International Development Agency – CIDA (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong> de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
+          .bloque-texto-f__autor.mb-3
+            h5(style="text-align:right").mb-4 (Aldunate, E., 2004).
+  
     .row.aling-center-my-2
       .col-lg-6(data-aos="fade-right")
         p En general, el EML viene teniendo cada vez más aceptación en muchos ámbitos, instituciones y países debido al <strong>significativo aporte que ofrece la metodología a la gerencia y la gestión de proyectos y programas fomentando el liderazgo, el direccionamiento estratégico, la conducción de procesos complejos y la construcción de entornos favorables</strong> (involucrando actores importantes), facilitando la toma de decisiones y la calidad de las propuestas, aplicando criterios de eficiencia en la planeación y operación, la capacidad de adaptación a circunstancias cambiantes y la implicación sin mayores traumatismos de variables difíciles de cuantificar como las de impacto social. 
       .col-lg-6(data-aos="fade-left")
         p Finalmente el enfoque metodológico de marco lógico es un medio, por lo que <strong>no podrá per se subsanar fallas en las políticas macroeconómicas o de planes maestros como los gubernamentales</strong>; además, los análisis iniciales deberán estar bien planteados para el logro de los resultados esperados con la aplicación del enfoque y esto estará condicionado por la calidad de la información y de los insumos que se disponga. En este documento se abordan <strong>los pasos iniciales para la aplicación de la metodología</strong> iniciando con las distintas herramientas complementarias que siguen un orden secuencial, hasta la construcción de la <strong> Matriz de Marco Lógico (MML)</strong>, el producto final y que resume el enfoque. 
     .row.my-3
-      .col-lg-10.crd--avatarHorizontal-left-bgr3.py-3.mb-3.m-auto
+      .col-lg-10.crd--avatarHorizontal-left-borde-tarjeta.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/intro/img4.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
             p.mb-0 A continuación se abordarán <strong>paso a paso las herramientas estándar orientadas por el enfoque de marco lógico y también algunas adicionales que pueden facilitar el tránsito de una herramienta a otra</strong>, o producir insumos para el arranque de la metodología. Si bien es una descripción somera con fines prácticos, siempre se podrá acudir a la bibliografía y las fuentes de información aquí referenciadas cuando se desee profundizar o comprender el método de manera más amplia.
-    .row.align-items-center
-      .col-lg-12
+    .row.align-items-center.justify-content-center
+      .col-lg-10
           .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
             .titulo-sexto.color-acento-contenido.mb-3

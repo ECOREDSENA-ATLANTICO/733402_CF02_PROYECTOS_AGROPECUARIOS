@@ -30,7 +30,7 @@
                 img.my-3(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
               h4.text-light ODS - Objetivos Desarrollo Sostenible
-              .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
+              .text-light.mb-0(style="font-size: 13px") Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
             .col-lg-3.text-center.my-3
               a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                 span Ir a sitio
@@ -208,7 +208,7 @@
           img.my-3(data-aos="zoom-out-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h4.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
-        .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
+        .text-light.mb-0(style="font-size: 13px") Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
       .col-lg-3.text-center.my-3
         a.boton(href="https://www.fao.org/publications/es/" target="_blank" type="application/pdf")
           span Ir a sitio
@@ -262,7 +262,7 @@
                 img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
               h4.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
-              .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
+              .text-light.mb-0(style="font-size: 13px") Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
             .col-lg-3.text-center.my-3
               a.boton(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
                 span Descargar
@@ -286,7 +286,7 @@
 
       .col-lg-4.mb-2.col-md-8.mx-auto
         figure
-          img(src='@/assets/curso/temas/tema2/img37.png', alt='Imagen decorativa')
+          img.my-3(src='@/assets/curso/temas/tema2/img37.png', alt='Imagen decorativa')
 
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido
@@ -464,7 +464,7 @@
                 img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
               h4.text-light Anexo. Tabla 3
-              .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
+              .text-light.mb-0(style="font-size: 13px") Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
             .col-lg-3.text-center.my-3
               a.boton(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
                 span Descargar
@@ -1002,14 +1002,16 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
 
     p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
-    .row.mb-5.align-items-center.p-3(style="background: #FFE9DB")
-      .col-lg-10.m-auto
+    .row.my-5.align-items-center.p-4(style="background: #FFE9DB")
+      .col-lg-4
+        p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
+      .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 4.
                   span Ejemplo de la forma gráfica de la matriz ID.
             figure
               img(src="@/assets/curso/temas/tema2/img10.svg", alt="Muestra el componente formativo un ejemplo de la forma gráfica de la matriz ID. Tomado de Silva y Sandoval. Teniendo en cuenta su dependencia e influencia.")
-              figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).  
+              figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
     Separador
     #t_2_7.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 2.7 Análisis causa-efecto a través de la "metodología de árboles"
@@ -1043,11 +1045,11 @@
           li 
             .lista-ol--cuadro__vineta(style="background: #02DD84; color: black")
               span 1
-            | Los problemas son en suma acciones o productos de estas; es decir, <strong>hechos.</strong>
-          li 
+            span Los problemas son en suma acciones o productos de estas; es decir, <strong>hechos.</strong>
+          li(style="display: flex; align-items: flex-start;")
             .lista-ol--cuadro__vineta(style="background: #02DD84; color: black")
-              span 2
-            | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
+              span(style="min-width: 30px; text-align: right; padding-right: 10px;") 2
+            span Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
         .row.justify-content-center
           .col-lg-9
             .titulo-sexto.color-acento-contenido.mb-2
@@ -1103,8 +1105,8 @@
               img(src="@/assets/curso/temas/tema2/img62.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
             p.m-0 Para avanzar en la elaboración de la propuesta se debe realizar <strong>una descripción más completa del problema</strong> usando todos los elementos definidos como causas y efectos, reforzando estas ideas con información documentada de la zona de estudio, los antecedentes del problema y de anteriores intervenciones, factores agravantes, prospectivas (estimaciones de los efectos por  la prolongación del problema en el tiempo), condiciones actuales del problema y demás datos que refuercen la idea del problema central. El ejemplo tomado del documento oficial del DNP que usamos anteriormente reza así:
-   
-    hr(style="background:#FF9751")
+    .row.justify-content-center
+      hr(style="background:#FF9751; height: 2px; width: 79%")
     .row.align-items-center.my-3
       .col-lg-10.m-auto
         .bloque-texto-b.py-5
@@ -1135,11 +1137,11 @@
         strong(style="color: #0B481E") en el árbol de objetivos se procede en primer lugar a redactar cada acción o hecho desde su redacción negativa a su versión opuesta positiva
         span , expresando las mismas condiciones pero de la manera deseada o esperada.
         p.mt-3 Esta "transmutación" de los problemas se realiza bajo el mismo esquema de árbol, <strong>conservando el sentido y lógica causal del relacionamiento de los problemas.</strong>
-        p Así, <strong>el problema central se convierte en el objetivo central o “propósito” del árbol de objetivos</strong> y más adelante será el objetivo general o <strong>“fin”</strong> del proyecto; abajo las causas directas se tornarán en <strong>“medios”</strong> para lograr el propósito en el árbol de objetivos y que se pueden entender como “objetivos específicos” del proyecto; más abajo las causas indirectas se convertirán en <strong>“productos y resultados”</strong> del árbol de objetivos y darán lugar a los <strong>“componentes”</strong> del proyecto y en caso de haber establecido ya causas de tercer nivel, estaremos hablando en este paso de las actividades en que se desagregan los distintos componentes del proyecto.
+        p.mb-3 Así, <strong>el problema central se convierte en el objetivo central o “propósito” del árbol de objetivos</strong> y más adelante será el objetivo general o <strong>“fin”</strong> del proyecto; abajo las causas directas se tornarán en <strong>“medios”</strong> para lograr el propósito en el árbol de objetivos y que se pueden entender como “objetivos específicos” del proyecto; más abajo las causas indirectas se convertirán en <strong>“productos y resultados”</strong> del árbol de objetivos y darán lugar a los <strong>“componentes”</strong> del proyecto y en caso de haber establecido ya causas de tercer nivel, estaremos hablando en este paso de las actividades en que se desagregan los distintos componentes del proyecto.
 
       .col-lg-4.col-md-8.mx-auto
         figure
-          img(src="@/assets/curso/temas/tema2/img63.png", alt="")
+          img.my-4(src="@/assets/curso/temas/tema2/img63.png", alt="")
     
     .row.align-items-center.my-3
       .col-lg-12.m-auto

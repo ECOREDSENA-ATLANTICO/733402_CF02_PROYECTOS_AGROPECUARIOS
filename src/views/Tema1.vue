@@ -21,16 +21,19 @@
         span <strong>, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong>
         p Este documento se enfocará en la primera parte del ciclo del proyecto, correspondiente al diseño, que abarca dos etapas, el análisis y la planificación.
 
-        .row
-          .col-lg-12
-            .fondo-degradado.p-4
-              .col-lg-8.mx-auto.d-flex.flex-column.justify-content-center
-                .titulo-sexto.color-acento-contenido.mb-3
-                  h5 Figura 2.
-                  span Marco lógico y ciclo de vida del proyecto.
-                figure
-                  img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen', style="max-width: 80%; height: auto;")
-                  figcaption.my-4(style="max-width: 630px") Bernal (2021).
+    .row.justify-content-center
+      .col-lg-12
+        .fondo-degradado.p-4.p-md-5
+          .row.justify-content-center
+            .col-lg-6
+
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Figura 2.
+                span Marco lógico y ciclo de vida del proyecto.
+
+              figure
+                img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
+                figcaption.my-4 Bernal (2021).
       div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
         .row.my-4.align-items-center
           .col-lg-8.my-2

@@ -278,7 +278,7 @@
               img.my-3(data-aos="zoom-in-right",src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h4.text-light Análisis de Involucrados
-            .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
+            .text-light.mb-0(style="font-size: 13px") Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
           .col-lg-3.text-center.my-3
             a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
               span Ir a sitio

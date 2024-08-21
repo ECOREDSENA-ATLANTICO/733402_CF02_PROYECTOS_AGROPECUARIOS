@@ -22,7 +22,7 @@
     
     .row.my-3.align-items-center 
       .col-lg-8.mb-4(data-aos="zoom-in-right")
-        p La revisión de modelos teóricos y visiones del desarrollo rural seguramente proporcionarán las bases para la ubicación adecuada del equipo formulador del proyecto en el tiempo y el lugar de la intervención. Una inmersión más o menos profunda en las perspectivas académicas dará el sustento conceptual que junto al contraste con la realidad de la ruralidad colombiana, conforman un andamiaje que contribuirá a la estructura del proyecto. Aunque pueda verse complejo, existen muchas fuentes de conocimiento además de los densos documentos teóricos sobre el desarrollo rural colombiano o de la Latinoamérica, como los trabajos de <strong>Absalón Machado</strong> o tan simples, pero suficientemente acertados como los aportes de <strong>Ligorio Dussan</strong>, sin lugar a dudas una autoridad conocedora del campo colombiano desde su propia experiencia, mayormente nutrida en su trasegar por la <strong>Federación Nacional de Cafeteros de Colombia</strong>.
+        p La revisión de modelos teóricos y visiones del desarrollo rural seguramente proporcionarán las bases para la ubicación adecuada del equipo formulador del proyecto en el tiempo y el lugar de la intervención. Una inmersión más o menos profunda en las perspectivas académicas dará el sustento conceptual que junto al contraste con la realidad de la ruralidad colombiana, conforman un andamiaje que contribuirá a la estructura del proyecto. Aunque pueda verse complejo, existen muchas fuentes de conocimiento además de los densos documentos teóricos sobre el desarrollo rural colombiano o de Latinoamérica, como los trabajos de <strong>Absalón Machado</strong> o tan simples, pero suficientemente acertados como los aportes de <strong>Ligorio Dussan</strong>, sin lugar a dudas una autoridad conocedora del campo colombiano desde su propia experiencia, mayormente nutrida en su trasegar por la <strong>Federación Nacional de Cafeteros de Colombia</strong>.
         .div.grad1
           .row.align-items-center.p-3
             .col-lg-2
@@ -30,9 +30,9 @@
                 img.my-3(src='@/assets/curso/temas/tema2/img73.svg', alt='Imagen decorativa' width="64px" height="64px")
             .col-lg-7
               h4.text-light ODS - Objetivos Desarrollo Sostenible
-              .text-light.mb-0(style="font-size: 13px") Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
+              .text-light.mb-0(style="font-size: 13px") Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de la Organización de las Naciones Unidas, diríjase a:
             .col-lg-3.text-center.my-3
-              a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+              a.boton(href="https://www.un.org/sustainabledevelopment/es/2015/09/la-asamblea-general-adopta-la-agenda-2030-para-el-desarrollo-sostenible/" target="_blank" type="application/pdf")
                 span Ir a sitio
                 i.fas.fa-link
       .col-lg-4.mb-4.col-md-8.mx-auto
@@ -87,7 +87,7 @@
               img(data-aos="zoom-out-right",src="@/assets/curso/temas/tema2/img19.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
             .number 04
-            p.m-0 Objetivos del desarrollo de las naciones unidas.
+            p.m-0 Objetivos del desarrollo de las Organización de las Naciones Unidas.
       .col-lg-4.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
@@ -280,7 +280,7 @@
             h4.text-light Análisis de Involucrados
             .text-light.mb-0(style="font-size: 13px") Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
           .col-lg-3.text-center.my-3
-            a.boton(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
+            a.boton(:href="obtenerLink('/downloads/Analisis-de-Involucrados.pdf')" target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
 
@@ -298,7 +298,7 @@
           img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
       .col-lg-8.mb-2.my-3
         .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCE9E5")
-          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (brainstorming) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
+          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (<em>brainstorming</em>) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
         
         p.mt-3 La acertada formulación del proyecto y el mismo éxito de la intervención dependen en gran medida de la adecuada identificación del problema, es por esto que se deben dedicar <strong>esfuerzos proporcionales en la etapa de diagnóstico.</strong> El principal referente de este documento, Ortegón et.al (2005), aclara que la planificación nace de <strong>la percepción que se tiene de la problemática</strong> y que se puede dar en concordancia con los siguientes aspectos:
     .row.justify-content-center
@@ -379,7 +379,7 @@
         figure
           img(data-aos="zoom-in-left",src='@/assets/curso/temas/tema2/img45.png',  alt='')
 
-    p(data-aos="zoom-in-right").my-4 El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
+    p(data-aos="zoom-in-right").my-4 El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong>. Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
     .row.justify-content-center
       hr.mt-3.justify-content-center(style="background:#FF9751; width: 80%; height: 2px")
 
@@ -389,7 +389,7 @@
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p El DRP, es una actividad participativa que permite la identificación de los principales problemas técnicos productivos, sociales y de organización para lograr la convivencia con los productores. Con el fin de conocer más de cerca los diferentes aspectos de la comunidad, generando la información básica para la elaboración de los planes de acción comunitaria
-            h3  (DNP, 2016, p.15)
+            h3  (DNP, 2016, p.15).
             i.fas.fa-quote-right
             
 
@@ -400,7 +400,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img46.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
-            p.m-0 El <strong>DRP</strong> es una metodología recomendable para la <strong>autogestión del desarrollo de las comunidades, lo que supone también la autodeterminación, un valor importante de resaltar</strong> Posee de manera inherente ventajas que dependen directamente del grado de participación de los involucrados, entre las que se encuentran la <strong>eficacia en el levantamiento de datos de campo, la verificabilidad, confiabilidad, profundidad y suficiencia de la información obtenida.</strong>
+            p.m-0 El <strong>DRP</strong> es una metodología recomendable para la <strong>autogestión del desarrollo de las comunidades, lo que supone también la autodeterminación, un valor importante de resaltar</strong>. Posee de manera inherente ventajas que dependen directamente del grado de participación de los involucrados, entre las que se encuentran la <strong>eficacia en el levantamiento de datos de campo, la verificabilidad, confiabilidad, profundidad y suficiencia de la información obtenida.</strong>
     
     p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
 
@@ -437,7 +437,7 @@
             img(src='@/assets/curso/temas/tema2/img51.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
       .row.align-items-center(titulo="6. Selección de las herramientas de investigación")
         .col-lg-8.mb-4
-          p La selección de herramientas debe obedecer no solo a las necesidades de información orientada a la formulación del proyecto, sino también a las preferencias de la misma población. También es importante considerar la información desagregada por género de la población en situación de vulnerabilidad y discapacidad, de minorías, etc.; es decir con un enfoque diferencial. También se recomienda revisar información ya obtenida en otros procesos. Existe un conjunto muy amplio de herramientas participativas que se han diseñado precisamente debido a las condiciones de la población rural, uno de los campos de acción de la andragogía.
+          p La selección de herramientas debe obedecer no solo a las necesidades de información orientada a la formulación del proyecto, sino también a las preferencias de la misma población. También es importante considerar la información desagregada por género de la población en situación de vulnerabilidad y discapacidad, de minorías, etc.; es decir, con un enfoque diferencial. También se recomienda revisar información ya obtenida en otros procesos. Existe un conjunto muy amplio de herramientas participativas que se han diseñado precisamente debido a las condiciones de la población rural, uno de los campos de acción de la andragogía.
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema2/img52.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
@@ -504,14 +504,14 @@
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p.mb-0 Un error que se presenta frecuentemente en la definición del problema central, surge cuando este se describe como la falta o ausencia de una solución frente a una necesidad experimentada por la población. Este hecho sucede frecuentemente con intervenciones que conllevan la construcción de diferentes tipos de infraestructura pública o la adquisición de equipos. El definir la situación problemática de esta forma, conlleva dos debilidades en la formulación del proyecto: se limita y condiciona la solución a esa sola alternativa y se ignoran las condiciones que afectan realmente a la población en cuanto a su bienestar y el mejoramiento de las condiciones de vida.
-            h3  (DNP, 2016, p.15)
+            h3  (DNP, 2016, p.15).
             i.fas.fa-quote-right
     
     .row.justify-content-center.mt-5 
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.
-          span Recomendaciones para la correcta definición de un problema.
+          span <em>Recomendaciones para la correcta definición de un problema.</em>
 
     .row.justify-content-center
       .col-lg-5.mb-3
@@ -559,7 +559,7 @@
                 i
                 strong(style="color: #019A5B") Acierto:
                 span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") las dos condiciones negativas reflejan la necesidad de la población.
-
+    p.text-center De acuerdo con Silva y Sandoval (2012)
     .row.align-items-center 
       .col-lg-8.m-auto.p-4(style="background: #B3E6FF")
         p.mb-0 Hay diferentes grados de complejidad en los problemas. Desde los que pueden ser muy simples hasta aquellos donde juegan diferentes factores que hacen casi imposible su indivisibilidad. Puede ser el caso de problemas como: la pobreza, el desempleo o la inseguridad, entre otros.
@@ -571,10 +571,10 @@
         p Redactar, ordenar y numerar los problemas detectados en el diagnóstico. (La numeración ayudará a identificarlos fácilmente).
       .row(numero="2" titulo="Paso 2")
         .col-lg-12.mb-4.mb-md-0
-          p Se procede a la construcción de la matriz <strong>enfrentando los problemas en ambos ejes</strong> como se muestra en la figura. En la intersección de los problemas contra sí mismos, se pone el valor de cero. El problema debe estar redactado de manera <strong>muy precisa.</strong> 
+          p Se procede a la construcción de la matriz <strong>enfrentando los problemas en ambos ejes</strong> como se muestra en la tabla 4. En la intersección de los problemas contra sí mismos, se pone el valor de cero. El problema debe estar redactado de manera <strong>muy precisa.</strong> 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 4.
-            span Ejemplo de estructura de la matriz de influencia-dependencia (Véster).
+            span <em>Ejemplo de estructura de la matriz de influencia-dependencia (Véster)</em>
           .tabla-b.color-acento-contenido
             table(style="background-color: white")
               thead
@@ -624,10 +624,10 @@
             figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
       .row(numero="3" titulo="Paso 3")
         .col-lg-12.mb-4.mb-md-0
-          p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30% de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
+          p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30 % de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5.
-            span Escala de valores.
+            span <em>Escala de valores</em>
           table.text-center
             thead
               tr.text-light(style='background-color: #006555')
@@ -646,13 +646,13 @@
               tr(style="background-color: #E9E9E9")
                 td 3
                 td Existe una influencia fuerte entre el primer y segundo problema
-          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
       .row(numero="4" titulo="Paso 4")
         .col-lg-12.mb-4.mb-md-0
           p Una vez llena la matriz se agrega <strong>una columna y una fila</strong> para registrar las sumatorias de valores de las filas y las columnas, los valores de la columna representan las magnitudes de las influencias y los de la fila representan los de las dependencias. A continuación un ejemplo: 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 6.
-            span Llenado de la matriz de influencia- dependencia (Véster).
+            span <em>Llenado de la matriz de influencia- dependencia (Véster)</em>
           .tabla-b.color-acento-contenido
             table(style="background-color: white")
               thead
@@ -811,7 +811,7 @@
                   td 17
                 tr
                   td 8
-                  td posibilidad de atender solo pedidos pequeños
+                  td Posibilidad de atender solo pedidos pequeños
                   td 0
                   td 0
                   td 0
@@ -906,7 +906,7 @@
                   td 5
                 tr
                   td 13
-                  td desconfianza entre productores
+                  td Desconfianza entre productores
                   td 3
                   td 1
                   td 0
@@ -980,13 +980,13 @@
                   td 2
                   td 11
                   td 
-          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
       .row(numero="5" titulo="Paso 5")
         .col-lg-12.mb-4.mb-md-0
           p Al tener ya las sumatorias se procede a <strong>graficar</strong> estos valores. Se usa un <strong>plano cartesiano</strong> donde la intersección de los ejes corresponde al valor promedio de las dependencias e influencias. Cada cuadrante representa un tipo de problema; el primer cuadrante de la figura corresponde a los problemas pasivos, el segundo a los críticos, el tercero a los exógenos o estructurales (posteriormente se pueden usar como supuestos en la <strong>MML</strong>) y el cuarto representa las causas. 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
-            span Esquema de definición de cuadrantes en relación a la influencia y la dependencia.
+            span <em>Esquema de definición de cuadrantes en relación a la influencia y la dependencia</em>
           .tabla-b.color-acento-contenido
             table(style="background-color: white")
               thead
@@ -999,7 +999,7 @@
                   td <strong>Cuadrante 4</strong> - Problemas activos o las causas del problema central                     
                 tr
                   td(colspan="2" style="text-align: center;") Influencia
-          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
+          figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
 
     p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
     .row.my-5.align-items-center.p-4(style="background: #FFE9DB")
@@ -1008,7 +1008,7 @@
       .col-lg-8
             .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 4.
-                  span Ejemplo de la forma gráfica de la matriz ID.
+                  span <em>Ejemplo de la forma gráfica de la matriz ID</em>
             figure
               img(src="@/assets/curso/temas/tema2/img10.svg", alt="Muestra el componente formativo un ejemplo de la forma gráfica de la matriz ID. Tomado de Silva y Sandoval. Teniendo en cuenta su dependencia e influencia.")
               figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
@@ -1054,12 +1054,13 @@
           .col-lg-9
             .titulo-sexto.color-acento-contenido.mb-2
               h5 Figura 5.
-              span Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).  
+              span <em>Ejemplo de causa y efecto</em>
             figure
               img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
+              figcaption Ejemplo de causa y efecto. Bernal (2021). 
       .col-lg-4.col-md-8.mx-auto
         figure
-          img(src="@/assets/curso/temas/tema2/img7.png", alt="")
+          img.my-3(src="@/assets/curso/temas/tema2/img7.png", alt="")
 
     .row.align-items-center.my-4
       .col-lg-12.mb-3.m-auto
@@ -1070,21 +1071,21 @@
       .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 6.
-          span Ejemplo de efectos directos e indirectos. Tomado de la guía de proyectos del DNP (2016).
+          span <em>Ejemplo de efectos directos e indirectos</em>
         figure
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Muestra el componente formativo un ejemplo de efectos directos e indirectos, teniendo en cuenta: Efectos directos Aumento de impactos ambientales (contaminación fuentes y GEI). Mayor valor de la tarifa de aseo para los usuarios. Efectos Indirectos Alto uso de recursos para obtención de materias primas. Aumento del volumen de toneladas dispuestas en relleno. Pérdida de ingresos por ventas potenciales.")
           figcaption.my-3.text-regular <strong>Nota.</strong>Tomado de la guía de proyectos del DNP (2016).
     .row.align-items-center.my-4
-      p En la segunda etapa se observan <strong>las causas y de la misma manera en que se procedió en la primera etapaa</strong>, pero hacia abajo en la gráfica, establecemos causas directas en un primer nivel y causas indirectas en un segundo e incluso un tercer nivel, estableciendo la relación causal entre todas ellas. <strong>Es posible que una causa tenga más de una consecuencia y viceversa.</strong> Las causas indirectas dan origen a las directas. Esta etapa es clave debido a que al hallar las causas originarias del problema de manera diferenciada, estableceremos los componentes del proyecto más adelante. En la medida en que se contrarresten las causas (raíces) del problema se estará contribuyendo a la <strong>superación del problema central.</strong>
+      p En la segunda etapa se observan <strong>las causas y de la misma manera en que se procedió en la primera etapa</strong>, pero hacia abajo en la gráfica, establecemos causas directas en un primer nivel y causas indirectas en un segundo e incluso un tercer nivel, estableciendo la relación causal entre todas ellas. <strong>Es posible que una causa tenga más de una consecuencia y viceversa.</strong> Las causas indirectas dan origen a las directas. Esta etapa es clave debido a que al hallar las causas originarias del problema de manera diferenciada, estableceremos los componentes del proyecto más adelante. En la medida en que se contrarresten las causas (raíces) del problema se estará contribuyendo a la <strong>superación del problema central.</strong>
     
     .row.align-items-center.my-4
       .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 7.
-          span Ejemplo de causas directas e indirectas
+          span <em>Ejemplo de causas directas e indirectas</em>
         figure
           img(src="@/assets/curso/temas/tema2/img12.svg", alt="Muestra el componente formativo un ejemplo de causas directas e indirectas, de acuerdo a : Causas directas Deficientes prácticas de separación de materiales. Ineficientes espacios para la valorización de residuos sólidos. Causas Indirectas Inadecuada tradición del manejo de residuos en la fuente. Inapropiado sistema de recolección para el transporte selectivo. Reducida aplicación de tecnología en el proceso de reciclaje. Informalidad y dispersión de los recuperadores.")
-
+          figcaption.my-3.text-regular <strong>Nota.</strong>Tomado de la guía de proyectos del DNP (2016).
     .row.align-items-center.my-4
       p Una vez identificados todos los efectos y causas del problema central <strong>se integra toda la información en un solo cuadro</strong> que representa el resumen de la situación problémica. Aunque este análisis define el camino a seguir en adelante, los hechos descritos aún mantienen el carácter de <strong>hipótesis</strong> hasta tanto no se corroboran en los estudios del proyecto y se someten a evaluación del equipo de trabajo y la población objetivo de manera participativa <strong>(Ortegón et.al, 2005).</strong>
 
@@ -1092,7 +1093,7 @@
       .col-lg-10.mb-3.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 8.
-          span Ejemplo de árbol de problemas. Tomado de la guía de proyectos del DNP (2016).
+          span <em>Ejemplo de árbol de problemas </em>
         figure
           img(src="@/assets/curso/temas/tema2/img13.png", alt="Muestra el componente formativo un ejemplo de árbol de problemas, según sus efectos, problemas y causas.")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).
@@ -1113,11 +1114,11 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          p.bloque-texto-f__texto En el municipio XXX se generan aproximadamente 36.000 toneladas de residuos sólidos al año, con una tasa de aprovechamiento de tan solo el 1% por parte de las familias de recuperadores presentes en la zona, según estimaciones realizadas en el Plan Integral de Gestión de Residuos Sólidos - PIGRS. <br><br>
+          p.bloque-texto-f__texto En el municipio XXX se generan aproximadamente 36.000 toneladas de residuos sólidos al año, con una tasa de aprovechamiento de tan solo el 1 % por parte de las familias de recuperadores presentes en la zona, según estimaciones realizadas en el Plan Integral de Gestión de Residuos Sólidos - PIGRS. <br><br>
           p.bloque-texto-f__texto Esta situación se explica en gran medida por las inadecuadas prácticas de separación de los residuos de los hogares, el comercio y la industria local, por la forma en la que operan las rutas de transporte para su recolección. Los vehículos compactadores terminan mezclando los residuos orgánicos e inorgánicos, por las restricciones de espacios adecuados y dotados con las condiciones tecnológicas para la valorización de diferentes tipos de residuos. <br><br>
           p.bloque-texto-f__texto También las dificultades organizativas y de intermediación comercial con las que operan regularmente 85 personas identificadas como recuperadores informales dedicados al oficio del reciclaje. <br><br>
-          p.bloque-texto-f__texto La situación tiende a agravarse en la medida que crece anualmente la generación de residuos en aproximadamente un 3% anual sin que el plástico, el papel, el vidrio, los metales y los residuos orgánicos se aprovechen y se reincorporen al ciclo productivo. Esto implica una mayor explotación de los recursos naturales para la obtención de estas materias primas y está llevando progresivamente al agotamiento de la vida útil del relleno sanitario donde se disponen los residuos con consecuencias negativas para el medio ambiente y la salud pública. Los afluentes se ven contaminados por la escorrentía de los lixiviados de los materiales orgánicos, la atmósfera por la emisión de gases de efecto invernadero (GEI) y las personas de la zona por la presencia de vectores de transmisión de enfermedades.<br><br>
-          p.bloque-texto-f__texto Adicionalmente, el aumento en la demanda del servicio de disposición final de residuos también ha venido representando el incremento del 15% en la tarifa de aseo que los usuarios del sistema tienen que pagar periódicamente según estimaciones realizadas por la unidad de servicios públicos domiciliarios. También la pérdida de ingresos que de otra forma podrán generarse gracias a la posibilidad de venta de materiales recuperados según las cifras de comercialización que han sido estimadas mediante el estudio de mercado que se presenta más adelante. <strong>(DNP, 2016, p.18)</strong>
+          p.bloque-texto-f__texto La situación tiende a agravarse en la medida que crece anualmente la generación de residuos en aproximadamente un 3 % anual sin que el plástico, el papel, el vidrio, los metales y los residuos orgánicos se aprovechen y se reincorporen al ciclo productivo. Esto implica una mayor explotación de los recursos naturales para la obtención de estas materias primas y está llevando progresivamente al agotamiento de la vida útil del relleno sanitario donde se disponen los residuos con consecuencias negativas para el medio ambiente y la salud pública. Los afluentes se ven contaminados por la escorrentía de los lixiviados de los materiales orgánicos, la atmósfera por la emisión de gases de efecto invernadero (GEI) y las personas de la zona por la presencia de vectores de transmisión de enfermedades.<br><br>
+          p.bloque-texto-f__texto Adicionalmente, el aumento en la demanda del servicio de disposición final de residuos también ha venido representando el incremento del 15 % en la tarifa de aseo que los usuarios del sistema tienen que pagar periódicamente según estimaciones realizadas por la unidad de servicios públicos domiciliarios. También la pérdida de ingresos que de otra forma podrán generarse gracias a la posibilidad de venta de materiales recuperados según las cifras de comercialización que han sido estimadas mediante el estudio de mercado que se presenta más adelante. <strong>(DNP, 2016, p.18)</strong>.
 
 
     .row.align-items-center.my-3
@@ -1152,7 +1153,7 @@
       .col-lg-8.m-auto
         .titulo-sexto.color-acento-contenido.mb-2
           h5 Figura 9.
-          span Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).
+          span <em>Ejemplo de árbol de objetivos</em>
         figure.my-3
           img(src="@/assets/curso/temas/tema2/img14.svg", alt="Muestra el componente formatico un ejemplo de árbol de objetivos. ")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).

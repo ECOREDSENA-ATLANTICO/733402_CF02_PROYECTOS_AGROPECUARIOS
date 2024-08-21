@@ -13,7 +13,7 @@
         )
 
       .bloque-texto-g__texto.p-4(data-aos="flip-up")
-        p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados stakeholders.
+        p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados <em>stakeholders</em>.
 
     .row.my-4.align-items-center
       .col-lg-12
@@ -29,11 +29,11 @@
 
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 2.
-                span Marco lógico y ciclo de vida del proyecto.
+                span <em>Marco lógico y ciclo de vida del proyecto</em>
 
               figure
                 img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
-                figcaption.my-4 Bernal (2021).
+                figcaption.my-4 Marco lógico y ciclo de vida del proyecto. Bernal (2021).
       div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
         .row.my-4.align-items-center
           .col-lg-8.my-2
@@ -80,10 +80,10 @@
         .row.my-2.text-center.justify-content-center 
           .col-lg-5.my-2(data-aos="fade-up-left")
             div.py-4(style="background: #B3E6FF; border-radius:10px")
-              p.mb-0 <strong>1.</strong> El análisis causal o identificación de problemas y soluciones.
+              p.mb-0 <strong>1.</strong> El análisis causal o identificación de problemas y soluciones
           .col-lg-5.my-2(data-aos="fade-up-right")
             div.py-4(style="background: #B3E6FF; border-radius:10px")
-              p.mb-0 <strong>2.</strong> La planificación o plan operativo.
+              p.mb-0 <strong>2.</strong> La planificación o plan operativo
 
     TabsB.color-acento-contenido.my-4(data-aos="zoom-in")(style="background: #FFF4EC")
       .tarjeta.p-4.bgr2(titulo="Etapa de análisis" :icono="require('@/assets/curso/temas/tema1/img5.svg')")
@@ -99,7 +99,7 @@
         p Para avanzar en la planificación se complementa el ejercicio a través de un cronograma que puede ser un diagrama de Gantt o similar. Si al cronograma se agrega un análisis de costos de las actividades y además una delegación de responsabilidades a un equipo de trabajo, contará con los insumos necesarios para el establecimiento del <strong>plan de acción.</strong>
 
         .row.mb-4
-          .col-lg-10.m-auto
+          .col-lg-10.m-auto.justify-content-center
             .row.align-items-center.grad1.p-3
               .col-lg-2
                 figure

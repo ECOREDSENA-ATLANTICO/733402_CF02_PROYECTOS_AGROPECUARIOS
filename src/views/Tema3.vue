@@ -85,24 +85,22 @@
           .row.justify-content-center.mb-4.align-items-center
             .col-lg-10.col-md-12
               p.text-bold.m-0 El segundo paso
-              | La estructuración de las alternativas. Una alternativa resulta de la <strong>conjunción de varias actividades</strong> El número de alternativas resultantes depende de <strong>qué tan compatibles son los medios</strong> (objetivos específicos) <strong>productos y actividades entre sí.</strong>
+              | La estructuración de las alternativas. Una alternativa resulta de la <strong>conjunción de varias actividades</strong>. El número de alternativas resultantes depende de <strong>qué tan compatibles son los medios</strong> (objetivos específicos),<strong> productos y actividades entre sí.</strong>
             .col-lg-2.my-3
               figure
                 img(src="@/assets/curso/temas/tema2/img65.svg", alt="", width="150px", height="150px")
     .row.my-3
       .col-lg-12
-        p Puede suceder que las actividades sean perfectamente compatibles, a esto se les denomina <strong>complementarias o conjuntivas</strong>; pero también puede ser que algunas no lo sean, en este caso formarían otra alternativa y a estas actividades se les denomina excluyentes o disyuntivas. Siguiendo con el ejemplo de referencia, las alternativas se encuentran expresadas como acciones de intervención agrupadas de acuerdo a la compatibilidad entre ellas y por cada uno de los objetivos. Las letras <strong>C</strong> y <strong>E</strong> a la derecha, significan complementarias y excluyentes:
+        p Puede suceder que las actividades sean perfectamente compatibles, a esto se les denomina <strong>complementarias o conjuntivas</strong>; pero también puede ser que algunas no lo sean, en este caso formarían otra alternativa y a estas actividades se les denomina<strong> excluyentes o disyuntivas</strong>. Siguiendo con el ejemplo de referencia, las alternativas se encuentran expresadas como acciones de intervención agrupadas de acuerdo a la compatibilidad entre ellas y por cada uno de los objetivos. Las letras <strong>C</strong> y <strong>E</strong> a la derecha, significan complementarias y excluyentes:
     
     .row.my-3
       .col-lg-10.m-auto.fondo-degradado-3
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 10.
-          span Ejemplo de propuesta de acción. 
+          span <em>Ejemplo de propuesta de acción</em>
         figure
           img(src="@/assets/curso/temas/tema3/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  practicas de separacion de materiales. Implemetar espacios eficientes para la valoracion de residuos solidos.")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).
-
-        p.text-center.mt-4 Tomado de la guía de proyectos del DNP (2016).
     p Como tercer paso los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad se llega a las siguientes conclusiones:
 
     .row.my-3.align-items-center
@@ -183,16 +181,16 @@
     p.text-bold Un ejemplo de matriz de evaluación o selección, producto de la guía para la formulación de proyectos de la FAO en conjunto con el Ministerio de Desarrollo Agropecuario de Panamá en 2017, es el siguiente:
     .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 8.
-          span Matriz de selección de alternativa óptima
+          span <em>Matriz de selección de alternativa óptima</em>
     .tabla-b.color-acento-contenido.mb-5
       table
         thead
           tr(style="background: #FF9751")
               th(rowspan="2") Criterios <br> (que debe definir el equipo formulador)
               th(rowspan="2") Peso específico asignado al criterio (1-5)
-              th(colspan="2") Alternativa 1 <br> Incrementada la productividad y altos estándares de calidad.
-              th(colspan="2") Alternativa 2 <br> Ampliado el acceso al mercado.
-              th(colspan="2") Alternativa 3 <br> Sistemas productivos menos vulnerables al cambio y variabilidad climáticas.
+              th(colspan="2") Alternativa 1 <br> Incrementada la productividad y altos estándares de calidad
+              th(colspan="2") Alternativa 2 <br> Ampliado el acceso al mercado
+              th(colspan="2") Alternativa 3 <br> Sistemas productivos menos vulnerables al cambio y variabilidad climáticas
           tr(style="background: #FFE9DB")
             th Calificación 1-5
             th Puntaje obtenido
@@ -290,7 +288,7 @@
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 9.
-          span Relación entre el árbol de problemas, árbol de objetivos y la MML
+          span <em>Relación entre el árbol de problemas, árbol de objetivos y la MML</em>
         .tabla-b.color-acento-contenido.mb-5.text-center
           table
             thead
@@ -334,7 +332,7 @@
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p En la definición de los niveles de objetivos en la MML se debe tener especial cuidado al pasar de la especificación de los componentes al propósito del proyecto. La definición del propósito del proyecto se debe hacer en términos hipotéticos, es algo que debe ocurrir, es un resultado esperado. De acuerdo al enfoque de Marco lógico el propósito es la hipótesis central del proyecto. De este modo, el propósito debe entenderse como un resultado no controlable por el ejecutor. Es, en definitiva, lo que debería ocurrir como resultado directo de utilizar los Componentes
-            h3   (p.81)
+            h3   (p.81).
             i.fas.fa-quote-right
     .fondo-degradado-2.p-4.my-4
       h5.my-5.text-center Para estructurar la MML, según la guía de formulación de proyectos de inversión del sector agropecuario de la FAO en 2017, se pueden seguir los siguientes pasos:
@@ -348,7 +346,7 @@
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 10.
-          span Relación entre el árbol de problemas, árbol de objetivos y la MML
+          span <em>Relación entre el árbol de problemas, árbol de objetivos y la MML</em>
         .tabla-b.color-acento-contenido.mb-5
           table
             thead
@@ -386,11 +384,11 @@
       .col.px-0
         h3.mb-0(data-aos="fade-left") Resumen narrativo del marco lógico
     
-    p.p-4 La primera columna de la MML es <strong>la síntesis del proyecto</strong>, empezando por las actividades, los productos que se entregarán y los resultados a corto, mediano y largo plazo <strong>(Ortegón et.al, 2005)</strong> De ahí su importancia y la forma de realizar su lectura, que es de abajo hacia arriba. Las actividades provenientes del nivel tres no se encuentran normalmente incluidas en la MML, pero resulta muy útil considerarlas para <strong>alimentar la planeación operativa</strong> y los indicadores correspondientes serán objeto de este análisis posterior. El resumen narrativo corresponde a la primera columna de la matriz.
+    p.p-4 La primera columna de la MML es <strong>la síntesis del proyecto</strong>, empezando por las actividades, los productos que se entregarán y los resultados a corto, mediano y largo plazo <strong>(Ortegón et.al, 2005)</strong>. De ahí su importancia y la forma de realizar su lectura, que es de abajo hacia arriba. Las actividades provenientes del nivel tres no se encuentran normalmente incluidas en la MML, pero resulta muy útil considerarlas para <strong>alimentar la planeación operativa</strong> y los indicadores correspondientes serán objeto de este análisis posterior. El resumen narrativo corresponde a la primera columna de la matriz.
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 11.
-      span Resumen narrativo del proyecto
+      span <em>Resumen narrativo del proyecto</em>
     .row.my-3
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #CCF9E6')
@@ -400,7 +398,7 @@
           p.text-bold.m-0 Propósito - Objetivo específico
           | Resultado único esperado al concluir el proyecto.
         .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #CCF9E6')
-          p.text-bold.m-0 Propósito - Objetivo específico
+          p.text-bold.m-0 Resultados esperados - Componentes
           | Productos y servicios que genera el proyecto y que se expresan como una realidad mejorada.
         .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFE9DB')
           p.text-bold.m-0 Actividades
@@ -423,7 +421,7 @@
     .row.align-items-center.p-3.my-5
       .col-lg-12
         .cajon.color-terciario.p-4.p-4(data-aos="slide-down",style="background: #D9F3FF")
-          p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong> Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipo de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
+          p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong>. Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipo de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
     
     .row.align-items-center.p-3.my-5
       .col-lg-10.m-auto
@@ -433,15 +431,15 @@
           .row(numero="1" titulo="Indicadores de fin y propósito")
             p Son los que miden el cambio atribuible al proyecto y los que permiten tomar decisiones sobre la necesidad de componentes adicionales. También se denominan indicadores de objetivos. Los indicadores de fin o propósito se construyen sobre la base de datos existentes. Un ejemplo de indicador de fin y de propósito sería reducir a menos de 1.000 los coliformes totales por cada 100 ml de agua en una playa específica y para un determinado año. 
           .row(numero="2" titulo="Indicadores de componentes")
-            p Son descripciones breves de las obras, servicios, estudios y capacitaciones específicas que ofrece el responsable del proyecto, especificando cantidad, calidad y tiempo. Por ejemplo para un proyecto de educación habría de señalar como indicador 10 escuelas técnicas, ubicadas en diferentes ciudades, cada una con capacidad para 1.000 alumnos por año y con el equipamiento especificado por las normas correspondientes. 
-          .row(numero="3" titulo="Indicadores de componentes")
-            p Indicadores de actividades: son los que describen la actividad que se realiza para lograr el componente y su presupuesto asignado. Varían de acuerdo con el elemento del componente que se desea medir, por lo que son diferentes para cada tipo de proyecto. Los indicadores también pueden clasificarse en directos e indirectos. 
+            p Son descripciones breves de las obras, servicios, estudios y capacitaciones específicas que ofrece el responsable del proyecto, especificando cantidad, calidad y tiempo. Por ejemplo, para un proyecto de educación habría de señalar como indicador 10 escuelas técnicas, ubicadas en diferentes ciudades, cada una con capacidad para 1.000 alumnos por año y con el equipamiento especificado por las normas correspondientes. 
+          .row(numero="3" titulo="Indicadores de actividades")
+            p Son los que describen la actividad que se realiza para lograr el componente y su presupuesto asignado. Varían de acuerdo con el elemento del componente que se desea medir, por lo que son diferentes para cada tipo de proyecto. Los indicadores también pueden clasificarse en directos e indirectos. 
             p.px-4 a. Indicadores directos: son los que comprenden las variables directamente relacionadas al objetivo a medir. Por ejemplo, si el objetivo es reducir la mortalidad, un indicador apropiado podría ser la tasa de mortalidad infantil en tanto por mil. 
             p.px-4 b. Indicadores indirectos: también llamados indicadores proxy, son formas aproximadas de medir determinados objetivos. En ellos la variable utilizada no tiene una relación directa con el objetivo que se busca medir” (FAO, 2017).
             .row.align-items-center.p-1
       .col-lg-10.m-auto
         h5.text-center Así mismo esta valiosa guía nos orienta acerca del procedimiento de selección de indicadores: 
-      p Un aspecto a tener en cuenta sobre los indicadores es su <strong>número reducido</strong> Esto hace necesario definir criterios para decidir si un indicador es adecuado o no y <strong>jerarquizar un conjunto de indicadores.</strong> Para ello se utiliza el esquema desarrollado por la <strong>Oficina de Evaluación del Programa de Desarrollo de Naciones Unidas</strong> (UNDP, por sus siglas en inglés) que consiste en un cuadro en el cual, primero, se transcribe la primera columna de la matriz del marco lógico a la primera columna del cuadro (el resumen narrativo de objetivos) después se transcriben de la misma matriz los <strong>indicadores por objetivo</strong> y por último se definen los <strong>criterios aplicables a los indicadores</strong>, como: ores:
+      p Un aspecto a tener en cuenta sobre los indicadores es su <strong>número reducido</strong>. Esto hace necesario definir criterios para decidir si un indicador es adecuado o no y <strong>jerarquizar un conjunto de indicadores.</strong> Para ello se utiliza el esquema desarrollado por la <strong>Oficina de Evaluación del Programa de Desarrollo de Naciones Unidas</strong> (UNDP, por sus siglas en inglés) que consiste en un cuadro en el cual, primero, se transcribe la primera columna de la matriz del marco lógico a la primera columna del cuadro (el resumen narrativo de objetivos) después se transcriben de la misma matriz los <strong>indicadores por objetivo</strong> y por último se definen los <strong>criterios aplicables a los indicadores</strong>, como:
     .row.p-3.my-5
       .col-lg-12.m-auto
         .row.justify-content-center
@@ -505,7 +503,7 @@
         p Los criterios se pueden construir a partir de la <strong>selección y suma de varios de los anteriores</strong>, según se considere pertinente para la evaluación objetiva de los objetivos del proyecto.
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 12.
-      span Herramienta de selección de indicadores.
+      span <em>Herramienta de selección de indicadores</em>
     .tabla-b.color-acento-contenido.mb-5
       table
         thead
@@ -548,17 +546,17 @@
       figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2017).
 
     p.pt-4  Para la determinación de los medios de verificación la misma guía nos indica que es necesario <strong>identificar y definir las fuentes de información, las herramientas y los métodos usados</strong> para comprobar el estado de progreso del proyecto, siendo esta columna el fundamento del sistema de monitoreo y evaluación del proyecto.
-    p Al igual que para los indicadores en la <strong>MML</strong> no se ubican los medios de verificación para las actividades, solo para los <strong>objetivos y resultados</strong> aquí se deben especificar la ubicación de las fuentes de información de ejecución del presupuesto asignado, para efectuar el respectivo monitoreo.
-    p Por otro lado, cada indicador debe tener al menos <strong>una fuente de verificación</strong> y estas deben ser <strong>pertinentes, fiables y accesibles</strong> Se debe realizar, además, una planeación de la recolección de datos.
+    p Al igual que para los indicadores en la <strong>MML</strong> no se ubican los medios de verificación para las actividades, solo para los <strong>objetivos y resultados</strong>: aquí se deben especificar la ubicación de las fuentes de información de ejecución del presupuesto asignado, para efectuar el respectivo monitoreo.
+    p Por otro lado, cada indicador debe tener al menos <strong>una fuente de verificación</strong> y estas deben ser <strong>pertinentes, fiables y accesibles</strong>. Se debe realizar, además, una planeación de la recolección de datos.
 
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.4 Análisis de riesgos y establecimiento de los supuestos del proyecto
-    p Los análisis de riesgos, al igual que algunos análisis hechos en esta guía anteriormente, permiten a través de análisis cuantitativos, <strong>medir aspectos cualitativos al asignar valores discrecionales en un rango determinado</strong>; un ejemplo de una escala usada frecuentemente es <strong>1=Muy bajo; 2=bajo; 3=moderado; 4=alto; 5=muy alto</strong> En el caso de los riesgos se hace referencia a la evaluación de situaciones que potencialmente pueden desviar o debilitar los resultados esperados, con el objetivo de prevenir o mitigar sus efectos. Un ejemplo sencillo de análisis de riesgos puede ser el de una matriz que enfrente las amenazas posibles (factores externos que pueden afectar el desarrollo del proyecto en cualquiera de sus fases) con la probabilidad estimada de la ocurrencia de un evento y la severidad (gravedad de las consecuencias) de su ocurrencia. Estas amenazas pueden ser las contempladas en un <strong>análisis FODA.</strong>
+    p Los análisis de riesgos, al igual que algunos análisis hechos en esta guía anteriormente, permiten a través de análisis cuantitativos, <strong>medir aspectos cualitativos al asignar valores discrecionales en un rango determinado</strong>; un ejemplo de una escala usada frecuentemente es <strong>1=Muy bajo; 2=bajo; 3=moderado; 4=alto; 5=muy alto</strong>. En el caso de los riesgos se hace referencia a la evaluación de situaciones que potencialmente pueden desviar o debilitar los resultados esperados, con el objetivo de prevenir o mitigar sus efectos. Un ejemplo sencillo de análisis de riesgos puede ser el de una matriz que enfrente las amenazas posibles (factores externos que pueden afectar el desarrollo del proyecto en cualquiera de sus fases) con la probabilidad estimada de la ocurrencia de un evento y la severidad (gravedad de las consecuencias) de su ocurrencia. Estas amenazas pueden ser las contempladas en un <strong>análisis FODA.</strong>
 
     .titulo-sexto.color-acento-contenido.mb-3
       h5 Tabla 13.
-      span Ejemplos de análisis de riesgos
+      span <em>Ejemplos de análisis de riesgos</em>
     .tabla-b.color-acento-contenido.mb-5
       table
         thead
@@ -572,7 +570,7 @@
         tbody
           tr.text-center
             td(style='background-color: #EAEAEA') Climático
-            td(style='background-color: #E4E4E4') Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
+            td(style='background-color: #E4E4E4') Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas
             td(style='background-color: #EAEAEA') 3
             td(style='background-color: #E4E4E4') 4
             td(style='background-color: #EAEAEA') 20
@@ -581,20 +579,20 @@
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 14.
-          span Modelo de matriz de evaluación de riesgos.
+          span <em>Modelo de matriz de evaluación de riesgos</em>
         figure 
           img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
 
-          figcaption.my-3.text-regular <strong>Nota.</strong> Adaptación de Bernal (2021)
+          figcaption.my-3.text-regular <strong>Nota.</strong> Adaptación de Bernal (2021).
 
     .row.mt-5.mb-4.align-items-center
       .col-md-8.col-lg-4.mx-auto
         figure 
           img.my-3(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
       .col-lg-8
-        p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
+        p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong>. Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
           .cajon.color-acento-contenido.p-4(data-aos="slide-down")
-            h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
+            h5.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10 %) en términos reales” (p.89). 
   
     p Así mismo, para completar la columna de supuestos de la <strong>MML</strong>, se recomienda seguir los siguientes pasos: <strong>identificar todos los supuestos posibles</strong> para cada riesgo identificado en el análisis respectivo, realizando luego una <strong>selección de los que se consideren verdaderos riesgos a enfrentar</strong> y finalmente de acuerdo a los resultados del análisis de riesgos, <strong>establecer las acciones de prevención, mitigación o control para cada factor seleccionado. </strong>
 
@@ -619,7 +617,7 @@
               | Cada componente es necesario para lograr el propósito del proyecto y además no falta ningún componente necesario.
             li 
               span.text-bold 4. 
-              | Si se producen los componentes y los supuestos a este nivel se conforman, se logrará el propósito de la intervención
+              | Si se producen los componentes y los supuestos a este nivel se conforman, se logrará el propósito de la intervención.
             li 
               span.text-bold 5. 
               | Si se logra el propósito y se conforman los supuestos a este nivel, se habrá contribuido de manera significativa a alcanzar el fin.
@@ -650,7 +648,7 @@
       .col-lg-7.m-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 11.
-          span Lógica Forma de lectura y relación de las partes de la MML
+          span <em>Forma de lectura y relación de las partes de la MML</em>
         figure
           img(src="@/assets/curso/temas/tema3/img23.svg", alt="")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de cartilla resumen marco lógico para formulación de proyectos (SENA, 2020).
@@ -661,7 +659,7 @@
           figure
             img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
         .col-lg-7
-          h4.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado.
+          h4.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado
           .text-light.mb-0(style="font-size: 13px") Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
         .col-lg-3.text-center.my-3
           a.boton(:href="obtenerLink('/downloads/anexo_tabla15.pdf')" target="_blank" type="application/pdf")
@@ -677,8 +675,7 @@
         figure
           img.my-3(src="@/assets/curso/temas/tema3/img24.png", alt="")
       .col-lg-8
-        p Una vez <strong>comprobados y validados los resultados</strong> de la aplicación de la metodología del <strong>EML</strong> en el documento final, el siguiente paso para poder dar inicio a la ejecución, consiste en tomar todas las actividades y realizar una <strong>planeación exhaustiva</strong> asignando recursos, materiales, responsables, tiempos de ejecución y demás información necesaria que de manera anticipada sea útil para la correcta ejecución del proyecto; además, e<strong>l presupuesto deberá estar detallado</strong>+
-         en otro documento que contendrá toda la información del manejo y seguimiento a la ejecución del mismo.
+        p Una vez <strong>comprobados y validados los resultados</strong> de la aplicación de la metodología del <strong>EML</strong> en el documento final, el siguiente paso para poder dar inicio a la ejecución, consiste en tomar todas las actividades y realizar una <strong>planeación exhaustiva</strong> asignando recursos, materiales, responsables, tiempos de ejecución y demás información necesaria que de manera anticipada sea útil para la correcta ejecución del proyecto; además, <strong>el presupuesto deberá estar detallado</strong> en otro documento que contendrá toda la información del manejo y seguimiento a la ejecución del mismo.
         .cajon.color-secundario.p-4(data-aos="slide-down",style="background: #CCF9E6")
           p.mt-0 Estos procedimientos se pueden abordar desde documentos y bibliografía específica de los temas de ejecución, administración y dirección de proyectos y por otro lado del control de costos y finanzas aplicado a proyectos.  
 </template>

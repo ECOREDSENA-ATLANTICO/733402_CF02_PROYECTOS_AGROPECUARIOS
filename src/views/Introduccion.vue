@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p.my-3 En el contexto del final de la segunda guerra mundial en 1945, se crea la más grande organización internacional, la Organización de las Naciones Unidas ONU, en respuesta a la preocupación por la paz, estabilidad y desarrollo de los países miembros y del mundo. Producto del primer período de asambleas en 1947, surge la iniciativa de conformar una comisión encargada de los temas relacionados con el desarrollo de América latina y el caribe. 
+    p.my-3 En el contexto del final de la segunda guerra mundial en 1945, se crea la más grande organización internacional, la Organización de las Naciones Unidas ONU, en respuesta a la preocupación por la paz, estabilidad y desarrollo de los países miembros y del mundo. Producto del primer período de asambleas en 1947, surge la iniciativa de conformar una comisión encargada de los temas relacionados con el desarrollo de América Latina y el Caribe. 
     .row.align-items-center.my-4
       .col-lg-2.col-md-8.mx-auto
         figure
@@ -18,12 +18,13 @@
           p.mt-0 La Comisión Económica para América Latina (CEPAL) empieza a funcionar en 1948, desde su creación la organización ha hecho aportes importantes desde las teorías y visiones socioeconómicas. Actualmente, como parte de las estrategias de apoyo a los países miembros, la comisión trabaja en torno a políticas públicas pero también a mecanismos para la gestión del desarrollo en el marco de los objetivos del desarrollo sostenible de las naciones unidas (estructurados como la “Agenda 2030 de las Naciones Unidas”). A principios de los años 60 la CEPAL crea el Instituto Latinoamericano y del Caribe de Planificación Económica y Social (ILPES), “con el fin de apoyar a los Gobiernos de la región en el campo de la planificación y gestión pública, mediante la prestación de servicios de capacitación, asesoría e investigación” (CEPAL, 2021). El ILPES en sus distintas publicaciones acerca de la metodología de marco lógico, enuncia que en la gestión de proyectos se puede presentar la ausencia de direccionamiento estratégico enfocado al desarrollo integral de las regiones o de las instituciones, evidente en la falta de claridad en los objetivos y metas mayores, lo que conlleva a varios problemas, como la asignación caprichosa y descoordinada de recursos ante la incapacidad de los evaluadores de argumentar las fallas. 
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/yPLLxYjqbNA?si=ZH_cTxa9-dohGEJV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figcaption Formulación de proyectos agropecuarios bajo el enfoque metodológico de marco lógico.
     .row.align-items-center.mt-5
       .col-lg-3.col-md-8.mx-auto
         figure
           img(data-aos="fade-right",src="@/assets/curso/temas/intro/img2.svg", alt="")
       .col-lg-9.my-3
-        p(data-aos="fade-left") Es en el año de 1979 que la Agencia para el Desarrollo Internacional de los Estados Unidos (USAID) divulga oficialmente el enfoque de marco lógico a través de la publicación “The Logical Framework”, como una herramienta eficaz para la gestión de la información requerida en la formulación de proyectos, respondiendo a tres necesidades identificadas y explícitas en la publicación de la metodología en ese entonces: una planeación demasiado “vaga”, la falta de claridad en las responsabilidades y la dificultad del proceso de evaluación. El enfoque de marco lógico (The Logical framework Approach) responde específicamente a estas necesidades, propendiendo desde el inicio de la formulación a: 
+        p(data-aos="fade-left") Es en el año de 1979 que la Agencia para el Desarrollo Internacional de los Estados Unidos (USAID) divulga oficialmente el enfoque de marco lógico a través de la publicación “<em>The Logical Framework</em>”, como una herramienta eficaz para la gestión de la información requerida en la formulación de proyectos, respondiendo a tres necesidades identificadas y explícitas en la publicación de la metodología en ese entonces: una planeación demasiado “vaga”, la falta de claridad en las responsabilidades y la dificultad del proceso de evaluación. El enfoque de marco lógico (<em>The Logical framework Approach</em>) responde específicamente a estas necesidades, propendiendo desde el inicio de la formulación a: 
             ol.my-3.lista-ol(style="list-style-position: outside; padding-left: 1.8em; text-indent: -1.4em;")
               li(data-aos="fade-left") 
                 span(style="color: #019A5B").text-bold 1. 
@@ -70,7 +71,7 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el Asian Development Bank– ADB o el Banco Mundial; agencias cooperantes tales como la Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ (Empresa alemana de cooperación internacional para el desarrollo sostenible), la Australian Agency for International Development - AusAid (Agencia australiana para el desarrollo internacional) o la Canadian International Development Agency – CIDA (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong> de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
+          h4.text-regular.bloque-texto-f__texto Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el <em>Asian Development Bank– ADB</em> o el Banco Mundial; agencias cooperantes tales como la <em>Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ</em> (Empresa alemana de cooperación internacional para el desarrollo sostenible), la <em>Australian Agency for International Development - AusAid</em> (Agencia australiana para el desarrollo internacional) o la <em>Canadian International Development Agency – CIDA</em> (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong> de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
           .bloque-texto-f__autor.mb-3
             h5(style="text-align:right").mb-4 (Aldunate, E., 2004).
   
@@ -93,7 +94,7 @@
 
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 1.
-              span Cultivo de quinua (Lenguazaque - Cundinamarca, 2019)  
+              span <em>Cultivo de quinua (Lenguazaque - Cundinamarca, 2019)</em>  
             
             figure
               img(data-aos="fade-up",src='@/assets/curso/temas/intro/img5.png', alt='Texto que describa la imagen')

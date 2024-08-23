@@ -180,8 +180,7 @@ export default {
       referencia:
         'SENA. (2020). Cartilla resumen marco lógico para formulación de proyectos. SENA.',
       tipo: 'Manual',
-      link:
-        '/downloads/cartilla-resumen-marco-logico-para-formulacion-de-proyectos.pdf',
+      link: '/downloads/marco-logico-para-formulacion-de-proyectos.pdf',
     },
   ],
   glosario: [

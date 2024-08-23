@@ -73,7 +73,7 @@
       .col-lg-12.my-2
         span <strong>El EML cuenta con una herramienta principal que es la </strong> 
         strong(style="color: #0B481E") Matriz de Marco Lógico (MML).  
-        span Si bien la matriz es destacable, el enfoque es más completo, pues recoge instrumentos desde el análisis original hasta el análisis prospectivo del proyecto.  La MML es el producto de la aplicación del método, que puede visualizarse en dos etapas o fases claramente diferenciadas:
+        span Si bien la matriz es destacable, el enfoque es más completo, pues recoge instrumentos desde el análisis original hasta el análisis prospectivo del proyecto. La MML es el producto de la aplicación del método, que puede visualizarse en dos etapas o fases claramente diferenciadas:
 
     .row.my-4.align-items-center
       .col-lg-12.my-2.m-auto

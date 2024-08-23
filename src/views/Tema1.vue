@@ -33,7 +33,7 @@
 
               figure
                 img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
-                figcaption.my-4 Marco lógico y ciclo de vida del proyecto. Bernal (2021).
+                figcaption.my-4 Tomado de Bernal (2021).
       div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
         .row.my-4.align-items-center
           .col-lg-8.my-2

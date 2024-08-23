@@ -181,7 +181,7 @@ export default {
         'SENA. (2020). Cartilla resumen marco lógico para formulación de proyectos. SENA.',
       tipo: 'Manual',
       link:
-        'https://www.tecnnova.org/wp-content/uploads/2017/03/Cartilla-Resumen-Marco-L%C3%B3gico-para-Formulaci%C3%B3n-de-Proyectos-CEPAL-2011.pdf ',
+        'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://repositorio.sena.edu.co/bitstream/handle/11404/8032/cartilla-resumen-marco-logico-para-formulacion-de-proyectos.pdf%3Fsequence%3D1%26isAllowed%3Dy&ved=2ahUKEwiWy5u-yMyHAxUaSjABHcKXHX0QFnoECBYQAQ&usg=AOvVaw0AkKXzykENRLovbigWQ_Kj',
     },
   ],
   glosario: [

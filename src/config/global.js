@@ -169,18 +169,19 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Canal en You tube de Ligorio Dussan',
       referencia:
         'Dussán. (2021). Canal en YouTube sobre gestión agropecuaria.',
       tipo: 'Video',
       link: 'https://www.youtube.com/channel/UCRGTHrhfZoFaEy23nhvy9KA',
     },
     {
-      tema: '',
+      tema: 'Guía de planificación participativa basada en el marco lógico',
       referencia:
         'SENA. (2020). Cartilla resumen marco lógico para formulación de proyectos. SENA.',
       tipo: 'Manual',
-      link: 'downloads/marco-logico-para-formulacion-de-proyectos.pdf',
+      link:
+        'https://www.sena.edu.co/es-co/sena/Documents/DM_12_Guia_de_Planificacion_participativa_basado_en_el_marco_logico.pdf',
     },
   ],
   glosario: [
@@ -348,107 +349,107 @@ export default {
   referencias: [
     {
       referencia:
-        '-	Aldunate, E., Córdoba, J. (2015). Formulación de programas con la metodología de marco lógico. Naciones Unidas, Santiago de Chile. ',
+        'Aldunate, E., Córdoba, J. (2015). Formulación de programas con la metodología de marco lógico. Naciones Unidas, Santiago de Chile. ',
       link:
         'https://repositorio.cepal.org/server/api/core/bitstreams/2d86ecfb-f922-49d3-a919-e4fd4d463bd7/content',
     },
     {
       referencia:
-        '-	Departamento Nacional de Planeación. (2016). Documento Guía del módulo de capacitación virtual en Teoría de Proyectos. Dirección de Inversiones y Finanzas Públicas (DIFP) Subdirección de Proyectos e Información para la Inversión Pública. ',
+        'Departamento Nacional de Planeación. (2016). Documento Guía del módulo de capacitación virtual en Teoría de Proyectos. Dirección de Inversiones y Finanzas Públicas (DIFP) Subdirección de Proyectos e Información para la Inversión Pública. ',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Inversiones%20y%20finanzas%20pblicas/MGA_WEB/Documento%20Base%20Modulo%20Teoria%20de%20Proyectos.pdf',
     },
     {
       referencia:
-        '-	Expósito, M. (2003). Diagnóstico Rural Participativo, Una guía práctica. Centro Cultural Poveda.',
+        'Expósito, M. (2003). Diagnóstico Rural Participativo, Una guía práctica. Centro Cultural Poveda.',
       link:
         'http://biblioteca.clacso.edu.ar/Republica_Dominicana/ccp/20120731033315/diagrural.pdf',
     },
     {
       referencia:
-        '-	Geilfus, F. (2002). 80 herramientas para el desarrollo participativo. Diagnóstico, planificación, monitoreo y evaluación. Instituto Interamericano de Cooperación para la Agricultura (IICA).',
+        'Geilfus, F. (2002). 80 herramientas para el desarrollo participativo. Diagnóstico, planificación, monitoreo y evaluación. Instituto Interamericano de Cooperación para la Agricultura (IICA).',
       link:
         'http://ejoventut.gencat.cat/permalink/aac2bb0c-2a0c-11e4-bcfe-005056924a59',
     },
     {
       referencia:
-        '-	Instituto de Formación Permanente INSFOP. (2008). Diagnóstico rural participativo y planificación comunitaria. FAO-INSFOP-AECID.',
+        'Instituto de Formación Permanente INSFOP. (2008). Diagnóstico rural participativo y planificación comunitaria. FAO-INSFOP-AECID.',
       link: 'http://www.fao.org/3/at795s/at795s.pdf',
     },
     {
       referencia:
-        '-	Ministerio de desarrollo agropecuario de Panamá. (2017). Guía para la formulación de proyectos de inversión del sector agropecuario bajo el enfoque de planificación estratégica y gestión por resultados. MIDA-FAO.',
+        'Ministerio de desarrollo agropecuario de Panamá. (2017). Guía para la formulación de proyectos de inversión del sector agropecuario bajo el enfoque de planificación estratégica y gestión por resultados. MIDA-FAO.',
       link: 'http://www.fao.org/3/i8097es/I8097ES.pdf',
     },
     {
       referencia:
-        '-	Practical Concepts Incorporated (PCI) (1979). The logical framework, a manager’s guide to a scientific approach to design & evaluation. PCI.',
+        'Practical Concepts Incorporated (PCI) (1979). The logical framework, a manager’s guide to a scientific approach to design & evaluation. PCI.',
       link: 'https://pdf.usaid.gov/pdf_docs/pnaec576.pdf',
     },
     {
       referencia:
-        '-	Sanchez, F. (2003). Planificación estratégica y gestión pública por objetivos. Naciones Unidas, Santiago de Chile',
+        'Sanchez, F. (2003). Planificación estratégica y gestión pública por objetivos. Naciones Unidas, Santiago de Chile',
       link:
         'https://www.cepal.org/es/publicaciones/7284-planificacion-estrategica-gestion-publica-objetivos',
     },
     {
       referencia:
-        '-	Silva, I. y Sandoval, C. (2012). Metodología para la elaboración de estrategias de desarrollo local. ILPES.',
+        'Silva, I. y Sandoval, C. (2012). Metodología para la elaboración de estrategias de desarrollo local. ILPES.',
       link:
         'https://www.cepal.org/es/publicaciones/5518-metodologia-la-elaboracion-estrategias-desarrollo-local',
     },
     {
       referencia:
-        '-	Casimiro, L. (2016). Bases metodológicas para la resiliencia socioecológica de fincas familiares en Cuba. [Tesis de doctorado en agroecología]. Universidad de Antioquia. Medellín, Colombia.',
+        'Casimiro, L. (2016). Bases metodológicas para la resiliencia socioecológica de fincas familiares en Cuba. [Tesis de doctorado en agroecología]. Universidad de Antioquia. Medellín, Colombia.',
       link:
         ' https://bibliotecadigital.udea.edu.co/bitstream/10495/6112/1/RodriguezL_2016_BasesMetodol%C3%B3gicasResiliencia.pdf',
     },
     {
       referencia:
-        '-	Castiblanco, C. (s. f.). Indicadores de sustentabilidad opciones de adaptación y mitigación Aspectos Distributivos del cambio climático. Cepal',
+        'Castiblanco, C. (s. f.). Indicadores de sustentabilidad opciones de adaptación y mitigación Aspectos Distributivos del cambio climático. Cepal',
       link:
         'https://www.cepal.org/sites/default/files/courses/files/presentacion_carmenza_castiblanco.pdf',
     },
     {
       referencia:
-        '-	Rodríguez M., y Espinoza, G. (2002). Gestión ambiental en América Latina y el Caribe Evolución, tendencias y principales prácticas. David Wilk.',
+        'Rodríguez M., y Espinoza, G. (2002). Gestión ambiental en América Latina y el Caribe Evolución, tendencias y principales prácticas. David Wilk.',
       link: '',
     },
     {
       referencia:
-        '-	Rodríguez, B., M. (2019). Nuestro planeta, nuestro futuro. Penguin Random House Grupo Editorial. ',
+        'Rodríguez, B., M. (2019). Nuestro planeta, nuestro futuro. Penguin Random House Grupo Editorial. ',
       link: '',
     },
     {
       referencia:
-        '-	Sarandón, S. (2020). Cuadernos de la transformación: El papel de la agricultura en la transformación social-ecológica de América Latina. Friedrich-Ebert-Stiftung.',
+        'Sarandón, S. (2020). Cuadernos de la transformación: El papel de la agricultura en la transformación social-ecológica de América Latina. Friedrich-Ebert-Stiftung.',
       link: 'http://library.fes.de/pdf-files/bueros/mexiko/16550.pdf',
     },
     {
       referencia:
-        '-	Sarandón, S. (2002). La agricultura como actividad transformadora del ambiente. El Impacto de la Agricultura intensiva de la Revolución Verde. En S. J., Sarandón (Ed.). Agroecología: el camino hacia una agricultura sustentable, (pp. 23-48). Ediciones Científicas Americanas.',
+        'Sarandón, S. (2002). La agricultura como actividad transformadora del ambiente. El Impacto de la Agricultura intensiva de la Revolución Verde. En S. J., Sarandón (Ed.). Agroecología: el camino hacia una agricultura sustentable, (pp. 23-48). Ediciones Científicas Americanas.',
       link: '',
     },
     {
       referencia:
-        '-	Sarandón, S. (2009). Biodiversidad, agrobiodiversidad y agricultura sustentable: análisis del Convenio sobre Diversidad Biológica. En M. A. Altieri (Ed). Vertientes del pensamiento agroecológico: fundamentos y aplicaciones. Sociedad Científica Latinoamericana de Agroecología. Socla',
+        'Sarandón, S. (2009). Biodiversidad, agrobiodiversidad y agricultura sustentable: análisis del Convenio sobre Diversidad Biológica. En M. A. Altieri (Ed). Vertientes del pensamiento agroecológico: fundamentos y aplicaciones. Sociedad Científica Latinoamericana de Agroecología. Socla',
       link:
         'https://www.agroecologia.net/wp-content/uploads/2020/12/biodiversidad-agroecologia-santiago-sarandon.pdf',
     },
     {
       referencia:
-        '-	Sarandón, S., y Flores, C. (2014). Agroecología: bases teóricas para el diseño y manejo de agroecosistemas sustentables. ',
+        'Sarandón, S., y Flores, C. (2014). Agroecología: bases teóricas para el diseño y manejo de agroecosistemas sustentables. ',
       link:
         'https://libros.unlp.edu.ar/index.php/unlp/catalog/view/72/54/181-1',
     },
     {
       referencia:
-        '-	Shiva, V. (1991). “Miracle seeds” and the destruction of genetic diversity. In: The violence of the green revolution. Third World Agriculture, Ecology and Politics. (pp. 61102). Third World Network. ',
+        'Shiva, V. (1991). “Miracle seeds” and the destruction of genetic diversity. In: The violence of the green revolution. Third World Agriculture, Ecology and Politics. (pp. 61102). Third World Network. ',
       link: '',
     },
     {
       referencia:
-        '-	Shiva, V. (2014). The GMO Emperor Has No Clothes - Genetic Engineering Is a Failed Technology. En V. Shiva, The Vandana Shiva Reader (pp. 277 - 297). The University Press of Kentucky. ',
+        'Shiva, V. (2014). The GMO Emperor Has No Clothes - Genetic Engineering Is a Failed Technology. En V. Shiva, The Vandana Shiva Reader (pp. 277 - 297). The University Press of Kentucky. ',
       link: '',
     },
   ],

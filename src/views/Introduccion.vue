@@ -49,7 +49,7 @@
           |  con la finalidad de: 
           ul.my-3(style="list-style-position: outside; padding-left: 3em; text-indent: -0.6em;")
             li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
-              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo
+              span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo.
             li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")
               span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") Mejorar la comunicación y cooperación entre las partes implicadas a través de una planificación conjunta, utilizando documentos precisos y definiciones claras.
             li(data-aos="fade-right", style="list-style-type: disc; color: #019A5B; font-size: 1.2em;")

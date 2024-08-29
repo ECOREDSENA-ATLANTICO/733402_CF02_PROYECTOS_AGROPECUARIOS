@@ -13,7 +13,7 @@
         )
 
       .bloque-texto-g__texto.p-4(data-aos="zoom-in")
-        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problémica a través de la realización de un diagnóstico rural participativo <strong>(DRP)</strong> 
+        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problémica a través de la realización de un diagnóstico rural participativo <strong>(DRP)</strong>. 
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -559,7 +559,7 @@
                 i
                 strong(style="color: #019A5B") Acierto:
                 span(style="color: #12263F; font-size: 0.88em; margin: 0.5em") las dos condiciones negativas reflejan la necesidad de la población.
-    figcaption.justify-content-center(style="max-width: 90%; margin: auto") Tomado de SENA (2021).
+    figcaption.justify-content-center.mb-5(style="max-width: 90%; margin: auto") Tomado de SENA (2021).
     .row.align-items-center 
       .col-lg-8.m-auto.p-4(style="background: #B3E6FF")
         p.mb-0 Hay diferentes grados de complejidad en los problemas. Desde los que pueden ser muy simples hasta aquellos donde juegan diferentes factores que hacen casi imposible su indivisibilidad. Puede ser el caso de problemas como: la pobreza, el desempleo o la inseguridad, entre otros.

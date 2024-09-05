@@ -226,11 +226,6 @@ export default {
         'es un objeto tangible, almacenable o transportable. (Ortegón et.al, 2005).',
     },
     {
-      termino: 'Término con extranjerismo',
-      significado:
-        'es un objeto tangible, almacenable o transportable. (Ortegón et.al, 2005).',
-    },
-    {
       termino: 'Causa',
       significado:
         'explica los motivos por los cuales se está presentando el problema que se está analizando; la mejor manera de evidenciarlos es preguntándose cuál es el origen del problema. (Ortegón et.al, 2005).',
@@ -343,7 +338,7 @@ export default {
     {
       termino: 'Resultados',
       significado:
-        'son los cambios en las condiciones del sujeto de beneficio enmarcadas en el objetivo general del proyecto, por efecto del consumo de los productos y el cumplimiento de de los supuestos considerados en el mismo. (Ortegón et.al, 2005).',
+        'son los cambios en las condiciones del sujeto de beneficio enmarcadas en el objetivo general del proyecto, por efecto del consumo de los productos y el cumplimiento de los supuestos considerados en el mismo. (Ortegón et.al, 2005).',
     },
   ],
   referencias: [

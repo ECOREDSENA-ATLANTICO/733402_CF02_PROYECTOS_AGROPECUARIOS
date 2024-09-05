@@ -32,7 +32,7 @@
                 span <em>Marco lógico y ciclo de vida del proyecto</em>
 
               figure
-                img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
+                img(data-aos="flip-down", src='@/assets/curso/temas/tema1/img2.svg', alt='En el marco lógico y ciclo de vida del proyecto se especifica de la siguiente manera: diseño, ejecución y evaluación.')
                 figcaption.my-4 Tomado de Bernal (2021).
       div.p-4.my-3(data-aos="flip-right",style="background: #E4FBF2")
         .row.my-4.align-items-center
@@ -67,7 +67,7 @@
     .row.my-4.align-items-center
       .col-lg-10.my-2.m-auto
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFF4EC")
-          p.mt-0 Una aclaración importante de Ortegón et al. (2005) es que el EML es un excelente apoyo para el análisis y formulación de un proyecto, pero no sustituye la creatividad a la hora de resolver problemas. Los resultados de su aplicación si bien son sucintos, no implican su solución, aunque dejan ver claramente su origen y sus posibles soluciones.
+          p.mt-0 Una aclaración importante de Ortegón et al. (2005) es que el EML es un excelente apoyo para el análisis y formulación de un proyecto, pero no sustituye la creatividad a la hora de resolver problemas. Los resultados de su aplicación, si bien son sucintos, no implican su solución, aunque dejan ver claramente su origen y sus posibles soluciones.
     
     .row.my-4.align-items-center
       .col-lg-12.my-2
@@ -93,10 +93,10 @@
         p Una vez se identifican y priorizan, esto es, se establecen las relaciones y el grado de influencia de cada problema con todos los demás, se plantean en los mismos términos, posibles soluciones a cada problema y de esta manera las relaciones entre estas soluciones usando la misma dinámica. <strong>Una forma de representar este ejercicio es a través de una imagen o “fotografía” del momento actual y una imagen del futuro positivo.</strong>
         p Esta fase comprenderá los siguientes análisis: <strong>información secundaria, actores involucrados, identificación de problemas (diagnóstico), matriz de priorización de problemas, árbol de problemas, árbol de objetivos y selección de alternativa óptima.</strong>
       .tarjeta.p-4.bgr2(titulo="Etapa de planificación" :icono="require('@/assets/curso/temas/tema1/img6.svg')")
-        p A partir de los análisis anteriores se establece una estrategia que implique el logro de los objetivos planteados desde las ideas y soluciones, esto es, el mapa del plan de acción, plasmado en la primera columna que se concreta en la MML. Seguido al planteamiento de lo relacionado a esta columna, denominada “resumen narrativo del proyecto” constituido por las actividades, productos, objetivos y fin del proyecto, se tiene la segunda columna que corresponde a los indicadores, la tercera que está formada por los medios de verificación y la cuarta que se trata de los supuestos.
+        p A partir de los análisis anteriores, se establece una estrategia que implique el logro de los objetivos planteados desde las ideas y soluciones, esto es, el mapa del plan de acción, plasmado en la primera columna que se concreta en la MML. Seguido al planteamiento de lo relacionado a esta columna, denominada “resumen narrativo del proyecto” constituido por las actividades, productos, objetivos y fin del proyecto, se tiene la segunda columna que corresponde a los indicadores, la tercera que está formada por los medios de verificación y la cuarta que se trata de los supuestos.
         div.p-4.my-3(style="background: #FFD5B8; border-radius: 10px")
           p.mb-0 Aunque la <strong>MML</strong> es vigente, es posible robustecer esta metodología a través de la incorporación de otras herramientas o incluso la modificación de la <strong>MML</strong>, como por ejemplo lo hace la <strong>MBR</strong> (matriz basada en resultados, una variante, así como lo es <strong>ZOPP</strong>, de la MML). 
-        p Para avanzar en la planificación se complementa el ejercicio a través de un cronograma que puede ser un diagrama de Gantt o similar. Si al cronograma se agrega un análisis de costos de las actividades y además una delegación de responsabilidades a un equipo de trabajo, contará con los insumos necesarios para el establecimiento del <strong>plan de acción.</strong>
+        p Para avanzar en la planificación, se complementa el ejercicio a través de un cronograma que puede ser un diagrama de Gantt o similar. Si al cronograma se agrega un análisis de costos de las actividades y además una delegación de responsabilidades a un equipo de trabajo, contará con los insumos necesarios para el establecimiento del <strong>plan de acción.</strong>
 
         .row.mb-4
           .col-lg-10.m-auto.justify-content-center

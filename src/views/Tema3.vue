@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
         )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La etapa de análisis debe brindar todos <strong>los insumos necesarios y de la calidad adecuada</strong>, para que la etapa de planificación arroje los lineamientos que en gran medida, aportarán a la formulación más acertada del proyecto y por tanto al <strong>éxito de la intervención.</strong>
+        p.mb-0 La etapa de análisis debe brindar todos <strong>los insumos necesarios y de la calidad adecuada</strong>, para que la etapa de planificación arroje los lineamientos que en gran medida, aportarán a la formulación más acertada del proyecto y, por tanto, al <strong>éxito de la intervención.</strong>
     
     h5.my-3.text-center Las partes que componen la etapa de planificación son al menos cuatro:
     .row.my-3.align-items-center 
@@ -101,7 +101,7 @@
         figure
           img(src="@/assets/curso/temas/tema3/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  practicas de separacion de materiales. Implemetar espacios eficientes para la valoracion de residuos solidos.")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de la guía de proyectos del DNP (2016).
-    p Como tercer paso los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad se llega a las siguientes conclusiones:
+    p Como tercer paso, los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad, se llega a las siguientes conclusiones:
 
     .row.my-3.align-items-center
       .col-lg-12.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3(data-aos="fade-right")
@@ -323,7 +323,7 @@
               figure 
                 img(src="@/assets/curso/temas/tema3/img76.svg", alt="", width="150px", height="150px")
             .col-lg-10.mt-3
-              p Cabe recordar que para pasar del árbol de problemas al árbol de objetivos se cambió de <strong>un estado negativo del problema a una situación positiva como propósito</strong> para luego plantearse como el fin del proyecto o la acción que conduce a esa situación deseada del árbol de objetivos. De acuerdo con Ortegón et.al (2005):
+              p Cabe recordar que para pasar del árbol de problemas al árbol de objetivos, se cambió de <strong>un estado negativo del problema a una situación positiva como propósito,</strong> para luego plantearse como el fin del proyecto o la acción que conduce a esa situación deseada del árbol de objetivos. De acuerdo con Ortegón et.al (2005):
     .row.align-items-center
       .col-lg-10.m-auto
         hr(style="background: #FFA686;height: 3px; border: none;")
@@ -421,7 +421,7 @@
     .row.align-items-center.p-3.my-5
       .col-lg-12
         .cajon.color-terciario.p-4.p-4(data-aos="slide-down",style="background: #D9F3FF")
-          p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong>. Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipo de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
+          p.mt-0 Los indicadores deben poseer ciertas características para que logren <strong>eficacia</strong>. Para empezar, según la guía para la formulación de proyectos de inversión del sector agropecuario (FAO, 2017) deben ser independientes en cada nivel para evitar la duplicidad de datos. Sólo se formulan para el <strong>cumplimiento de objetivos y resultados</strong>; a las actividades se les asigna la ejecución de un presupuesto a manera de indicador. Según Ortegón et.al (2005) los indicadores “inteligentes” poseen cinco características imprescindibles: son específicos, medibles, realizables, pertinentes y deben estar enmarcados en el tiempo. Existen diversos tipos de indicadores pero una clasificación útil es la hecha en la guía de la <strong>FAO</strong> varias veces citada.
     
     .row.align-items-center.p-3.my-5
       .col-lg-10.m-auto
@@ -435,7 +435,7 @@
           .row(numero="3" titulo="Indicadores de actividades")
             p Son los que describen la actividad que se realiza para lograr el componente y su presupuesto asignado. Varían de acuerdo con el elemento del componente que se desea medir, por lo que son diferentes para cada tipo de proyecto. Los indicadores también pueden clasificarse en directos e indirectos. 
             p.px-4 a. Indicadores directos: son los que comprenden las variables directamente relacionadas al objetivo a medir. Por ejemplo, si el objetivo es reducir la mortalidad, un indicador apropiado podría ser la tasa de mortalidad infantil en tanto por mil. 
-            p.px-4 b. Indicadores indirectos: también llamados indicadores proxy, son formas aproximadas de medir determinados objetivos. En ellos la variable utilizada no tiene una relación directa con el objetivo que se busca medir” (FAO, 2017).
+            p.px-4 b. Indicadores indirectos: también llamados indicadores proxy, son formas aproximadas de medir determinados objetivos. En ellos, la variable utilizada no tiene una relación directa con el objetivo que se busca medir (FAO, 2017).
             .row.align-items-center.p-1
       .col-lg-10.m-auto
         h5.text-center Así mismo esta valiosa guía nos orienta acerca del procedimiento de selección de indicadores: 
@@ -581,7 +581,7 @@
           h5 Tabla 14.
           span <em>Modelo de matriz de evaluación de riesgos</em>
         figure 
-          img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema3/img18.svg', alt='Para describir con un ejemplo la matriz de riesgos, se tiene en cuenta el impacto, la probabilidad de ocurrencia y se describe si es riesgo crítico, grave, apreciable y marginal.')
 
           figcaption.my-3.text-regular <strong>Nota.</strong> Adaptación de Bernal (2021).
 
@@ -650,7 +650,7 @@
           h5 Figura 11.
           span <em>Forma de lectura y relación de las partes de la MML</em>
         figure
-          img(src="@/assets/curso/temas/tema3/img23.svg", alt="")
+          img(src="@/assets/curso/temas/tema3/img23.svg", alt="En la relación  de las partes de la matriz se  conectan de la siguiente forma: Actividades a supuestas actividades- componentes, estas a su vez a los componentes, posteriormente a los supuestos componentes - propósito y del propósito a supuesto fin, y el fin a supuesto sobre sostenibilidad.")
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de cartilla resumen marco lógico para formulación de proyectos (SENA, 2020).
     
     .col-lg-10.m-auto

@@ -13,7 +13,7 @@
         )
 
       .bloque-texto-g__texto.p-4(data-aos="zoom-in")
-        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problémica a través de la realización de un diagnóstico rural participativo <strong>(DRP)</strong>. 
+        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problémica a través de la realización de un diagnóstico rural participativo <strong>(DRP).</strong>
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -22,7 +22,7 @@
     
     .row.my-3.align-items-center 
       .col-lg-8.mb-4(data-aos="zoom-in-right")
-        p La revisión de modelos teóricos y visiones del desarrollo rural seguramente proporcionarán las bases para la ubicación adecuada del equipo formulador del proyecto en el tiempo y el lugar de la intervención. Una inmersión más o menos profunda en las perspectivas académicas dará el sustento conceptual que junto al contraste con la realidad de la ruralidad colombiana, conforman un andamiaje que contribuirá a la estructura del proyecto. Aunque pueda verse complejo, existen muchas fuentes de conocimiento además de los densos documentos teóricos sobre el desarrollo rural colombiano o de Latinoamérica, como los trabajos de <strong>Absalón Machado</strong> o tan simples, pero suficientemente acertados como los aportes de <strong>Ligorio Dussan</strong>, sin lugar a dudas una autoridad conocedora del campo colombiano desde su propia experiencia, mayormente nutrida en su trasegar por la <strong>Federación Nacional de Cafeteros de Colombia</strong>.
+        p La revisión de modelos teóricos y visiones del desarrollo rural seguramente proporcionarán las bases para la ubicación adecuada del equipo formulador del proyecto en el tiempo y el lugar de la intervención. Una inmersión más o menos profunda en las perspectivas académicas dará el sustento conceptual que, junto al contraste con la realidad de la ruralidad colombiana, conforman un andamiaje que contribuirá a la estructura del proyecto. Aunque pueda verse complejo, existen muchas fuentes de conocimiento además de los densos documentos teóricos sobre el desarrollo rural colombiano o de Latinoamérica, como los trabajos de <strong>Absalón Machado</strong> o tan simples, pero suficientemente acertados como los aportes de <strong>Ligorio Dussan</strong>, sin lugar a dudas una autoridad conocedora del campo colombiano desde su propia experiencia, mayormente nutrida en su trasegar por la <strong>Federación Nacional de Cafeteros de Colombia</strong>.
         .div.grad1
           .row.align-items-center.p-3
             .col-lg-2
@@ -49,7 +49,7 @@
           img(data-aos="zoom-in-left",src="@/assets/curso/temas/tema2/img16.png", alt="Imagen decorativa")
       .col-lg-8.mb-3(data-aos="zoom-in-left")
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9DB")
-          p.mt-0 Teniendo en cuenta las <strong> perspectivas del desarrollo rural con enfoque territorial, diferencial y de género</strong>, que enmarcan lineamientos tanto teóricos como normativos vigentes, el  inicio de un análisis contextual parte de un ejercicio participativo donde se registra la <strong>auto-percepción de la población de sus problemas y realidades</strong>, así como de sus deseos y aspiraciones. 
+          p.mt-0 Teniendo en cuenta las <strong> perspectivas del desarrollo rural con enfoque territorial, diferencial y de género</strong>, que enmarcan lineamientos tanto teóricos como normativos vigentes, el  inicio de un análisis contextual parte de un ejercicio participativo donde se registra la <strong>autopercepción de la población de sus problemas y realidades</strong>, así como de sus deseos y aspiraciones. 
 
         p.my-3 Sin embargo, el abordaje del contexto debe contener revisiones de fuentes secundarias para adquirir elementos suficientes que permitan interpretar estas realidades de una manera objetiva, dando el soporte necesario para que el proyecto sea bien ponderado y en especial que brinde soluciones eficaces y con efectos duraderos en el tiempo (sostenibilidad). Los tópicos propuestos a continuación corresponden a temas renombrados en diversas fuentes de información acerca de la problemática rural en general:
 
@@ -219,7 +219,7 @@
       h2(data-aos="fade-left") 2.3 Análisis de actores involucrados
 
     .row.my-4
-      p La herramienta de partida del EML se denomina <strong>“mapa de involucrados”</strong>. Este es un análisis simple donde se registra el interés de los actores en el proyecto y sus implicaciones, pero existen herramientas más elaboradas como puede ser una <strong>matriz de expectativa-fuerza</strong> para contemplar los intereses, percepciones, expectativas y el grado de influencia de personas, grupos, comunidades o entidades; esto es muy importante porque permite por un lado optimizar los recursos y los beneficios del proyecto, además de potenciar el alcance, la eficacia y el impacto, y por otro lado, prevenir y mitigar los efectos negativos de o hacia otros actores contradictores o afectados, e incluso abordar conflictos de tal manera que el proyecto aporte a su solución.
+      p La herramienta de partida del EML se denomina <strong>“mapa de involucrados”</strong>. Este es un análisis simple donde se registra el interés de los actores en el proyecto y sus implicaciones, pero existen herramientas más elaboradas como puede ser una <strong>matriz de expectativa-fuerza</strong> para contemplar los intereses, percepciones, expectativas y el grado de influencia de personas, grupos, comunidades o entidades; esto es muy importante porque permite, por un lado, optimizar los recursos y los beneficios del proyecto, además de potenciar el alcance, la eficacia y el impacto, y por otro lado, prevenir y mitigar los efectos negativos de o hacia otros actores contradictores o afectados, e incluso abordar conflictos de tal manera que el proyecto aporte a su solución.
 
     .row.my-4
       p.text-center De acuerdo con lo propuesto por <strong>Ortegón et.al (2005)</strong>, el análisis debe proceder a:
@@ -298,7 +298,7 @@
           img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
       .col-lg-8.mb-2.my-3
         .cajon.color-primario.p-4(data-aos="slide-down",style="background: #CCE9E5")
-          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (<em>brainstorming</em>) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
+          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (<em>brainstorming</em>) con el protagonismo de la misma población que es perfectamente válido, pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
         
         p.mt-3 La acertada formulación del proyecto y el mismo éxito de la intervención dependen en gran medida de la adecuada identificación del problema, es por esto que se deben dedicar <strong>esfuerzos proporcionales en la etapa de diagnóstico.</strong> El principal referente de este documento, Ortegón et.al (2005), aclara que la planificación nace de <strong>la percepción que se tiene de la problemática</strong> y que se puede dar en concordancia con los siguientes aspectos:
     .row.justify-content-center
@@ -419,7 +419,7 @@
             img(src='@/assets/curso/temas/tema2/img48.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
       .row.align-items-center(titulo="3. Análisis de participantes")
         .col-lg-8.mb-4
-          p Identificar y caracterizar a todos los participantes para establecer las mejores prácticas y herramientas posibles, adaptando la estrategia de comunicación a las condiciones reales de los sujetos de la intervención e identificando los liderazgos que pueden ayudan a la eficacia del proceso.
+          p Identificar y caracterizar a todos los participantes para establecer las mejores prácticas y herramientas posibles, adaptando la estrategia de comunicación a las condiciones reales de los sujetos de la intervención e identificando los liderazgos que pueden ayudar a la eficacia del proceso.
         .col-lg-4
           figure
             img(src='@/assets/curso/temas/tema2/img49.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
@@ -492,7 +492,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img55.svg", alt="", width= "100px", height="100px")
           .col.my-3(style="z-index:1")
-            p.m-0 Así, a la relación entre los problemas, que son cualitativos, se le atribuye <strong>una magnitud y del ordenamiento matricial</strong> de estos valores se puede identificar la variable (problema) con mayor influencia en relación a las demás. En resumen, la matriz de Vester, también llamada matriz de <strong>influencia-dependencia (ID)</strong> nos permite <strong>identificar el problema central y tres grupos más o menos diferenciados</strong> (causas, consecuencias y supuestos). Una consideración importante es que la herramienta es eficaz cuando se consideran al menos 13 problemas (mínimo grado en el que adquiere significancia el tratamiento de los datos).
+            p.m-0 Así, a la relación entre los problemas, que son cualitativos, se le atribuye <strong>una magnitud y del ordenamiento matricial</strong> de estos valores, se puede identificar la variable (problema) con mayor influencia en relación a las demás. En resumen, la matriz de Vester, también llamada matriz de <strong>influencia-dependencia (ID)</strong> nos permite <strong>identificar el problema central y tres grupos más o menos diferenciados</strong> (causas, consecuencias y supuestos). Una consideración importante es que la herramienta es eficaz cuando se consideran al menos 13 problemas (mínimo grado en el que adquiere significancia el tratamiento de los datos).
     
     p.text-center Antes de proseguir con la descripción del método paso por paso vale la pena enfatizar en las siguientes aclaraciones a la hora de <strong>redactar los problemas:</strong>
     
@@ -624,7 +624,7 @@
             figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012). 
       .row(numero="3" titulo="Paso 3")
         .col-lg-12.mb-4.mb-md-0
-          p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30 % de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
+          p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad, es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30 % de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5.
             span <em>Escala de valores</em>
@@ -649,7 +649,7 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
       .row(numero="4" titulo="Paso 4")
         .col-lg-12.mb-4.mb-md-0
-          p Una vez llena la matriz se agrega <strong>una columna y una fila</strong> para registrar las sumatorias de valores de las filas y las columnas, los valores de la columna representan las magnitudes de las influencias y los de la fila representan los de las dependencias. A continuación un ejemplo: 
+          p Una vez llena la matriz, se agrega <strong>una columna y una fila</strong> para registrar las sumatorias de valores de las filas y las columnas, los valores de la columna representan las magnitudes de las influencias y los de la fila representan los de las dependencias. A continuación un ejemplo: 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 6.
             span <em>Llenado de la matriz de influencia- dependencia (Véster)</em>
@@ -983,7 +983,7 @@
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
       .row(numero="5" titulo="Paso 5")
         .col-lg-12.mb-4.mb-md-0
-          p Al tener ya las sumatorias se procede a <strong>graficar</strong> estos valores. Se usa un <strong>plano cartesiano</strong> donde la intersección de los ejes corresponde al valor promedio de las dependencias e influencias. Cada cuadrante representa un tipo de problema; el primer cuadrante de la figura corresponde a los problemas pasivos, el segundo a los críticos, el tercero a los exógenos o estructurales (posteriormente se pueden usar como supuestos en la <strong>MML</strong>) y el cuarto representa las causas. 
+          p Al tener ya las sumatorias, se procede a <strong>graficar</strong> estos valores. Se usa un <strong>plano cartesiano</strong> donde la intersección de los ejes corresponde al valor promedio de las dependencias e influencias. Cada cuadrante representa un tipo de problema; el primer cuadrante de la figura corresponde a los problemas pasivos, el segundo a los críticos, el tercero a los exógenos o estructurales (posteriormente se pueden usar como supuestos en la <strong>MML</strong>) y el cuarto representa las causas. 
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
             span <em>Esquema de definición de cuadrantes en relación a la influencia y la dependencia</em>
@@ -1001,7 +1001,6 @@
                   td(colspan="2" style="text-align: center;") Influencia
           figcaption.my-3.text-regular <strong>Nota.</strong> Tomado de Silva y Sandoval (2012).
 
-    p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
     .row.my-5.align-items-center.p-4(style="background: #FFE9DB")
       .col-lg-4
         p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
@@ -1026,7 +1025,7 @@
       
     .row.my-4
       .col-lg-6
-        p(data-aos="zoom-in-right") Es importante tener en cuenta que <strong>no hay un problema central definitivo o absoluto</strong> sino que depende de las capacidades y recursos del proyecto. A mayor capacidad de acción, mayor es el reto que se puede asumir y más complejo puede ser el problema central. Lo anterior significa que <strong>no existe una manera única de abordar una problemática</strong> y por tanto, existen <strong>varias formas de solucionarla, distintos niveles en los que se puede actuar y un espectro más o menos amplio en la cobertura o alcance del proyecto.</strong> Precisamente una bondad del <strong>EML</strong> radica en tener claridad a través de este análisis de cómo resulta más efectiva una intervención; esto es más eficaz y más eficiente en relación siempre a la capacidad de solucionarlo.
+        p(data-aos="zoom-in-right") Es importante tener en cuenta que <strong>no hay un problema central definitivo o absoluto</strong> sino que depende de las capacidades y recursos del proyecto. A mayor capacidad de acción, mayor es el reto que se puede asumir y más complejo puede ser el problema central. Lo anterior significa que <strong>no existe una manera única de abordar una problemática</strong> y por tanto, existen <strong>varias formas de solucionarla, distintos niveles en los que se puede actuar y un espectro más o menos amplio en la cobertura o alcance del proyecto.</strong> Precisamente, una bondad del <strong>EML</strong> radica en tener claridad a través de este análisis de cómo resulta más efectiva una intervención; esto es más eficaz y más eficiente en relación siempre a la capacidad de solucionarlo.
       .col-lg-6
         p(data-aos="zoom-in-right") También podemos resumir este aporte del método a <strong>una mejor manera de organizar la información</strong> obtenida en un momento dado para lograr orientar de manera efectiva los recursos y esfuerzos hacia un objetivo claro que nos permita obtener el mayor beneficio e impacto posibles. El árbol de problemas es, bajo el <strong>EML</strong>, la herramienta que ayuda a identificar el problema central, pero debido a que el uso de la herramienta no es fácil de abordar desde el contexto de la ruralidad, los anteriores pasos son la forma de <strong>producir insumos de calidad</strong> (análisis de participación de actores, identificación y definición previa de problemas, etc.) para el uso adecuado de esta herramienta clave.
 
@@ -1087,7 +1086,7 @@
           img(src="@/assets/curso/temas/tema2/img12.svg", alt="Muestra el componente formativo un ejemplo de causas directas e indirectas, de acuerdo a : Causas directas Deficientes prácticas de separación de materiales. Ineficientes espacios para la valorización de residuos sólidos. Causas Indirectas Inadecuada tradición del manejo de residuos en la fuente. Inapropiado sistema de recolección para el transporte selectivo. Reducida aplicación de tecnología en el proceso de reciclaje. Informalidad y dispersión de los recuperadores.")
           figcaption.my-3.text-regular <strong>Nota.</strong>Tomado de la guía de proyectos del DNP (2016).
     .row.align-items-center.my-4
-      p Una vez identificados todos los efectos y causas del problema central <strong>se integra toda la información en un solo cuadro</strong> que representa el resumen de la situación problémica. Aunque este análisis define el camino a seguir en adelante, los hechos descritos aún mantienen el carácter de <strong>hipótesis</strong> hasta tanto no se corroboran en los estudios del proyecto y se someten a evaluación del equipo de trabajo y la población objetivo de manera participativa <strong>(Ortegón et.al, 2005).</strong>
+      p Una vez identificados todos los efectos y causas del problema central, <strong>se integra toda la información en un solo cuadro</strong> que representa el resumen de la situación problémica. Aunque este análisis define el camino a seguir en adelante, los hechos descritos aún mantienen el carácter de <strong>hipótesis</strong>, hasta tanto no se corroboran en los estudios del proyecto y se someten a evaluación del equipo de trabajo y la población objetivo de manera participativa <strong>(Ortegón et.al, 2005).</strong>
 
     .row.align-items-center.my-4
       .col-lg-10.mb-3.m-auto

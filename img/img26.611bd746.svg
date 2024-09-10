@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
+  <defs>
+    <filter id="Elipse_5706" x="0" y="0" width="108" height="108" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1008770" data-name="Grupo 1008770" transform="translate(-591 -2361.893)">
+    <g transform="matrix(1, 0, 0, 1, 591, 2361.89)" filter="url(#Elipse_5706)">
+      <g id="Elipse_5706-2" data-name="Elipse 5706" transform="translate(9 6)" fill="#fff" stroke="#ffede7" stroke-width="2">
+        <circle cx="45" cy="45" r="45" stroke="none"/>
+        <circle cx="45" cy="45" r="44" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_1008746" data-name="Grupo 1008746" transform="translate(622 2396.893)">
+      <path id="Trazado_26000" data-name="Trazado 26000" d="M816.588-269.094H861.21v31.105H816.588Z" transform="translate(-815.837 269.845)" fill="#fed953"/>
+      <path id="Trazado_26001" data-name="Trazado 26001" d="M816.588-174.646H861.21v7.666H816.588Z" transform="translate(-815.837 198.862)" fill="#d60a2e"/>
+      <path id="Trazado_26002" data-name="Trazado 26002" d="M816.588-205.5H861.21v7.666H816.588Z" transform="translate(-815.837 222.051)" fill="#0b55b1"/>
+      <path id="Trazado_26003" data-name="Trazado 26003" d="M814.317-257.666a.751.751,0,0,0,.751-.751v-.286a.751.751,0,0,0-.751-.751.751.751,0,0,0-.751.751v.286A.751.751,0,0,0,814.317-257.666Z" transform="translate(-813.566 262.6)" fill="#00223d"/>
+      <path id="Trazado_26004" data-name="Trazado 26004" d="M858.939-272.118H814.317a.751.751,0,0,0-.751.751.751.751,0,0,0,.751.751h43.871v14.052h-4.4a.751.751,0,0,0-.751.751.751.751,0,0,0,.751.751h4.4v6.41H817.463a.751.751,0,0,0-.751.751.751.751,0,0,0,.751.751h40.725v6.14h-43.12v-14.052h32.5a.751.751,0,0,0,.751-.751.751.751,0,0,0-.751-.751h-32.5V-264.5a.751.751,0,0,0-.751-.751.751.751,0,0,0-.751.751v24.242a.751.751,0,0,0,.751.751h44.622a.751.751,0,0,0,.751-.751v-31.107A.751.751,0,0,0,858.939-272.118Z" transform="translate(-813.566 272.118)" fill="#00223d"/>
+      <ellipse id="Elipse_943" data-name="Elipse 943" cx="0.726" cy="0.726" rx="0.726" ry="0.726" transform="translate(36.273 15.553)" fill="#00223d"/>
+    </g>
+  </g>
+</svg>

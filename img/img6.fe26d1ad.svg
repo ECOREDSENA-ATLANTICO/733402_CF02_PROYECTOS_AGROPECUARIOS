@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="631.269" height="149.287" viewBox="0 0 631.269 149.287">
+  <defs>
+    <filter id="Trazado_26514" x="0" y="0" width="335.22" height="149.287" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_26514-2" x="296.049" y="0" width="335.22" height="149.287" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1010582" data-name="Grupo 1010582" transform="translate(-273.986 -12126.92)">
+    <g id="Grupo_16896" data-name="Grupo 16896" transform="translate(285 12135.893)">
+      <g id="Grupo_16895" data-name="Grupo 16895" transform="translate(0)">
+        <g transform="matrix(1, 0, 0, 1, -11.01, -8.97)" filter="url(#Trazado_26514)">
+          <path id="Trazado_26514-3" data-name="Trazado 26514" d="M247.265-48.617l-47.543-62.671v13.206H-66.686l37.53,49.466L-66.686.854H199.722v13.2Z" transform="translate(77.7 120.26)" fill="#99f2ce" stroke="#fff" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_16915" data-name="Grupo 16915" transform="translate(581.049 12135.893)">
+      <g id="Grupo_16895-2" data-name="Grupo 16895" transform="translate(0)">
+        <g transform="matrix(1, 0, 0, 1, -307.06, -8.97)" filter="url(#Trazado_26514-2)">
+          <path id="Trazado_26514-4" data-name="Trazado 26514" d="M247.265-48.617l-47.543-62.671v13.206H-66.686l37.53,49.466L-66.686.854H199.722v13.2Z" transform="translate(373.75 120.26)" fill="#b3e6ff" stroke="#fff" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <text id="Capacidad_limitada_de_negociación_de_bienes_y_o_servicios." data-name="Capacidad limitada de negociación de bienes y/o servicios." transform="translate(638.16 12168.893)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Capacidad limitada de </tspan><tspan x="0" y="37" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">negociación de bienes y/o </tspan><tspan x="0" y="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">servicios.</tspan></text>
+    <text id="Desconocimiento_de_las_fuentes_de_información_de_precios_de_mercado." data-name="Desconocimiento de las fuentes de información de precios de mercado." transform="translate(333.51 12168.893)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Desconocimiento de las </tspan><tspan x="0" y="37">fuentes de</tspan><tspan y="37" xml:space="preserve" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> información de </tspan><tspan x="0" y="57" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">precios de mercado.</tspan></text>
+  </g>
+</svg>

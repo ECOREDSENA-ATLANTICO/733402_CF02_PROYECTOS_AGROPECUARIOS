@@ -660,7 +660,7 @@
             img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
         .col-lg-7
           h4.text-light Tabla 15. Matriz de marco lógico completa con la explicación de cada apartado
-          .text-light.mb-0(style="font-size: 13px") Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
+          .text-light.mb-0(style="font-size: 13px") Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado.
         .col-lg-3.text-center.my-3
           a.boton(:href="obtenerLink('/downloads/anexo_tabla15.pdf')" target="_blank" type="application/pdf")
             span Descargar
